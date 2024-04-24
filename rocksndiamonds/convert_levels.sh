@@ -57,31 +57,39 @@ cleanup_text_from_filename ()
     echo "$ENTRY"
 }
 
-get_value_from_bd_file ()
+get_value_from_conf ()
 {
-    FILENAME=$1
-    FIELD=$2
+    LEVELSET=$1
+    NR=$2
 
-    VALUE=`cat "$FILENAME" | dos2unix | grep "$FIELD=" | head -1 | sed -e "s/$FIELD=//"`
-
-    echo "$VALUE"
+    grep "^$LEVELSET:" "$CAVE_INFO_FILENAME" | awk -F\: "{ print $"$NR" }"
 }
 
 create_level_group_conf ()
 {
     local LEVEL_DIR=$1
-    local BASENAME_CAVE=$2
+    local BASENAME_DIR=$2
 
     local CONF_FILE="$LEVEL_DIR/levelinfo.conf"
-    local NAME=`echo "$BASENAME_CAVE"`
-    local AUTHOR=`echo "$LEVEL_DIR" | sed -e "s%$CONV_DIR/\([^/]*\).*%\1%"`
+    local NAME=`echo "$BASENAME_DIR"`
+    local AUTHOR_DIR=`echo "$LEVEL_DIR" | sed -e "s%$CONV_DIR/\([^/]*\).*%\1%"`
+    local LEVELKEY=`echo "$LEVEL_DIR" | sed -e "s%$CONV_DIR/%%"`
+    local AUTHOR=`grep ":$LEVELKEY/" "$CAVE_INFO_FILENAME" | awk -F\: '{ print $4 }' | head -1`
+
+    NAME=$(cleanup_text_from_filename "$NAME")
+    AUTHOR_DIR=$(cleanup_text_from_filename "$AUTHOR_DIR")
+
+    AUTHOR=$AUTHOR_DIR
 
     if [ "$LEVEL_DIR" = "$CONV_DIR" ]; then
 	AUTHOR="Various Authors"
     fi
 
-    NAME=$(cleanup_text_from_filename "$NAME")
-    AUTHOR=$(cleanup_text_from_filename "$AUTHOR")
+    if [ "$AUTHOR" = "" ]; then
+	echo "ERROR: Cannot determine author for directory '$LEVEL_DIR'!"
+
+	exit 10
+    fi
 
     echo "name:                           $NAME"		>> "$CONF_FILE"
     echo "author:                         $AUTHOR"		>> "$CONF_FILE"
@@ -93,53 +101,19 @@ create_level_group_conf ()
 create_level_set_conf ()
 {
     local LEVEL_DIR=$1
-    local FILENAME=$2
-    local FILENAME_EXT=$3
+    local LEVELSET=$2
 
-    local LEVELSET=`basename "$LEVEL_DIR"`
     local CONF_FILE="$LEVEL_DIR/levelinfo.conf"
 
-    local LEVELKEY=`echo "$FILENAME" | sed -e "s/$ORIG_BASE_DIR\///"`
-
-    local NAME=`basename "$FILENAME" ".$FILENAME_EXT"`
-    local AUTHOR=`echo "$LEVEL_DIR" | sed -e "s%$CONV_DIR/\([^/]*\).*%\1%"`
-
-    NAME=$(cleanup_text_from_filename "$NAME")
-    AUTHOR=$(cleanup_text_from_filename "$AUTHOR")
-    YEAR=""
-
-    if [ "$FILENAME_EXT" = "bd" ]; then
-	NAME_BD=$(get_value_from_bd_file "$FILENAME" "Name")
-
-	if [ "$NAME_BD" != "" -a "$NAME_BD" != "$NAME" ]; then
-	    echo "INFO: Using name '$NAME_BD' instead of '$NAME'."
-
-	    NAME=$NAME_BD
-	fi
-
-	AUTHOR_BD=$(get_value_from_bd_file "$FILENAME" "Author")
-
-	if [ "$AUTHOR_BD" != "" -a "$AUTHOR_BD" != "$AUTHOR" ]; then
-	    echo "INFO: Using author '$AUTHOR_BD' instead of '$AUTHOR'."
-
-	    AUTHOR=$AUTHOR_BD
-	fi
-
-	DATE_BD=$(get_value_from_bd_file "$FILENAME" "Date")
-	YEAR_BD=`echo "$DATE_BD" | sed -e "s/.*\([0-9][0-9][0-9][0-9]\).*/\1/"`
-
-	if [ "$YEAR_BD" != "" -a "$YEAR_BD" != "$YEAR" ]; then
-	    echo "INFO: Using year '$YEAR_BD' instead of '$YEAR'."
-
-	    YEAR=$YEAR_BD
-	fi
-    fi
+    local NAME=$(   get_value_from_conf "$LEVELSET" "3")
+    local AUTHOR=$( get_value_from_conf "$LEVELSET" "4")
+    local YEAR=$(   get_value_from_conf "$LEVELSET" "6")
 
     echo "name:                           $NAME"		>> "$CONF_FILE"
     echo "author:                         $AUTHOR"		>> "$CONF_FILE"
 
     if [ "$YEAR" != "" ]; then
-	echo "year:                         $YEAR"		>> "$CONF_FILE"
+	echo "year:                           $YEAR"		>> "$CONF_FILE"
     fi
 
     echo ""							>> "$CONF_FILE"
@@ -148,8 +122,6 @@ create_level_set_conf ()
     echo ""							>> "$CONF_FILE"
     echo "graphics_set:                   $GFX_SET"		>> "$CONF_FILE"
     echo "sounds_set:                     $SND_SET"		>> "$CONF_FILE"
-
-    echo "$LEVELSET::$NAME:$AUTHOR::$YEAR:$LEVELKEY" >> "$CAVE_INFO_FILENAME"
 }
 
 convert_caveset ()
@@ -161,22 +133,43 @@ convert_caveset ()
     local PREFIX="$INDENT-"
     INDENT="  $INDENT"
 
-    local BASENAME=`basename "$FILENAME"`
-    local BASENAME_CAVE=`basename "$FILENAME" ".$FILENAME_EXT"`
-    local LEVELSET_CAVE=$(cleanup_levelset_subdir "$BASENAME_CAVE")
+    local LEVELKEY=`echo "$FILENAME" | sed -e "s/$ORIG_BASE_DIR\///"`
 
-    if [ "${levelsets[$LEVELSET_CAVE]}" != "" ]; then
-	echo "WARNING: Level set '$LEVELSET_CAVE' already used!"
+    LEVELSET_COUNT=`grep ":$LEVELKEY$" "$CAVE_INFO_FILENAME" | wc -l`
 
-	# exit 5
+    if [ "$LEVELSET_COUNT" = "0" ]; then
+	echo "ERROR: No level set identifier found for caveset file '$LEVELKEY'!"
+
+	exit 10
     fi
 
-    levelsets[$LEVELSET_CAVE]=1
+    if [ "$LEVELSET_COUNT" != "1" ]; then
+	echo "ERROR: No unique level set identifier found for caveset file '$LEVELKEY'!"
+
+	exit 10
+    fi
+
+    LEVELSET=`grep ":$LEVELKEY$" "$CAVE_INFO_FILENAME" | awk -F\: '{ print $1 }'`
+
+    if [ "$LEVELSET" = "" ]; then
+	echo "ERROR: No valid level set identifier found for caveset file '$LEVELKEY'!"
+
+	exit 10
+    fi
+
+    if [ "${levelsets[$LEVELSET]}" != "" ]; then
+	echo "ERROR: Level set identifier '$LEVELSET' already used!"
+
+	exit 10
+    fi
+
+    levelsets[$LEVELSET]=1
 
     local ORIG_SUBDIR=`dirname "$FILENAME" | sed -e "s/^$ORIG_BASE_DIR\///"`
-    local CONV_SUBDIR="$CONV_DIR/$ORIG_SUBDIR/$LEVELSET_CAVE"
+    local CONV_SUBDIR="$CONV_DIR/$ORIG_SUBDIR/$LEVELSET"
 
-    local BASENAME_FIXED=$(cleanup_filename "$BASENAME_CAVE")".$FILENAME_EXT"
+    local BASENAME=`basename "$FILENAME" ".$FILENAME_EXT"`
+    local BASENAME_FIXED=$(cleanup_filename "$BASENAME")".$FILENAME_EXT"
     local CONV_SUBDIR_FIXED=$(cleanup_filename "$CONV_SUBDIR")
 
     echo "$PREFIX creating level set directory '$CONV_SUBDIR_FIXED' ..."
@@ -185,7 +178,7 @@ convert_caveset ()
 
     cp -a "$FILENAME" "$CONV_SUBDIR_FIXED/$BASENAME_FIXED"
 
-    create_level_set_conf "$CONV_SUBDIR_FIXED" "$FILENAME" "$FILENAME_EXT"
+    create_level_set_conf "$CONV_SUBDIR_FIXED" "$LEVELSET"
 }
 
 process_caveset ()
