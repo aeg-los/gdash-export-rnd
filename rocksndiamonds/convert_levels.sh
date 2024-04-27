@@ -15,8 +15,13 @@ CONV_DIR="$CONV_BASE_DIR/$CONV_MAIN_DIR"
 
 CAVE_INFO_FILENAME="bd_cave_info.conf"
 
-GFX_SET="gfx_gdash_boulder_dash"
+GFX_SET_OLD_1="gfx_gdash_boulder_dash_1"
+GFX_SET_OLD_2="gfx_gdash_boulder_dash_2"
+GFX_SET_OLD_3="gfx_gdash_boulder_dash_3"
+GFX_SET_NEW="gfx_gdash_boulder_rush"
 SND_SET="snd_gdash_boulder_dash"
+MUS_SET_1="mus_gdash_boulder_dash_1"
+MUS_SET_2="mus_gdash_boulder_dash_2"
 
 declare -A levelsets
 
@@ -116,12 +121,26 @@ create_level_set_conf ()
 	echo "year:                           $YEAR"		>> "$CONF_FILE"
     fi
 
+    LEVELSET_SHORT=`echo "$LEVELSET" | sed -e "s/_atari//"`
+
+    GFX_SET_OLD="$GFX_SET_OLD_1"
+    MUS_SET="$MUS_SET_1"
+
+    if [ "$LEVELSET_SHORT" = "bd_boulder_dash_2" ]; then
+	GFX_SET_OLD="$GFX_SET_OLD_2"
+	MUS_SET="$MUS_SET_2"
+    elif [ "$LEVELSET_SHORT" = "bd_boulder_dash_3" ]; then
+	GFX_SET_OLD="$GFX_SET_OLD_3"
+    fi
+
     echo ""							>> "$CONF_FILE"
     echo "levels:                         100"			>> "$CONF_FILE"
     echo "first_level:                    1"			>> "$CONF_FILE"
     echo ""							>> "$CONF_FILE"
-    echo "graphics_set:                   $GFX_SET"		>> "$CONF_FILE"
+    echo "graphics_set.old:               $GFX_SET_OLD"		>> "$CONF_FILE"
+    echo "graphics_set.new:               $GFX_SET_NEW"		>> "$CONF_FILE"
     echo "sounds_set:                     $SND_SET"		>> "$CONF_FILE"
+    echo "music_set:                      $MUS_SET"		>> "$CONF_FILE"
 }
 
 convert_caveset ()
