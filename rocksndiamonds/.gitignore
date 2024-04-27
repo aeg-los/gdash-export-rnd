@@ -1,2 +1,4 @@
 levels/
+artwork/files.BUILD/
 convert_levels.out
+convert_artwork.out
