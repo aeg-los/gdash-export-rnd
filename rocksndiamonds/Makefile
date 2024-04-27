@@ -6,6 +6,11 @@ CONV_LEVELS_DIR := levels
 CONV_ARTWORK_DIR := artwork/files.BUILD
 CONV_ARTWORK_TARGET_DIR := $(CONV_LEVELS_DIR)/Boulder_Dash/artwork
 
+PACKAGE_DIR = Boulder_Dash
+PACKAGE_VERSION = 0.9.0
+PACKAGE_BASENAME = ${PACKAGE_DIR}-${PACKAGE_VERSION}
+PACKAGE_FILENAME_ZIP = ${PACKAGE_BASENAME}.zip
+
 all:help
 
 help:
@@ -17,8 +22,11 @@ help:
 	@echo "- copy-artwork      - copy converted artwork sets to level sets"
 	@echo "- convert-all       - convert GDash caves and artwork"
 	@echo ""
+	@echo "- package-zip       - create zip file from converted level sets"
+	@echo ""
 	@echo "- clean-levels      - delete all converted R'n'D level sets"
 	@echo "- clean-artwork     - delete all converted R'n'D artwork sets"
+	@echo "- clean-package     - delete packages with converted sets"
 	@echo "- clean-all         - delete all converted level and artwork sets"
 	@echo ""
 
@@ -34,10 +42,24 @@ copy-artwork:
 
 convert-all: convert-levels convert-artwork copy-artwork
 
+package-zip:
+	@if [ -f "${PACKAGE_FILENAME_ZIP}" ]; then				\
+		echo "ERROR: file '${PACKAGE_FILENAME_ZIP}' already exists!";	\
+	else									\
+	(									\
+		echo "Creating package file '${PACKAGE_FILENAME_ZIP}' ...";	\
+		cd "${CONV_LEVELS_DIR}";					\
+		zip -r -9 ../"${PACKAGE_FILENAME_ZIP}" "${PACKAGE_DIR}"		\
+	) > package_zip.out;							\
+	fi
+
 clean-levels:
 	rm -rf "$(CONV_LEVELS_DIR)"
 
 clean-artwork:
 	rm -rf "$(CONV_ARTWORK_DIR)"
+
+clean-package:
+	rm -f "$(PACKAGE_FILENAME_ZIP)"
 
 clean-all: clean-levels clean-artwork
