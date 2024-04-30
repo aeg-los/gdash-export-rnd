@@ -13,6 +13,7 @@ CONV_BASE_DIR="levels"
 CONV_MAIN_DIR="Boulder_Dash"
 CONV_DIR="$CONV_BASE_DIR/$CONV_MAIN_DIR"
 
+CONFIG_FILENAME="convert_levels.conf"
 CAVE_INFO_FILENAME="bd_cave_info.conf"
 
 GFX_SET_OLD_1="gfx_gdash_boulder_dash_1"
@@ -24,6 +25,8 @@ MUS_SET_1="mus_gdash_boulder_dash_1"
 MUS_SET_2="mus_gdash_boulder_dash_2"
 
 declare -A levelsets
+
+source "$CONFIG_FILENAME"
 
 
 # -----------------------------------------------------------------------------
@@ -107,6 +110,7 @@ create_level_set_conf ()
 {
     local LEVEL_DIR=$1
     local LEVELSET=$2
+    local FILENAME=$3
 
     local CONF_FILE="$LEVEL_DIR/levelinfo.conf"
 
@@ -133,9 +137,21 @@ create_level_set_conf ()
 	GFX_SET_OLD="$GFX_SET_OLD_3"
     fi
 
+    NUM_LEVELS=`$CMD_ROCKSNDIAMONDS -e "dump levelset $FILENAME"	\
+	| grep "Number of levels"					\
+	| awk '{ print $4 }'`
+
+    if [ "$NUM_LEVELS" = "" ]; then
+	echo "WARNING: Cannot determine number of levels for level set '$LEVELSET'!"
+
+	NUM_LEVELS=100
+    fi
+
+    FIRST_LEFVEL=1
+
     echo ""							>> "$CONF_FILE"
-    echo "levels:                         100"			>> "$CONF_FILE"
-    echo "first_level:                    1"			>> "$CONF_FILE"
+    echo "levels:                         $NUM_LEVELS"		>> "$CONF_FILE"
+    echo "first_level:                    $FIRST_LEFVEL"	>> "$CONF_FILE"
     echo ""							>> "$CONF_FILE"
     echo "graphics_set.old:               $GFX_SET_OLD"		>> "$CONF_FILE"
     echo "graphics_set.new:               $GFX_SET_NEW"		>> "$CONF_FILE"
@@ -197,7 +213,7 @@ convert_caveset ()
 
     cp -a "$FILENAME" "$CONV_SUBDIR_FIXED/$BASENAME_FIXED"
 
-    create_level_set_conf "$CONV_SUBDIR_FIXED" "$LEVELSET"
+    create_level_set_conf "$CONV_SUBDIR_FIXED" "$LEVELSET" "$FILENAME"
 }
 
 process_caveset ()

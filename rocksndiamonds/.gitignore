@@ -2,6 +2,9 @@
 levels/
 artwork/files.BUILD/
 
+# ignore configuration file instances
+convert_levels.conf
+
 # ignore script output files
 *.out
 
