@@ -24,6 +24,9 @@ SND_SET="snd_gdash_boulder_dash"
 MUS_SET_1="mus_gdash_boulder_dash_1"
 MUS_SET_2="mus_gdash_boulder_dash_2"
 
+NUM_LEVELS_TOTAL=0
+NUM_LEVELSETS_TOTAL=0
+
 declare -A levelsets
 
 source "$CONFIG_FILENAME"
@@ -142,10 +145,13 @@ create_level_set_conf ()
 	| awk '{ print $4 }'`
 
     if [ "$NUM_LEVELS" = "" ]; then
-	echo "WARNING: Cannot determine number of levels for level set '$LEVELSET'!"
+	echo "ERROR: Cannot determine number of levels for level set '$LEVELSET'!"
 
-	NUM_LEVELS=100
+	exit 10
     fi
+
+    NUM_LEVELS_TOTAL=$((NUM_LEVELS_TOTAL + NUM_LEVELS))
+    NUM_LEVELSETS_TOTAL=$((NUM_LEVELSETS_TOTAL + 1))
 
     FIRST_LEFVEL=1
 
@@ -245,6 +251,37 @@ process_caveset ()
     convert_caveset "$FILENAME" "$EXT" "$INDENT"
 }
 
+process_zip ()
+{
+    local ZIP_FILENAME=$1
+    local INDENT=$2
+    local DIR=$3
+
+    local PREFIX="$INDENT-"
+    INDENT="  $INDENT"
+
+    echo "$PREFIX checking zip file '$ZIP_FILENAME' ..."
+
+    local ZIP_BASENAME=`basename "$ZIP_FILENAME"`
+    local BASENAME=`basename "$ZIP_BASENAME" .zip`
+    local CAVESET_DIR="$DIR/$BASENAME"
+
+    if [ ! -d "$CAVESET_DIR" ]; then
+	echo "$PREFIX extracting zip file '$ZIP_FILENAME' ..."
+
+	mkdir "$CAVESET_DIR"
+	cd "$CAVESET_DIR"
+	unzip "../$ZIP_BASENAME"
+	cd -
+
+	process_directory "$CAVESET_DIR" "$INDENT"
+
+	rm -rf "$CAVESET_DIR"
+    else
+	echo "$PREFIX ignoring zip file '$ZIP_FILENAME' ..."
+    fi
+}
+
 process_directory ()
 {
     local DIR=$1
@@ -267,7 +304,7 @@ process_directory ()
 	elif `echo "$ENTRY" | grep -q "\.brc$"`; then
 	    process_caveset "$ENTRY" "$INDENT"
 	elif `echo "$ENTRY" | grep -q "\.zip$"`; then
-	    process_caveset "$ENTRY" "$INDENT"
+	    process_zip "$ENTRY" "$INDENT" "$DIR"
 	fi
     done
 
@@ -305,6 +342,8 @@ create_level_group_conf "$CONV_DIR" "$CONV_MAIN_DIR"
 
 process_directory "$ORIG_DIR" ""
 
-echo "Done"
+echo "$NUM_LEVELS_TOTAL levels in $NUM_LEVELSETS_TOTAL level sets converted."
+
+echo "Done."
 
 exit 0
