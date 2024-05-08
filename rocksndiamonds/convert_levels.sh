@@ -24,6 +24,12 @@ SND_SET="snd_gdash_boulder_dash"
 MUS_SET_1="mus_gdash_boulder_dash_1"
 MUS_SET_2="mus_gdash_boulder_dash_2"
 
+SQL_FILENAME="convert_levels.sql"
+SQL_CREATE="0"
+
+DATESTAMP=`date "+%Y-%m-%d"`
+TIMESTAMP=`date "+%Y-%m-%d %H:%M:%S"`
+
 NUM_LEVELS_TOTAL=0
 NUM_LEVELSETS_TOTAL=0
 
@@ -117,11 +123,17 @@ create_level_set_conf ()
 
     local CONF_FILE="$LEVEL_DIR/levelinfo.conf"
 
-    local NAME=$(   get_value_from_conf "$LEVELSET" "3")
-    local AUTHOR=$( get_value_from_conf "$LEVELSET" "4")
-    local YEAR=$(   get_value_from_conf "$LEVELSET" "6")
+    local NAME_SORTING=$(get_value_from_conf "$LEVELSET" "2")
+    local NAME=$(        get_value_from_conf "$LEVELSET" "3")
+    local AUTHOR=$(      get_value_from_conf "$LEVELSET" "4")
+    local YEAR=$(        get_value_from_conf "$LEVELSET" "6")
 
     echo "name:                           $NAME"		>> "$CONF_FILE"
+
+    if [ "$NAME_SORTING" != "" ]; then
+	echo "name_sorting:                   $NAME_SORTING"	>> "$CONF_FILE"
+    fi
+
     echo "author:                         $AUTHOR"		>> "$CONF_FILE"
 
     if [ "$YEAR" != "" ]; then
@@ -163,6 +175,15 @@ create_level_set_conf ()
     echo "graphics_set.new:               $GFX_SET_NEW"		>> "$CONF_FILE"
     echo "sounds_set:                     $SND_SET"		>> "$CONF_FILE"
     echo "music_set:                      $MUS_SET"		>> "$CONF_FILE"
+
+    if [ "$SQL_CREATE" = "1" ]; then
+	if [ "$NAME_SORTING" = "" ]; then
+	    NAME_SORTING=$NAME
+	fi
+
+	echo "INSERT INTO levelsets VALUES (NULL, \"$LEVELSET\", \"$LEVELSET\", \"$NAME\", \"$NAME_SORTING\", \"$NAME\", \"$AUTHOR\", $NUM_LEVELS, $FIRST_LEFVEL, 1, \"$DATESTAMP 00:00:00\", NULL);" >> "$SQL_FILENAME"
+
+    fi
 }
 
 convert_caveset ()
@@ -332,6 +353,10 @@ if [ -d "$CONV_BASE_DIR" ]; then
     echo "ERROR: Target directory '$CONV_BASE_DIR' already exists!"
 
     exit 10
+fi
+
+if [ "$SQL_CREATE" = "1" ]; then
+    rm "$SQL_FILENAME"
 fi
 
 mkdir -p "$CONV_DIR"
