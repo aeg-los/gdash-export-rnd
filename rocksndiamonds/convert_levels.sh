@@ -145,10 +145,10 @@ create_level_set_conf ()
     GFX_SET_OLD="$GFX_SET_OLD_1"
     MUS_SET="$MUS_SET_1"
 
-    if [ "$LEVELSET_SHORT" = "bd_boulder_dash_2" ]; then
+    if [ "$LEVELSET_SHORT" = "bd_boulder_dash_original_2" ]; then
 	GFX_SET_OLD="$GFX_SET_OLD_2"
 	MUS_SET="$MUS_SET_2"
-    elif [ "$LEVELSET_SHORT" = "bd_boulder_dash_3" ]; then
+    elif [ "$LEVELSET_SHORT" = "bd_boulder_dash_original_3" ]; then
 	GFX_SET_OLD="$GFX_SET_OLD_3"
     fi
 
