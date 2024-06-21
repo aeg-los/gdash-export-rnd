@@ -24,6 +24,8 @@ SND_SET="snd_gdash_boulder_dash"
 MUS_SET_1="mus_gdash_boulder_dash_1"
 MUS_SET_2="mus_gdash_boulder_dash_2"
 
+HELP_FILES="helpanim.conf helptext.conf"
+
 SQL_FILENAME="convert_levels.sql"
 SQL_CREATE="0"
 
@@ -338,6 +340,15 @@ process_directory ()
     fi
 }
 
+copy_help_files ()
+{
+    echo "- copying help files for info screen ..."
+
+    for i in $HELP_FILES; do
+        cp -a "$i" "$CONV_DIR"
+    done
+}
+
 
 # -----------------------------------------------------------------------------
 # main
@@ -362,6 +373,8 @@ fi
 mkdir -p "$CONV_DIR"
 
 echo "Converting BD caves to R'n'D level sets ..."
+
+copy_help_files
 
 create_level_group_conf "$CONV_DIR" "$CONV_MAIN_DIR"
 
