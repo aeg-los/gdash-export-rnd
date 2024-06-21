@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # =============================================================================
 # convert_artwork.sh
@@ -115,8 +115,8 @@ for TYPE in $ARTWORK_TYPES; do
 		    fi
 
 		    cat "$CONF_FILE_TMPL"					\
-			| sed -s "s/_GFX_FILE_DEFAULT_/$GFX_FILE_DEFAULT/g"	\
-			| sed -s "s/_GFX_FILE_EDITOR_/$GFX_FILE_EDITOR/g"	\
+			| sed -e "s/_GFX_FILE_DEFAULT_/$GFX_FILE_DEFAULT/g"	\
+			| sed -e "s/_GFX_FILE_EDITOR_/$GFX_FILE_EDITOR/g"	\
 			> "$BUILD_DIR/$SET/$CONF_FILE"
 		fi
 	    fi

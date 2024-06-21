@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # =============================================================================
 # convert_levels.sh
@@ -197,7 +197,7 @@ convert_caveset ()
 
     local LEVELKEY=`echo "$FILENAME" | sed -e "s/$ORIG_BASE_DIR\///"`
 
-    LEVELSET_COUNT=`grep ":$LEVELKEY$" "$CAVE_INFO_FILENAME" | wc -l`
+    LEVELSET_COUNT=`grep ":$LEVELKEY$" "$CAVE_INFO_FILENAME" | wc -l | sed -e "s/^ *//"`
 
     if [ "$LEVELSET_COUNT" = "0" ]; then
 	echo "ERROR: No level set identifier found for caveset file '$LEVELKEY'!"
