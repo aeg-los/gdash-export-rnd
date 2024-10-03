@@ -31,7 +31,7 @@ MUS_FILE_SUFFIXES="1 2"
 
 declare -A GFX_FILES_BOULDER_DASH=\
 (							\
-    ["_GFX_FILE_DEFAULT_"]="c64_gfx_default.png"	\
+    ["_GFX_FILE_DEFAULT_"]="c64_gfx.png"		\
     ["_GFX_FILE_EDITOR_"]="c64_gfx_editor.png"		\
 )
 
