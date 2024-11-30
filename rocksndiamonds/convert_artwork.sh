@@ -109,14 +109,17 @@ for TYPE in $ARTWORK_TYPES; do
 		    if [ "$SET" = "$GFX_SET_BOULDER_RUSH" ]; then
 			GFX_FILE_DEFAULT=${GFX_FILES_BOULDER_RUSH["_GFX_FILE_DEFAULT_"]}
 			GFX_FILE_EDITOR=${GFX_FILES_BOULDER_RUSH["_GFX_FILE_EDITOR_"]}
+                        STRIP_LINE_PATTERN="color_template"
 		    else
 			GFX_FILE_DEFAULT=${GFX_FILES_BOULDER_DASH["_GFX_FILE_DEFAULT_"]}
 			GFX_FILE_EDITOR=${GFX_FILES_BOULDER_DASH["_GFX_FILE_EDITOR_"]}
+                        STRIP_LINE_PATTERN="_DO_NOT_STRIP_LINES_"
 		    fi
 
 		    cat "$CONF_FILE_TMPL"					\
 			| sed -e "s/_GFX_FILE_DEFAULT_/$GFX_FILE_DEFAULT/g"	\
 			| sed -e "s/_GFX_FILE_EDITOR_/$GFX_FILE_EDITOR/g"	\
+			| grep -v "$STRIP_LINE_PATTERN"				\
 			> "$BUILD_DIR/$SET/$CONF_FILE"
 		fi
 	    fi
