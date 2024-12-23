@@ -24,6 +24,8 @@ SND_SET="snd_gdash_boulder_dash"
 MUS_SET_1="mus_gdash_boulder_dash_1"
 MUS_SET_2="mus_gdash_boulder_dash_2"
 
+SKIP_DIR="$ORIG_DIR/First_Star_Software"
+
 HELP_FILES="helpanim.conf helptext.conf"
 
 SQL_FILENAME="convert_levels.sql"
@@ -172,11 +174,14 @@ create_level_set_conf ()
     echo ""							>> "$CONF_FILE"
     echo "levels:                         $NUM_LEVELS"		>> "$CONF_FILE"
     echo "first_level:                    $FIRST_LEFVEL"	>> "$CONF_FILE"
-    echo ""							>> "$CONF_FILE"
-    echo "graphics_set.old:               $GFX_SET_OLD"		>> "$CONF_FILE"
-    echo "graphics_set.new:               $GFX_SET_NEW"		>> "$CONF_FILE"
-    echo "sounds_set:                     $SND_SET"		>> "$CONF_FILE"
-    echo "music_set:                      $MUS_SET"		>> "$CONF_FILE"
+
+    if [ "$BUILD_COMPLETE" != "0" ]; then
+        echo ""							>> "$CONF_FILE"
+        echo "graphics_set.old:               $GFX_SET_OLD"	>> "$CONF_FILE"
+        echo "graphics_set.new:               $GFX_SET_NEW"	>> "$CONF_FILE"
+        echo "sounds_set:                     $SND_SET"		>> "$CONF_FILE"
+        echo "music_set:                      $MUS_SET"		>> "$CONF_FILE"
+    fi
 
     if [ "$SQL_CREATE" = "1" ]; then
 	if [ "$NAME_SORTING" = "" ]; then
@@ -312,6 +317,12 @@ process_directory ()
 
     local PREFIX="$INDENT-"
     INDENT="  $INDENT"
+
+    if [ "$BUILD_COMPLETE" = "0" -a "$DIR" = "$SKIP_DIR" ]; then
+        echo "$PREFIX skipping caves directory '$DIR' ..."
+
+        return
+    fi
 
     echo "$PREFIX processing caves directory '$DIR' ..."
 

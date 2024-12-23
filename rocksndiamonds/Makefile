@@ -7,7 +7,13 @@ CONV_ARTWORK_DIR := artwork/files.BUILD
 CONV_ARTWORK_TARGET_DIR := $(CONV_LEVELS_DIR)/Boulder_Dash/artwork
 
 PACKAGE_DIR = Boulder_Dash
+ifeq ($(BUILD_COMPLETE),0)
+PACKAGE_NAME = $(PACKAGE_DIR)
+LOG_SUFFIX = log-stripped
+else
 PACKAGE_NAME = gdash-levels
+LOG_SUFFIX = log
+endif
 PACKAGE_VERSION = 0.9.6
 PACKAGE_BASENAME = ${PACKAGE_NAME}-${PACKAGE_VERSION}
 PACKAGE_FILENAME_ZIP = ${PACKAGE_BASENAME}.zip
@@ -22,8 +28,9 @@ help:
 	@echo "- convert-artwork   - convert GDash artwork to R'n'D artwork sets"
 	@echo "- copy-artwork      - copy converted artwork sets to level sets"
 	@echo "- convert-all       - convert GDash caves and artwork"
-	@echo ""
 	@echo "- package-zip       - create zip file from converted level sets"
+	@echo ""
+	@echo "- build             - clean all, convert all and package zip"
 	@echo ""
 	@echo "- clean-levels      - delete all converted R'n'D level sets"
 	@echo "- clean-artwork     - delete all converted R'n'D artwork sets"
@@ -32,10 +39,10 @@ help:
 	@echo ""
 
 convert-levels:
-	./convert_levels.sh | tee convert_levels.out
+	./convert_levels.sh | tee convert_levels.$(LOG_SUFFIX)
 
 convert-artwork:
-	./convert_artwork.sh | tee convert_artwork.out
+	./convert_artwork.sh | tee convert_artwork.$(LOG_SUFFIX)
 
 copy-artwork:
 	rm -rf "$(CONV_ARTWORK_TARGET_DIR)"
@@ -51,8 +58,16 @@ package-zip:
 		echo "Creating package file '${PACKAGE_FILENAME_ZIP}' ...";	\
 		cd "${CONV_LEVELS_DIR}";					\
 		zip -r -9 ../"${PACKAGE_FILENAME_ZIP}" "${PACKAGE_DIR}"		\
-	) > package_zip.out;							\
+	) > package_zip.$(LOG_SUFFIX);						\
 	fi
+
+build-complete:
+	@BUILD_COMPLETE=1 make clean-all convert-all package-zip
+
+build-stripped:
+	@BUILD_COMPLETE=0 make clean-all convert-levels package-zip
+
+build: build-complete
 
 clean-levels:
 	rm -rf "$(CONV_LEVELS_DIR)"
