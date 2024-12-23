@@ -18,6 +18,9 @@ PACKAGE_VERSION = 0.9.7
 PACKAGE_BASENAME = ${PACKAGE_NAME}-${PACKAGE_VERSION}
 PACKAGE_FILENAME_ZIP = ${PACKAGE_BASENAME}.zip
 
+# fail after first failed command in a pipeline of commands
+SHELL = /bin/bash -o pipefail
+
 all: help
 
 help:
