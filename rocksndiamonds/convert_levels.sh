@@ -73,7 +73,7 @@ cleanup_text_from_filename ()
 {
     ENTRY=$1
 
-    ENTRY=`echo "$ENTRY" | tr '_' ' '`
+    ENTRY=`echo "$ENTRY" | tr '_' ' ' | sed -e "s/ s /'s /"`
 
     echo "$ENTRY"
 }
