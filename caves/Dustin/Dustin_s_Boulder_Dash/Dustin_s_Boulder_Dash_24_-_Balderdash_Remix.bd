@@ -1,0 +1,795 @@
+[BDCFF]
+Version=0.5
+
+[game]
+Name=Dustin's Boulder Dash 24
+Author=Dustin
+Date=2022-09-01
+Lives=5 99
+TitleScreen=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
+Levels=5
+
+[cave]
+Name=Welcome to DBD 24!
+Author=49174
+Date=2024-12-14
+Intermission=false
+Story=Hi BD fans!!\n\nWelcome to a new game of the Dustin's Boulder Dash series! This game is a remix of my favourite caves which I published under the name \"Balderdash\" at Krissz's BD site! The \"idea\" behind these caves is that I created most of them late at night, when I was already half asleep... this means that these caves don't contain many brand new ideas, but it's rather a collection of very classical BD themes with neat designs (to my taste) and of very moderate difficulty, comparable with the official games. Level 5 is challenging, but still a lot easier than usual in this series, without any super-expert skills required!\n\nI hope you like the game again and I wish you A LOT OF FUN DIGGING FOR DIAMONDS!!! :D\n\nCheers and greetings to all BD fans!\nDustin\n\nP.S.: SPECIAL THANKS to the following BD community members, without whom this game would not have been possible:\nCzirkos for the fantastic BD clone which is GDash!\nrevvv for porting and further developping GDash!\nArno for the release on his super-large BD Game Base!\nAnd Krissz for his brilliant BD site, where I created (almost) all the following caves originally (among thousands of others)!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #a7b211 #267f3c #6ce82e #267f2f #1711b2
+DiamondsRequired=23 23 23 23 23
+CaveTime=80 70 60 50 40
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=10 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=6 8 6 12 BOULDER
+Raster=7 8 1 3 2 2 BOULDER
+Raster=8 9 1 2 2 2 BOULDER
+Raster=10 9 2 3 2 1 BOULDER
+Raster=11 8 1 2 2 4 BOULDER
+Raster=14 8 2 5 2 1 BOULDER
+Point=15 12 BOULDER
+Line=18 8 18 12 BOULDER
+Line=19 12 20 12 BOULDER
+Raster=22 9 2 3 2 1 BOULDER
+Raster=22 8 2 2 1 4 BOULDER
+Raster=26 8 3 3 1 2 BOULDER
+Raster=26 9 1 2 2 2 BOULDER
+Line=30 8 30 12 BOULDER
+Line=31 8 32 9 BOULDER
+Line=31 10 32 12 BOULDER
+Line=10 12 16 8 DIAMOND
+Line=10 8 16 12 DIAMOND
+Raster=12 4 2 4 2 1 DIAMOND
+Raster=13 3 1 2 2 2 DIAMOND
+Raster=12 14 2 2 1 4 BOULDER
+Raster=12 15 2 3 2 1 BOULDER
+Raster=16 15 2 4 2 1 BOULDER
+Raster=17 14 1 2 2 2 BOULDER
+Line=21 14 22 14 BOULDER
+Line=20 15 22 17 BOULDER
+Line=20 18 21 18 BOULDER
+Raster=24 14 2 5 2 1 BOULDER
+Point=25 16 BOULDER
+Point=1 1 INBOX
+Point=39 20 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=A (Poledance)
+Author=Dustin
+Date=2022-08-15
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #990f0f #2d7f27 #2a23b2 #347f27 #0f3499
+DiamondsRequired=200 200 200 200 200
+CaveTime=180 150 120 100 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=1 5
+InitialFill=SPACE
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Raster=5 8 30 3 1 4 WALL
+Line=5 2 34 2 BOULDER
+Line=5 3 34 3 DIRT
+Raster=5 7 16 1 2 2 BUTTERFLYr
+Point=35 9 BUTTERFLYd
+Raster=11 9 12 1 2 2 BUTTERFLYl
+Raster=5 11 16 1 2 2 BUTTERFLYr
+Point=35 13 BUTTERFLYd
+Raster=17 13 9 1 2 2 BUTTERFLYl
+Raster=5 13 2 1 2 2 BUTTERFLYl
+Point=4 12 BUTTERFLYu
+Raster=5 15 16 1 2 2 BUTTERFLYr
+Point=35 17 BUTTERFLYd
+Raster=23 17 6 1 2 2 BUTTERFLYl
+Raster=5 17 5 1 2 2 BUTTERFLYl
+Point=4 16 BUTTERFLYu
+Point=2 2 INBOX
+Point=37 2 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=B (Olympia)
+Author=Dustin
+Date=2022-08-15
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #93966d #af3142 #a966cc #31af31 #6d7396
+DiamondsRequired=100 110 120 125 125
+CaveTime=180 150 120 120 120
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=2 10
+InitialFill=BOULDER
+RandomFill=DIAMOND 128 DIRT 0 DIRT 0 DIRT 0
+MagicWallTime=180 180 180 180 180
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+FillRect=1 1 3 20 DIRT
+FillRect=4 1 38 3 DIRT
+FillRect=9 4 10 20 DIRT
+FillRect=4 9 8 20 DIRT
+FillRect=11 4 15 8 DIRT
+FillRect=16 4 17 20 DIRT
+FillRect=18 9 22 20 DIRT
+FillRect=23 4 24 20 DIRT
+FillRect=25 4 29 8 DIRT
+FillRect=30 4 31 20 DIRT
+FillRect=37 4 38 20 DIRT
+FillRect=32 9 36 20 DIRT
+Line=11 14 29 14 DIRT
+Line=4 10 8 10 MAGICWALL
+Line=18 10 22 10 MAGICWALL
+Line=32 10 36 10 MAGICWALL
+Line=11 15 15 15 MAGICWALL
+Line=25 15 29 15 MAGICWALL
+FillRect=4 11 8 15 SPACE
+FillRect=11 16 15 20 SPACE
+FillRect=18 11 22 15 SPACE
+FillRect=25 16 29 20 SPACE
+FillRect=32 11 36 15 SPACE
+Point=13 6 INBOX
+Point=27 6 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=C (Amoeba Wrap)
+Author=49174
+Date=2024-03-02
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #4db22e #99727c #ccb466 #72997b #2e3bb2
+DiamondsRequired=30 45 60 75 90
+CaveTime=150 140 130 120 110
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 10
+InitialFill=SPACE
+AmoebaTime=180 180 180 180 180
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=18 1 20 1 STEELWALL
+Point=19 1 EXPANDINGWALL
+Point=19 2 INBOX
+Line=14 8 24 8 AMOEBA
+Point=19 8 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=D (zig Zag Dance)
+Author=Dustin
+Date=2022-08-15
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #8c10a8 #7f272a #bdd129 #277f28 #1036a8
+DiamondsRequired=20 20 20 20 20
+CaveTime=180 150 120 100 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=10 30
+RandSeed=60 70 80 90 100
+RandomFill=BOULDER 50 DIAMOND 15 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=5 5 34 16 DIRT
+Rectangle=7 7 32 14 DIRT
+Rectangle=6 6 33 15 SPACE
+Raster=7 6 5 1 6 2 FIREFLYl
+Raster=6 8 1 2 2 6 FIREFLYu
+Raster=8 15 5 1 6 2 FIREFLYr
+Raster=33 7 1 2 2 6 FIREFLYd
+Point=20 11 INBOX
+Point=21 11 OUTBOX
+Raster=10 6 4 1 6 2 FIREFLYr
+Point=6 11 FIREFLYd
+Raster=11 15 4 1 6 2 FIREFLYl
+Point=33 10 FIREFLYu
+[/objects]
+[/cave]
+
+[cave]
+Name=Q (Jewel Board)
+Author=Dustin
+Date=2022-08-16
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #194c7f #37a031 #c15913 #39a031 #192f7f
+DiamondsRequired=0 0 0 0 0
+CaveTime=16 15 14 13 12
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=10 0
+RandSeed=-1 -1 -1 -1 -1
+RandomFill=DIAMOND 128 DIRT 0 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Raster=2 2 9 5 2 2 STEELWALL
+Raster=2 1 9 5 2 2 DIRT
+Raster=1 2 9 5 2 2 DIRT
+Point=1 1 INBOX
+Point=18 10 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=E (Giant Garden)
+Author=Dustin
+Date=2022-08-15
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #677896 #af38a7 #66cc7f #38af5a #677296
+DiamondsRequired=100 110 120 125 130
+CaveTime=180 150 120 110 100
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=2 5
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Raster=3 5 35 3 1 5 DIAMOND
+Raster=5 3 7 15 5 1 DIAMOND
+FillRect=3 4 7 6 BOULDER
+FillRect=4 3 6 7 BOULDER
+FillRect=13 4 17 6 BOULDER
+FillRect=14 3 16 7 BOULDER
+FillRect=23 4 27 6 BOULDER
+FillRect=24 3 26 7 BOULDER
+FillRect=33 4 37 6 BOULDER
+FillRect=34 3 36 7 BOULDER
+FillRect=8 9 12 11 BOULDER
+FillRect=9 8 11 12 BOULDER
+FillRect=18 9 22 11 BOULDER
+FillRect=19 8 21 12 BOULDER
+FillRect=28 9 32 11 BOULDER
+FillRect=29 8 31 12 BOULDER
+FillRect=3 14 7 16 BOULDER
+FillRect=4 13 6 17 BOULDER
+FillRect=13 14 17 16 BOULDER
+FillRect=14 13 16 17 BOULDER
+FillRect=23 14 27 16 BOULDER
+FillRect=24 13 26 17 BOULDER
+FillRect=33 14 37 16 BOULDER
+FillRect=34 13 36 17 BOULDER
+Raster=9 4 2 2 2 2 DIAMOND
+Raster=19 4 2 2 2 2 DIAMOND
+Raster=29 4 2 2 2 2 DIAMOND
+Raster=4 9 2 2 2 2 DIAMOND
+Raster=14 9 2 2 2 2 DIAMOND
+Raster=24 9 2 2 2 2 DIAMOND
+Raster=34 9 2 2 2 2 DIAMOND
+Raster=9 14 2 2 2 2 DIAMOND
+Raster=19 14 2 2 2 2 DIAMOND
+Raster=29 14 2 2 2 2 DIAMOND
+Point=2 2 INBOX
+Point=38 20 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=F (Name of a Legend)
+Author=Dustin
+Date=2022-08-15
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #27347f #9e480f #25bc39 #0f9e1b #27337f
+DiamondsRequired=15 17 13 23 20
+CaveTime=200 180 160 140 120
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=15 30
+RandSeed=0 1 2 3 255
+RandomFill=SPACE 80 BOULDER 50 DIAMOND 10 FIREFLYl 5
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+FillRect=3 6 36 12 DIRT
+Line=4 7 4 11 WALL
+Line=5 7 6 8 WALL
+Line=5 9 6 11 WALL
+Line=8 8 8 10 WALL
+Line=10 8 10 10 WALL
+Line=12 8 12 10 WALL
+Line=13 7 14 7 WALL
+Line=13 11 14 11 WALL
+Line=16 7 16 11 WALL
+Line=17 9 19 7 WALL
+Line=18 10 19 11 WALL
+Line=21 7 21 11 WALL
+Line=22 7 23 7 WALL
+Line=22 9 23 9 WALL
+Line=25 8 25 10 WALL
+Line=27 8 27 10 WALL
+Line=29 7 29 11 WALL
+Line=30 7 31 8 WALL
+Line=30 9 31 11 WALL
+Line=33 7 33 11 WALL
+Line=35 8 35 10 WALL
+Line=9 7 9 11 WALL
+Line=26 7 26 11 WALL
+Line=34 7 34 11 WALL
+Line=9 8 9 10 DIAMOND
+Line=26 8 26 10 DIAMOND
+Line=34 8 34 10 DIAMOND
+Point=5 8 DIAMOND
+Point=13 10 DIAMOND
+Point=17 8 DIAMOND
+Point=22 8 DIAMOND
+Point=30 8 DIAMOND
+Point=20 17 INBOX
+Point=38 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=G (Four Windows)
+Author=Dustin
+Date=2022-08-15
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #951f9e #7f4f0c #3b99bf #1d7f0c #381f9e
+DiamondsRequired=50 60 70 80 90
+CaveTime=180 170 160 150 140
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 10
+InitialFill=BOULDER
+RandomFill=DIAMOND 128 DIRT 0 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=3 5 10 12 WALL
+Rectangle=12 5 19 12 WALL
+Rectangle=21 5 28 12 WALL
+Rectangle=30 5 37 12 WALL
+FillRect=1 1 38 4 SPACE
+FillRect=1 13 38 17 SPACE
+Rectangle=2 4 11 13 SPACE
+Rectangle=20 4 29 13 SPACE
+Rectangle=1 4 38 13 SPACE
+Point=2 7 FIREFLYl
+Point=20 7 FIREFLYl
+Point=11 10 BUTTERFLYu
+Point=29 10 BUTTERFLYu
+Raster=11 2 3 1 9 1 BOULDER
+Raster=11 3 3 1 9 1 DIRT
+Point=2 2 INBOX
+Point=39 2 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=H (Quick Trick)
+Author=Dustin
+Date=2022-08-16
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #277f43 #1f259e #bf1357 #419e1f #40277f
+DiamondsRequired=10 15 20 30 50
+CaveTime=100 90 80 70 60
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 5
+AmoebaTime=5 5 5 5 5
+MagicWallTime=1 1 1 1 1
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Raster=17 4 3 1 2 2 AMOEBA
+Raster=19 2 1 3 2 2 AMOEBA
+Point=19 4 INBOX
+Line=1 20 38 20 SPACE
+Line=2 19 37 19 SPACE
+Line=3 18 36 18 SPACE
+Line=4 17 35 17 SPACE
+Line=5 16 34 16 SPACE
+Line=6 15 33 15 SPACE
+Line=7 14 32 14 SPACE
+Line=7 13 32 13 MAGICWALL
+Point=37 2 OUTBOX
+Line=7 11 32 11 SLIME
+[/objects]
+[/cave]
+
+[cave]
+Name=R (Parallel Worlds)
+Author=49174
+Date=2024-12-14
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #849cb2 #774c99 #cc3768 #56994c #8584b2
+DiamondsRequired=17 17 17 17 17
+CaveTime=50 45 40 35 30
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=10 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+FillRect=8 1 11 10 STEELWALL
+Line=8 5 11 5 DIRT
+Line=9 4 10 4 BOULDER
+Raster=2 3 2 4 4 2 BOULDER
+Raster=2 4 2 3 4 2 DIAMOND
+Raster=3 6 2 1 2 2 BOULDER
+Point=4 6 DIAMOND
+Raster=13 3 2 4 4 2 DIAMOND
+Raster=14 6 2 1 2 2 DIAMOND
+Raster=13 4 2 3 4 2 BOULDER
+Point=15 6 BOULDER
+Point=1 1 INBOX
+Point=8 1 OUTBOX
+Point=19 1 HIDDENOUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=I (Floors and Doors)
+Author=Dustin
+Date=2022-06-30
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #991e28 #0c0c7f #36b540 #0c7f0e #1e2699
+DiamondsRequired=8 8 8 8 8
+CaveTime=240 180 150 120 100
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=40 0
+RandSeed=20 21 22 251 102
+RandomFill=SPACE 100 BOULDER 60 FIREFLYl 2 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Raster=1 5 12 3 1 5 WALL
+Raster=27 6 12 3 1 5 WALL
+Raster=2 4 1 4 1 5 DIAMOND
+Raster=37 5 1 4 1 5 DIAMOND
+Rectangle=17 7 23 13 WALL
+Point=20 10 OUTBOX
+Point=20 2 INBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=J (Backtrack with Bricktrick)
+Author=Dustin
+Date=2022-12-08
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #b2709e #91994c #4d8ecc #4c9956 #7970b2
+DiamondsRequired=16 20 22 20 21
+CaveTime=180 150 120 100 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=15 0
+RandSeed=163 205 39 118 87
+RandomFill=DIRT 60 BOULDER 50 DIAMOND 9 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=8 1 8 14 HEXPANDINGWALL
+Line=15 7 15 20 HEXPANDINGWALL
+Line=22 1 22 14 HEXPANDINGWALL
+Line=29 7 29 20 HEXPANDINGWALL
+FillRect=36 1 38 20 HEXPANDINGWALL
+Line=1 1 1 20 HEXPANDINGWALL
+Point=4 4 INBOX
+Point=5 4 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=K (Amoeba-Wrapped)
+Author=Dustin
+Date=2022-09-01
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #963686 #afa872 #669ccc #81af72 #363c96
+DiamondsRequired=30 35 40 45 50
+CaveTime=80 70 60 50 40
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 10
+RandSeed=10 11 15 13 0
+InitialFill=SPACE
+RandomFill=BUTTERFLYd 20 FIREFLYl 10 DIRT 0 DIRT 0
+AmoebaTime=100 100 100 100 100
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=1 1 38 20 AMOEBA
+Point=20 10 INBOX
+Point=20 0 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=L (Six Mix)
+Author=49174
+Date=2024-03-10
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #5db259 #2c8399 #ccb992 #2c9933 #596cb2
+DiamondsRequired=200 200 200 200 200
+CaveTime=240 230 220 210 200
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=1 10
+RandSeed=7 5 1 0 4
+RandomFill=BOULDER 240 DIAMOND 150 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=1 19 38 20 HEXPANDINGWALL
+Line=1 1 38 1 EXPANDINGWALL
+Line=1 2 38 2 HEXPANDINGWALL
+Rectangle=1 10 38 11 HEXPANDINGWALL
+FillRect=10 1 12 20 STEELWALL DIRT
+FillRect=22 1 24 20 STEELWALL DIRT
+FillRect=34 1 36 20 STEELWALL DIRT
+Raster=5 10 3 2 12 1 DIRT
+Raster=5 2 3 2 12 17 DIRT
+Point=5 20 INBOX
+Line=5 1 11 1 DIRT
+Line=11 20 17 20 DIRT
+Line=17 1 23 1 DIRT
+Line=23 20 29 20 DIRT
+Line=29 1 35 1 DIRT
+Line=35 20 38 20 DIRT
+Rectangle=37 1 38 19 BOULDER
+Line=37 18 37 17 DIAMOND
+Line=37 13 37 14 DIAMOND
+Line=38 15 38 16 DIAMOND
+Line=37 9 37 10 DIAMOND
+Line=38 11 38 12 DIAMOND
+Line=37 5 37 6 DIAMOND
+Line=38 7 38 8 DIAMOND
+Line=37 1 37 2 DIAMOND
+Point=39 1 OUTBOX
+Raster=5 9 3 2 12 9 DIAMOND
+Line=38 3 38 4 DIAMOND
+Point=38 19 DIAMOND
+[/objects]
+[/cave]
+
+[cave]
+Name=S (Great Wall of China)
+Author=49174
+Date=2024-03-10
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #39b29c #99696f #a8cc66 #699977 #3959b2
+DiamondsRequired=9 9 9 9 9
+CaveTime=120 115 110 105 100
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=30 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=1 1 OUTBOX
+Line=1 2 1 10 DIAMOND
+FillRect=2 1 9 10 WALL
+Line=2 10 9 3 FIREFLYl
+Line=3 8 9 2 DIRT
+Line=3 7 9 1 BOULDER
+Point=2 9 VEXPANDINGWALL
+Point=10 1 BOULDER
+Point=13 1 INBOX
+Line=11 4 11 8 BOULDER
+Raster=12 4 1 3 2 2 BOULDER
+Raster=13 5 1 2 2 2 BOULDER
+Line=15 4 15 8 BOULDER
+Line=17 5 17 7 BOULDER
+Raster=16 4 1 2 2 4 BOULDER
+[/objects]
+[/cave]
+
+[cave]
+Name=M (Leaky Cauldrons)
+Author=Dustin
+Date=2022-12-11
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #ad3577 #56197f #1644dd #197f2c #3541ad
+DiamondsRequired=25 30 35 40 45
+CaveTime=120 110 100 90 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=10 20
+RandSeed=17 34 51 68 85
+InitialFill=BOULDER
+RandomFill=DIAMOND 128 DIRT 0 DIRT 0 DIRT 0
+SlimePermeabilityC64=252 252 252 252 252
+
+[objects]
+Rectangle=4 4 12 12 STEELWALL
+Rectangle=16 4 24 12 STEELWALL
+Rectangle=28 4 36 12 STEELWALL
+Line=5 12 11 12 SLIME
+Line=17 12 23 12 SLIME
+Line=29 12 35 12 SLIME
+Raster=4 14 17 4 2 2 STEELWALL
+Raster=4 13 17 4 2 2 DIRT
+FillRect=5 13 11 20 SPACE
+FillRect=17 13 23 20 SPACE
+FillRect=29 13 35 20 SPACE
+FillRect=1 1 38 3 DIRT
+FillRect=1 4 3 20 DIRT
+FillRect=13 4 15 20 DIRT
+FillRect=25 4 27 20 DIRT
+FillRect=37 4 38 20 DIRT
+Point=14 16 INBOX
+Point=26 16 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=N (Disguise)
+Author=Dustin
+Date=2021-12-15
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #964b5a #42af53 #8081cc #42af5f #42af5f
+DiamondsRequired=30 40 50 60 70
+CaveTime=150 150 150 150 150
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 10
+RandSeed=0 1 5 14 4
+RandomFill=SPACE 60 BOULDER 50 AMOEBA 10 SLIME 9
+AmoebaTime=60 60 60 60 60
+SlimePermeabilityC64=252 252 252 252 252
+
+[objects]
+RandomFill=1 1 38 15 -1 -1 -1 -1 -1 SLIME AMOEBA
+Point=16 9 INBOX
+Point=37 2 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=O (Double Funnel)
+Author=Dustin
+Date=2022-08-15
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #0c667f #5034aa #2ad64d #42aa34 #0e0c7f
+DiamondsRequired=20 20 20 25 30
+CaveTime=180 150 120 110 100
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=10 20
+RandSeed=0 1 2 3 127
+RandomFill=SPACE 80 BOULDER 50 FIREFLYl 2 DIRT 0
+MagicWallTime=10 10 10 10 10
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=2 2 8 8 WALL
+Line=12 8 18 2 WALL
+Line=21 2 27 8 WALL
+Line=31 8 37 2 WALL
+Line=9 10 11 10 MAGICWALL
+Line=28 10 30 10 MAGICWALL
+Add=0 -1 MAGICWALL DIRT
+Point=15 1 INBOX
+Point=20 20 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=P (Pirate Islands)
+Author=49174
+Date=2024-03-10
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #a0a030 #20197f #13c471 #197f1c #3b30a0
+DiamondsRequired=30 40 50 60 60
+CaveTime=180 170 160 150 150
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 10
+RandSeed=27 36 45 63 54
+RandomFill=BOULDER 240 DIAMOND 120 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+FillRect=1 1 3 20 SPACE
+FillRect=13 1 15 20 SPACE
+FillRect=25 1 27 20 SPACE
+FillRect=37 1 38 20 SPACE
+FillRect=1 1 38 3 SPACE
+FillRect=1 10 38 12 SPACE
+FillRect=1 19 38 20 SPACE
+Rectangle=4 4 12 9 DIRT
+Rectangle=4 13 12 18 DIRT
+Rectangle=16 4 24 9 DIRT
+Rectangle=16 13 24 18 DIRT
+Rectangle=28 4 36 9 DIRT
+Rectangle=28 13 36 18 DIRT
+Raster=8 3 3 2 12 9 FIREFLYl
+Raster=8 10 3 2 12 9 FIREFLYr
+Point=2 2 INBOX
+Point=1 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=T (Pilers)
+Author=49174
+Date=2024-03-10
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #7f6719 #9b0f99 #3799ba #379b0f #192d7f
+DiamondsRequired=4 4 4 4 4
+CaveTime=20 20 20 20 20
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=30 50
+InitialFill=STEELWALL
+AmoebaTime=1 1 1 1 1
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=2 1 4 10 SPACE
+Rectangle=6 1 8 10 SPACE
+Rectangle=18 1 16 10 SPACE
+Rectangle=14 1 12 10 SPACE
+Raster=5 3 2 2 10 2 SPACE
+Line=4 4 16 4 STEELWALL
+Raster=9 3 3 2 1 5 SPACE
+Raster=8 5 2 3 4 1 STEELWALL
+Point=10 9 AMOEBA
+Point=10 8 DIAMOND
+Line=10 4 10 7 DIRT
+Raster=9 5 2 1 2 2 HEXPANDINGWALL
+Point=10 1 EXPANDINGWALL
+Point=10 2 INBOX
+Point=10 10 OUTBOX
+[/objects]
+[/cave]
+[/game]
+[/BDCFF]
