@@ -23,6 +23,7 @@ CONF_FILE_GIC_GAME="graphics/gic_game.conf"
 CONF_FILES="$CONF_FILE_GIC_GAME"
 
 GFX_SET_BOULDER_RUSH="gfx_gdash_boulder_rush"
+GFX_SET_BOULDER_RUSH_CWS="gfx_gdash_boulder_rush_cws"
 SND_SET_BOULDER_DASH="snd_gdash_boulder_dash"
 MUS_SET_BOULDER_DASH="mus_gdash_boulder_dash"
 
@@ -39,6 +40,12 @@ declare -A GFX_FILES_BOULDER_RUSH=\
 (							\
     ["_GFX_FILE_DEFAULT_"]="boulder_rush.png"		\
     ["_GFX_FILE_EDITOR_"]="boulder_rush_editor.png"	\
+)
+
+declare -A GFX_FILES_BOULDER_RUSH_CWS=\
+(							\
+    ["_GFX_FILE_DEFAULT_"]="boulder_rush_cws.png"		\
+    ["_GFX_FILE_EDITOR_"]="boulder_rush_cws_editor.png"	\
 )
 
 declare -A SND_FILES_MAPPING=\
@@ -109,6 +116,10 @@ for TYPE in $ARTWORK_TYPES; do
 		    if [ "$SET" = "$GFX_SET_BOULDER_RUSH" ]; then
 			GFX_FILE_DEFAULT=${GFX_FILES_BOULDER_RUSH["_GFX_FILE_DEFAULT_"]}
 			GFX_FILE_EDITOR=${GFX_FILES_BOULDER_RUSH["_GFX_FILE_EDITOR_"]}
+                        STRIP_LINE_PATTERN="color_template"
+		    elif [ "$SET" = "$GFX_SET_BOULDER_RUSH_CWS" ]; then
+			GFX_FILE_DEFAULT=${GFX_FILES_BOULDER_RUSH_CWS["_GFX_FILE_DEFAULT_"]}
+			GFX_FILE_EDITOR=${GFX_FILES_BOULDER_RUSH_CWS["_GFX_FILE_EDITOR_"]}
                         STRIP_LINE_PATTERN="color_template"
 		    else
 			GFX_FILE_DEFAULT=${GFX_FILES_BOULDER_DASH["_GFX_FILE_DEFAULT_"]}
