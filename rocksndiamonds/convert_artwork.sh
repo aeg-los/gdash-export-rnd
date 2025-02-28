@@ -99,11 +99,11 @@ for TYPE in $ARTWORK_TYPES; do
 
 	echo "  * copying static files for artwork set '$SET' ..."
 
-	rsync -a "$LEVELSET_DIR" "$BUILD_DIR"
-
 	if [ -d "$ORIG_STAT_DIR/${TYPE}_${ARTWORK_PREFIX_ALL}" ]; then
 	    rsync -a $ORIG_STAT_DIR/${TYPE}_${ARTWORK_PREFIX_ALL}/ $BUILD_DIR/$SET/
 	fi
+
+	rsync -a "$LEVELSET_DIR" "$BUILD_DIR"
 
 	for j in $CONF_FILES; do
 	    CONF_FILE=$j
