@@ -94,7 +94,7 @@ echo "Converting GDash artwork to R'n'D artwork sets ..."
 for TYPE in $ARTWORK_TYPES; do
     echo "- converting $TYPE sets ..."
 
-    for LEVELSET_DIR in "$ORIG_STAT_DIR/${TYPE}_${ARTWORK_PREFIX_SET}"_*; do
+    for LEVELSET_DIR in "$ORIG_STAT_DIR/${TYPE}"_${ARTWORK_PREFIX_SET}_*; do
 	SET=`basename "$LEVELSET_DIR"`
 
 	echo "  * copying static files for artwork set '$SET' ..."
