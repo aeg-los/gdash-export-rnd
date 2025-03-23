@@ -30,24 +30,6 @@ MUS_SET_BOULDER_DASH="mus_gdash_boulder_dash"
 MUS_FILE_PREFIX="bd"
 MUS_FILE_SUFFIXES="1 2"
 
-declare -A GFX_FILES_BOULDER_DASH=\
-(							\
-    ["_GFX_FILE_DEFAULT_"]="c64_gfx.png"		\
-    ["_GFX_FILE_EDITOR_"]="c64_gfx_editor.png"		\
-)
-
-declare -A GFX_FILES_BOULDER_RUSH=\
-(							\
-    ["_GFX_FILE_DEFAULT_"]="c64_gfx.png"		\
-    ["_GFX_FILE_EDITOR_"]="c64_gfx_editor.png"		\
-)
-
-declare -A GFX_FILES_BOULDER_RUSH_CWS=\
-(							\
-    ["_GFX_FILE_DEFAULT_"]="c64_gfx.png"		\
-    ["_GFX_FILE_EDITOR_"]="c64_gfx_editor.png"		\
-)
-
 declare -A SND_FILES_MAPPING=\
 (							\
     ["stone.ogg"]="stone_wall.wav"			\
@@ -114,22 +96,14 @@ for TYPE in $ARTWORK_TYPES; do
 
 		if [ "$CONF_FILE" = "$CONF_FILE_GIC_GAME" ]; then
 		    if [ "$SET" = "$GFX_SET_BOULDER_RUSH" ]; then
-			GFX_FILE_DEFAULT=${GFX_FILES_BOULDER_RUSH["_GFX_FILE_DEFAULT_"]}
-			GFX_FILE_EDITOR=${GFX_FILES_BOULDER_RUSH["_GFX_FILE_EDITOR_"]}
                         STRIP_LINE_PATTERN="color_template"
 		    elif [ "$SET" = "$GFX_SET_BOULDER_RUSH_CWS" ]; then
-			GFX_FILE_DEFAULT=${GFX_FILES_BOULDER_RUSH_CWS["_GFX_FILE_DEFAULT_"]}
-			GFX_FILE_EDITOR=${GFX_FILES_BOULDER_RUSH_CWS["_GFX_FILE_EDITOR_"]}
                         STRIP_LINE_PATTERN="color_template"
 		    else
-			GFX_FILE_DEFAULT=${GFX_FILES_BOULDER_DASH["_GFX_FILE_DEFAULT_"]}
-			GFX_FILE_EDITOR=${GFX_FILES_BOULDER_DASH["_GFX_FILE_EDITOR_"]}
                         STRIP_LINE_PATTERN="_DO_NOT_STRIP_LINES_"
 		    fi
 
 		    cat "$CONF_FILE_TMPL"					\
-			| sed -e "s/_GFX_FILE_DEFAULT_/$GFX_FILE_DEFAULT/g"	\
-			| sed -e "s/_GFX_FILE_EDITOR_/$GFX_FILE_EDITOR/g"	\
 			| grep -v "$STRIP_LINE_PATTERN"				\
 			> "$BUILD_DIR/$SET/$CONF_FILE"
 		fi
