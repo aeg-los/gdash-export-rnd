@@ -38,14 +38,14 @@ declare -A GFX_FILES_BOULDER_DASH=\
 
 declare -A GFX_FILES_BOULDER_RUSH=\
 (							\
-    ["_GFX_FILE_DEFAULT_"]="boulder_rush.png"		\
-    ["_GFX_FILE_EDITOR_"]="boulder_rush_editor.png"	\
+    ["_GFX_FILE_DEFAULT_"]="c64_gfx.png"		\
+    ["_GFX_FILE_EDITOR_"]="c64_gfx_editor.png"		\
 )
 
 declare -A GFX_FILES_BOULDER_RUSH_CWS=\
 (							\
-    ["_GFX_FILE_DEFAULT_"]="boulder_rush_cws.png"		\
-    ["_GFX_FILE_EDITOR_"]="boulder_rush_cws_editor.png"	\
+    ["_GFX_FILE_DEFAULT_"]="c64_gfx.png"		\
+    ["_GFX_FILE_EDITOR_"]="c64_gfx_editor.png"		\
 )
 
 declare -A SND_FILES_MAPPING=\
