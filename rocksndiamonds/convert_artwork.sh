@@ -11,7 +11,6 @@ ORIG_SND_DIR="sound"
 ORIG_MUS_DIR="music"
 
 ORIG_STAT_DIR="$ORIG_BASE_DIR/files.static"
-ORIG_TMPL_DIR="$ORIG_BASE_DIR/files.template"
 
 BUILD_DIR="$ORIG_BASE_DIR/files.BUILD"
 
@@ -57,12 +56,6 @@ if [ ! -d "$ORIG_STAT_DIR" ]; then
     exit 10
 fi
 
-if [ ! -d "$ORIG_TMPL_DIR" ]; then
-    echo "ERROR: Source directory '$ORIG_TMPL_DIR' does not exist!"
-
-    exit 10
-fi
-
 if [ -d "$BUILD_DIR" ]; then
     echo "ERROR: Target directory '$BUILD_DIR' already exists!"
 
@@ -89,9 +82,9 @@ for TYPE in $ARTWORK_TYPES; do
 
 	for j in $CONF_FILES; do
 	    CONF_FILE=$j
-	    CONF_FILE_TMPL="$ORIG_TMPL_DIR/${TYPE}_${ARTWORK_PREFIX_ALL}/$CONF_FILE.tmpl"
+	    CONF_FILE_ORIG="$ORIG_STAT_DIR/${TYPE}_${ARTWORK_PREFIX_ALL}/$CONF_FILE"
 
-	    if [ -f "$CONF_FILE_TMPL" ]; then
+	    if [ -f "$CONF_FILE_ORIG" ]; then
 		echo "  * creating config file for artwork set '$SET' ['$CONF_FILE'] ..."
 
 		if [ "$CONF_FILE" = "$CONF_FILE_GIC_GAME" ]; then
@@ -103,7 +96,7 @@ for TYPE in $ARTWORK_TYPES; do
                         STRIP_LINE_PATTERN="_DO_NOT_STRIP_LINES_"
 		    fi
 
-		    cat "$CONF_FILE_TMPL"					\
+		    cat "$CONF_FILE_ORIG"					\
 			| grep -v "$STRIP_LINE_PATTERN"				\
 			> "$BUILD_DIR/$SET/$CONF_FILE"
 		fi
