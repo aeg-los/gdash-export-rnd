@@ -10,8 +10,7 @@ ORIG_BASE_DIR="artwork"
 ORIG_SND_DIR="sound"
 ORIG_MUS_DIR="music"
 
-ORIG_STAT_DIR="$ORIG_BASE_DIR/files"
-
+FILES_DIR="$ORIG_BASE_DIR/files"
 BUILD_DIR="$ORIG_BASE_DIR/BUILD"
 
 ARTWORK_TYPES="gfx snd mus"
@@ -50,8 +49,8 @@ declare -A SND_FILES_MAPPING=\
 # main
 # -----------------------------------------------------------------------------
 
-if [ ! -d "$ORIG_STAT_DIR" ]; then
-    echo "ERROR: Source directory '$ORIG_STAT_DIR' does not exist!"
+if [ ! -d "$FILES_DIR" ]; then
+    echo "ERROR: Source directory '$FILES_DIR' does not exist!"
 
     exit 10
 fi
@@ -69,20 +68,20 @@ echo "Converting GDash artwork to R'n'D artwork sets ..."
 for TYPE in $ARTWORK_TYPES; do
     echo "- converting $TYPE sets ..."
 
-    for LEVELSET_DIR in "$ORIG_STAT_DIR/${TYPE}"_${ARTWORK_PREFIX_SET}_*; do
+    for LEVELSET_DIR in "$FILES_DIR/${TYPE}"_${ARTWORK_PREFIX_SET}_*; do
 	SET=`basename "$LEVELSET_DIR"`
 
 	echo "  * copying static files for artwork set '$SET' ..."
 
-	if [ -d "$ORIG_STAT_DIR/${TYPE}_${ARTWORK_PREFIX_ALL}" ]; then
-	    rsync -a $ORIG_STAT_DIR/${TYPE}_${ARTWORK_PREFIX_ALL}/ $BUILD_DIR/$SET/
+	if [ -d "$FILES_DIR/${TYPE}_${ARTWORK_PREFIX_ALL}" ]; then
+	    rsync -a $FILES_DIR/${TYPE}_${ARTWORK_PREFIX_ALL}/ $BUILD_DIR/$SET/
 	fi
 
 	rsync -a "$LEVELSET_DIR" "$BUILD_DIR"
 
 	for j in $CONF_FILES; do
 	    CONF_FILE=$j
-	    CONF_FILE_ORIG="$ORIG_STAT_DIR/${TYPE}_${ARTWORK_PREFIX_ALL}/$CONF_FILE"
+	    CONF_FILE_ORIG="$FILES_DIR/${TYPE}_${ARTWORK_PREFIX_ALL}/$CONF_FILE"
 
 	    if [ -f "$CONF_FILE_ORIG" ]; then
 		echo "  * creating config file for artwork set '$SET' ['$CONF_FILE'] ..."
@@ -156,7 +155,7 @@ done
 
 echo "- creating top-level config file ..."
 
-cp -a "$ORIG_STAT_DIR/levelinfo.conf" "$BUILD_DIR"
+cp -a "$FILES_DIR/levelinfo.conf" "$BUILD_DIR"
 
 echo "Done"
 
