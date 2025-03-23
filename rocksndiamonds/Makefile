@@ -3,7 +3,7 @@
 # =============================================================================
 
 CONV_LEVELS_DIR := levels
-CONV_ARTWORK_DIR := artwork/files.BUILD
+CONV_ARTWORK_DIR := artwork/BUILD
 CONV_ARTWORK_TARGET_DIR := $(CONV_LEVELS_DIR)/Boulder_Dash/artwork
 
 PACKAGE_DIR = Boulder_Dash
