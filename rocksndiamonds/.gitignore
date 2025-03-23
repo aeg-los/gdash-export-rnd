@@ -2,8 +2,16 @@
 levels/
 artwork/BUILD/
 
+# ignore backup / release directories
+BACKUP/
+RELEASES/
+
 # ignore configuration file instances
 convert_levels.conf
+
+# ignore script log files
+*.log
+*.log-stripped
 
 # ignore script output files
 *.out
