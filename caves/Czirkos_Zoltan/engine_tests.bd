@@ -1,0 +1,1023 @@
+[BDCFF]
+Version=0.5
+
+[game]
+Name=Engine tests
+Description=Caves which test some element
+Charset=bd2_big
+Lives=4 9
+Remark=caveset\n  data\nbla\nbla.\n
+Levels=5
+
+[cave]
+Name=New scrolling
+Author=Czirkos Zoltan
+Date=2013-04-26
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #b2ae39 #4c996c #8c95cc #4c9951 #393fb2
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=bd1
+FrameTime=180 160 140 120 120
+CaveDelay=12 0 0 0 0
+DiamondValue=0 0
+InitialFill=SPACE
+SlimePermeabilityC64=0 0 0 0 0
+ReplicatorDelayFrame=12
+
+[objects]
+Line=3 3 38 3 REPLICATOR
+Line=3 2 38 2 DIAMOND
+Point=1 1 INBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Voodoo
+Intermission=false
+Remark=Notes for the cave 'Voodoo'. Bla bla bla.\nBla on new line bla.\n\nblablabla.\n\nGreater than >, less than <. \303\251kezet, hossz\303\272 \305\221. tenisz\303\274t\305\221.
+Size=40 22 0 0 39 21
+Colors=Black Black Orange Brown Gray3 Gray3 Yellow
+DiamondsRequired=5 5 5 5 5
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+PALTiming=true
+FrameTime=150 150 150 150 150
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+AmoebaGrowthProb=0.1700 0.2500
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeability=0.0000 0.0000 0.0000 0.0000 0.0000
+AcidProperties=DIRT 0.1000
+EnemyDirectionProperties.changeathatching=true
+BorderProperties.lineshift=true
+ShortExplosions=false
+Unknown_tag=asd
+
+
+[objects]
+Point=3 4 INBOX
+Point=15 6 DUMMY
+Point=19 6 DUMMY
+Point=15 10 DUMMY
+Point=19 10 DUMMY
+Point=23 10 DUMMY
+Point=23 6 DUMMY
+Point=10 10 DUMMY
+Point=15 4 BOULDER
+Point=19 4 DIAMOND
+Point=15 13 FIREFLYl
+Point=19 13 BUTTERFLYd
+Point=23 13 STONEFLYd
+Point=2 10 GHOST
+Point=10 13 BLADDER
+Point=6 1 BOMB
+Point=7 1 BOMB
+Point=8 1 BOMB
+Line=8 3 8 9 SPACE
+Point=8 9 FIREFLYl
+Point=8 3 BOULDER
+Line=7 18 28 18 BLADDERSPENDER
+Point=7 6 DUMMY
+Point=11 3 DIAMOND
+Point=12 7 DIAMOND
+Point=10 6 DIAMOND
+Point=13 1 DIAMOND
+Point=0 1 OUTBOX
+Point=14 2 DIAMOND
+Point=15 1 DIAMOND
+[/objects]
+[/cave]
+
+[cave]
+Name=Acid
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Red LightRed White White Red
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=plck
+PALTiming=true
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+Point=5 3 ACID
+Point=3 5 INBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Creatures
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Red Brown White White Red
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.time=10
+EnemyDirectionProperties.changeathatching=true
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+Rectangle=8 3 17 8 SPACE
+Point=5 3 INBOX
+Point=8 3 FIREFLYl
+Point=4 3 FIREFLYBUTTERFLYSWITCH
+Raster=9 12 6 7 3 1 SPACE
+Point=9 17 FIREFLYl
+Point=12 17 A_FIREFLYl
+Point=15 17 BUTTERFLYl
+Point=18 17 A_BUTTERFLYl
+Point=21 17 STONEFLYr
+Raster=9 10 6 1 3 1 BOULDER
+Point=24 17 COWl
+[/objects]
+[/cave]
+
+[cave]
+Name=Maze and random fill
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Orange Gray1 White Green Blue
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=plck
+PALTiming=true
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+Maze=1 1 11 7 1 1 50 0 0 0 0 0 DIRT SPACE perfect
+RandomFill=28 1 38 7 0 0 0 0 0 DIRT BOULDER 128 WALL 20
+Maze=12 1 18 7 1 1 50 0 0 0 0 0 DIRT SOKOBANBOX unicursal
+Maze=19 1 27 7 1 1 50 0 0 0 0 0 DIRT SLIME braid
+RandomFillC64=0 10 39 18 10 11 12 13 14 DIRT SPACE 60 BOULDER 50 DIAMOND 9
+Rectangle=0 0 39 21 STEELWALLDESTRUCTABLE
+Point=1 1 FIREFLYl
+Point=1 9 INBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Chasing Stone
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Red Gray3 Cyan Cyan Red
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+PALTiming=true
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+InitialFill=SPACE
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+Point=3 8 INBOX
+Line=7 8 10 8 WAITINGBOULDER
+Line=7 9 10 9 DIRT
+[/objects]
+[/cave]
+
+[cave]
+Name=Amoeba and bonus
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Gray1 LightRed Yellow Green Brown
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=plck
+PALTiming=true
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=10 20
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+Effect=AMOEBABOULDEReffect MEGABOULDER
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+Amoeba2Threshold=0.0341 0.0341 0.0341 0.0341 0.0341
+Amoeba2Time=10 10 10 10 10
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+FillRect=4 2 8 6 BOULDER AMOEBA
+Point=19 5 INBOX
+FillRect=28 2 34 6 DIAMOND
+Point=8 0 OUTBOX
+FillRect=12 2 16 6 BOULDER AMOEBA2
+Line=19 8 28 8 MAGICWALL
+Point=27 6 BOULDER
+Point=25 6 DIAMOND
+[/objects]
+[/cave]
+
+[cave]
+Name=Magic wall
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #998b6e #b23170 #75cc66 #46b231 #776e99
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=crdr7
+PALTiming=true
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=DIAMOND 32 NITRO 24 MEGABOULDER 16 BOULDER 8
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+Line=8 10 29 10 MAGICWALL
+Point=2 9 INBOX
+Line=8 11 29 11 SPACE
+[/objects]
+[/cave]
+
+[cave]
+Name=Gravity & Bladder
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Gray1 LightBlue White White Gray1
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+PALTiming=true
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=BOULDER 18 DIRT 0 DIRT 0 DIRT 0
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+SkeletonsForPot=0
+GravitationChangeDelay=3
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+Rectangle=3 2 13 3 POT
+Point=9 6 GRAVITY_SWITCH
+Point=2 8 INBOX
+Point=5 6 WALL
+Point=5 14 WALL
+Point=5 10 BLADDER
+Line=9 10 23 10 BLADDERSPENDER
+[/objects]
+[/cave]
+
+[cave]
+Name=Sloped wall
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Brown Purple Cyan Cyan Brown
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+PALTiming=true
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+SkeletonsForPot=0
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+Point=19 12 WALLSLOPEDUPLEFT
+Line=19 4 19 8 BOULDER
+Point=2 2 INBOX
+Line=19 16 19 20 BOULDER
+Line=11 1 19 1 POT
+Point=12 3 GRAVITY_SWITCH
+Line=32 12 24 12 BOULDER
+Line=14 12 8 12 BOULDER
+[/objects]
+[/cave]
+
+[cave]
+Name=Biter and PAL emu
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Blue Red White White Orange
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+PALTiming=true
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=DIRTBALL 160 DIRT2 128 DIAMOND 32 BOULDER 16
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+Point=2 8 BITERr
+Point=9 4 BITERSWITCH
+Point=7 5 INBOX
+Point=11 10 WALLSLOPEDDOWNRIGHT
+Point=10 10 WALLSLOPEDDOWNLEFT
+Point=10 9 WALLSLOPEDUPLEFT
+Point=11 9 WALLSLOPEDUPRIGHT
+Rectangle=9 8 12 11 SPACE
+CopyPaste=9 8 12 11 22 7 nomirror noflip
+CopyPaste=9 8 12 11 22 11 mirror flip
+CopyPaste=22 7 25 14 33 5 nomirror noflip
+FillRect=12 2 22 4 WALL BOULDER
+Point=13 3 SPACE
+Point=14 3 BITERl
+[/objects]
+[/cave]
+
+[cave]
+Name=Push
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Blue Purple Yellow Yellow Blue
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+PALTiming=true
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=BOULDER 20 SOKOBANBOX 5 MEGABOULDER 2 DIRT 0
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+Point=10 9 INBOX
+Point=12 9 SWEET
+[/objects]
+[/cave]
+
+[cave]
+Name=Diamond Counting
+Description=Required diamonds are counted at hatching.
+Intermission=false
+Remark=Filled with falling diamonds - so many of them kill creatures.
+Size=40 22 0 0 39 21
+Colors=Black Black Orange Gray3 Yellow Yellow Orange
+DiamondsRequired=0 0 0 0 0
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+PALTiming=true
+FrameTime=160 160 160 160 160
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=FIREFLYl 20 DIAMONDf 10 DIRT 0 DIRT 0
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+Effect=AMOEBADIAMONDeffect DIAMONDBIRTH1
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+FillRect=1 1 4 4 DIRT
+Point=1 1 INBOX
+Point=0 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=rockford shitz rokz
+Intermission=false
+Remark=The boxes are there to test pushing.
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #4c9993 #9675b2 #a3cc46 #75b275 #624c99
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=SOKOBANBOX 10 DIRT 0 DIRT 0 DIRT 0
+SnapEffect=BOULDER
+AmoebaTime=600 600 600 600 600
+MagicWallTime=600 600 600 600 600
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=4 4 INBOX
+FillRect=11 7 14 14 BUTTERFLYl A_BUTTERFLYl
+Point=0 4 OUTBOX
+FillRect=10 1 13 4 STEELWALL AMOEBA
+Line=15 3 18 3 SLIME
+[/objects]
+[/cave]
+
+[cave]
+Name=Nitro
+Author=Czirkos Zoltan
+Date=2008-10-02
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Blue Gray2 White White Blue
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=BOULDER 32 NITRO 16 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+Effect=NITROEXPLOSIONeffect NITRO
+
+[objects]
+Point=5 4 INBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Bladder
+Author=Czirkos Zoltan
+Date=2008-10-12
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=Black Black Red Brown Cyan Cyan Red
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=BLADDER 64 WALL 48 BOULDER 32 DIAMOND 16
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=4 3 INBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Dirt Types
+Author=Czirkos Zoltan
+Date=2009-01-08
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #994c68 #b23a21 #cca7c8 #2bb221 #4c5d99
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=DIRT 4 DIRT 0 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+BiterProperties=3 DIAMOND
+
+[objects]
+FillRect=11 3 19 8 DIRTBALL SPACE
+Point=10 12 INBOX
+Rectangle=22 3 30 8 DIRTLOOSE
+Line=11 1 19 1 NITRO
+Point=20 8 AMOEBA
+FillRect=15 12 22 16 DIRT2 DIRT
+FillRect=26 12 32 16 SPACE DIRT
+Point=27 13 DIRTSLOPEDUPLEFT
+Point=27 15 DIRTSLOPEDDOWNLEFT
+Point=31 13 DIRTSLOPEDUPRIGHT
+Point=31 15 DIRTSLOPEDDOWNRIGHT
+[/objects]
+[/cave]
+
+[cave]
+Name=Lava
+Author=Czirkos Zoltan
+Date=2009-01-08
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #ad3b22 #197f55 #97da2b #197f34 #2245ad
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=BOULDER 32 MEGABOULDER 24 DIAMOND 16 DIRTBALL 8
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=12 9 21 9 LAVA
+Point=4 5 INBOX
+Line=11 10 22 10 STEELWALL
+Point=11 9 STEELWALL
+Point=22 9 STEELWALL
+Point=18 4 BITERd
+Line=17 2 17 8 SPACE
+Line=19 2 19 8 SPACE
+[/objects]
+[/cave]
+
+[cave]
+Name=Replicator
+Author=Czirkos Zoltan
+Date=2009-01-08
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #26617f #8910a2 #40c527 #3ea210 #3c267f
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=DIAMOND 32 BOULDER 16 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=7 10 INBOX
+Point=17 8 FIREFLYl
+Point=19 8 BOMB
+Point=4 9 REPLICATORSWITCH
+Line=10 9 22 9 REPLICATOR
+Line=10 10 22 10 SPACE
+[/objects]
+[/cave]
+
+[cave]
+Name=Conveyor belt
+Author=Czirkos Zoltan
+Date=2009-01-08
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #6e4c99 #2c75b2 #99ccb0 #35b22c #504c99
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=FLYINGBOULDER 32 FLYINGDIAMOND 24 DIAMOND 16 BOULDER 8
+SlimePermeabilityC64=0 0 0 0 0
+SkeletonsForPot=0
+
+[objects]
+Line=8 14 18 14 CONVEYORRIGHT
+Point=3 3 INBOX
+Line=22 14 35 14 CONVEYORLEFT
+Point=3 11 CONVEYORSWITCH
+Point=5 11 CONVEYORDIRECTIONSWITCH
+Rectangle=11 1 21 2 POT
+Point=24 3 GRAVITY_SWITCH
+Point=5 2 GRAVITY_SWITCH
+[/objects]
+[/cave]
+
+[cave]
+Name=Dragonfly
+Author=Czirkos Zoltan
+Date=2009-01-09
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #99605f #5842b2 #75cc66 #46b242 #655f99
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=SPACE 128 DIAMOND 16 BOULDER 8 DRAGONFLYl 4
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=3 10 INBOX
+Point=1 9 FIREFLYBUTTERFLYSWITCH
+Rectangle=2 9 4 11 DIRT
+[/objects]
+[/cave]
+
+[cave]
+Name=Dragonfly gun
+Author=Czirkos Zoltan
+Date=2009-01-09
+Intermission=false
+Remark=The different interval the dragonflies appear is due to their spinning. They turn around in 4 frames, while the replicator waits 4 frames between replicating (so 5 frames between each new dragonfly.)
+Size=40 22 1 3 39 21
+Colors=#000000 #000000 #994c52 #b27c24 #cca2c2 #24b235 #4c6299
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+InitialFill=SPACE
+SlimePermeabilityC64=0 0 0 0 0
+ReplicatorProperties.sound=false
+
+[objects]
+Line=1 2 38 2 STEELWALL
+Point=17 21 LAVA
+Point=16 4 STEELWALLSLOPEDDOWNLEFT
+Point=18 4 STEELWALLSLOPEDDOWNRIGHT
+Line=38 3 1 3 STEELWALL
+Line=1 1 38 1 STEELWALL
+Point=17 2 REPLICATOR
+Point=17 1 DRAGONFLYl
+Point=13 4 INBOX
+Line=1 20 1 2 STEELWALL
+Point=0 9 DRAGONFLYl
+Point=0 10 REPLICATOR
+Point=0 11 SPACE
+Point=1 11 SPACE
+Point=2 12 STEELWALLSLOPEDDOWNRIGHT
+Point=2 10 STEELWALLSLOPEDUPRIGHT
+Point=39 11 LAVA
+Point=17 3 SPACE
+[/objects]
+[/cave]
+
+[cave]
+Name=Expanding wall
+Author=Czirkos Zoltan
+Date=2009-01-13
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #99347f #b2a559 #869ecc #76b259 #413499
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=10 5 12 5 HEXPANDINGWALL
+Line=20 4 20 6 VEXPANDINGWALL
+Line=26 4 28 6 EXPANDINGWALL
+Point=2 10 EXPANDINGWALLSWITCH
+Line=10 16 12 16 HEXPANDINGSTEELWALL
+Line=20 15 20 17 VEXPANDINGSTEELWALL
+Line=26 15 28 17 EXPANDINGSTEELWALL
+Point=5 7 INBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Flying stones and diamonds
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #b23872 #68997b #ccc766 #699968 #3856b2
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+PALTiming=true
+FrameTime=200 200 200 200 200
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=FLYINGBOULDER 32 FLYINGDIAMOND 16 FIREFLYl 4 BUTTERFLYl 2
+DummyProperties.diamondcollector=true
+DummyProperties.penalty=true
+DummyProperties.destructable=false
+AmoebaProperties.immediately=false
+AmoebaProperties.waitforhatching=true
+AmoebaTime=600 600 600 600 600
+MagicWallTime=600 600 600 600 600
+MagicWallProperties.waitforhatching=true
+MagicWallProperties.flyingstoneto=FLYINGBOULDERf
+MagicWallProperties.flyingdiamondto=FLYINGDIAMONDf
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+EnemyDirectionProperties.changeathatching=true
+SkeletonsForPot=0
+BorderProperties.lineshift=true
+ShortExplosions=false
+
+[objects]
+Line=11 12 32 12 MAGICWALL
+Point=2 9 INBOX
+Line=11 13 32 13 SPACE
+FillRect=4 1 11 8 DIRT SPACE
+Point=6 4 BOULDER
+Point=6 5 FLYINGBOULDER
+Point=9 4 DIAMOND
+Point=9 5 FLYINGDIAMOND
+Line=11 11 32 11 SPACE
+Line=11 10 32 10 DIRT
+Line=11 14 32 14 DIRT
+Rectangle=1 8 3 10 DIRT
+FillRect=1 1 4 7 DIRT
+Rectangle=1 1 3 2 POT
+Rectangle=2 5 2 5 GRAVITY_SWITCH
+[/objects]
+[/cave]
+
+[cave]
+Name=Slime
+Author=Czirkos Zoltan
+Date=2009-01-19
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #22ae52 #7f5e26 #7dde16 #267f26 #2251ae
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=FLYINGBOULDER 32 FLYINGDIAMOND 24 BOULDER 16 DIAMOND 8
+SlimePermeabilityC64=0 0 0 0 0
+SkeletonsForPot=0
+
+[objects]
+Line=7 10 29 10 SLIME
+FillRect=5 11 1 7 DIRT
+Point=4 8 INBOX
+Rectangle=5 6 1 5 POT
+Point=2 10 GRAVITY_SWITCH
+Rectangle=14 8 20 9 DIRT2
+Point=18 9 CHASINGBOULDER
+Point=19 9 CHASINGBOULDER
+Point=16 9 WAITINGBOULDER
+Point=15 9 WAITINGBOULDER
+[/objects]
+[/cave]
+
+[cave]
+Name=Fillers
+Author=Czirkos Zoltan
+Date=2010-04-24
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #6fb259 #1b993d #c3cca7 #21991b #7459b2
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RandomFill=BOULDER 16 DIRT 0 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=5 6 8 14 WALL
+Line=8 14 15 11 WALL
+Line=15 11 9 8 WALL
+Line=9 8 20 7 WALL
+Line=20 7 14 1 WALL
+Line=14 1 5 6 WALL
+BoundaryFill=10 5 SPACE WALL
+Line=32 1 32 20 STEELWALL
+FloodFill=34 4 DIAMOND DIRT
+Point=24 2 INBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Small Cave
+Author=Czirkos Zoltan
+Date=2013-02-26
+Intermission=false
+Size=40 22 15 8 22 13
+Colors=#000000 #000000 #59b278 #997821 #b3cc9e #21992f #595ab2
+DiamondsRequired=1 1 1 1 1
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+FillRect=1 1 38 20 STEELWALL
+FillRect=15 8 22 13 STEELWALL SPACE
+Point=15 12 INBOX
+Point=15 9 OUTBOX
+Point=18 9 DIAMOND
+Line=20 9 20 12 DIRT
+Point=21 9 FIREFLYl
+Point=20 9 BOULDER
+[/objects]
+[/cave]
+
+[cave]
+Name=Sound
+Author=Czirkos Zoltan
+Date=2013-02-26
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #0c7f35 #203ea4 #c83caf #3da420 #0c187f
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=14 8 INBOX
+Point=20 11 AMOEBA
+[/objects]
+[/cave]
+
+[cave]
+Name=Keys and doors
+Author=Czirkos Zoltan
+Date=2013-03-16
+Intermission=false
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #544c99 #b23190 #ccac94 #36b231 #4f4c99
+DiamondsRequired=10 10 10 10 10
+CaveTime=999 999 999 999 999
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=5 7 KEY1
+Point=8 7 KEY2
+Point=11 7 KEY3
+Point=14 7 DIAMONDRELEASEKEY
+Point=5 9 DOOR1
+Point=8 9 DOOR2
+Point=11 9 DOOR3
+Point=14 9 TRAPPEDDIAMOND
+Point=3 4 INBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Rocket launcher
+Author=Czirkos Zoltan
+Date=2013-03-17
+Intermission=true
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #994c87 #3533b2 #92ccc0 #33b242 #594c99
+DiamondsRequired=8 8 8 8 8
+CaveTime=60 60 60 60 60
+CaveScheduling=ms
+FrameTime=180 160 140 120 120
+CaveDelay=0 0 0 0 0
+DiamondValue=0 0
+RocketLauncher.infinite=true
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=1 11 INBOX
+Point=1 6 ROCKET_LAUNCHER
+Point=18 0 OUTBOX
+FillRect=5 1 1 4 WALL DIAMOND
+FillRect=9 1 5 4 WALL DIAMOND
+FillRect=13 1 9 4 WALL DIAMOND
+FillRect=18 1 13 4 WALL DIAMOND
+[/objects]
+
+[replay]
+Level=1
+Player=Czirkos Zoltan
+Date=2013-03-17 00:12
+RecordedWith=GDash 20130315unstable
+RandomSeed=14435
+Score=4
+CheckSum=-564246749
+Movements=.28 u5 r2 .6 u . d3 . U . r3 .10 l3 . u2 r u l2 d2 r3 . u2 . l3 u2 d3 .3 u r15 dr d l17 .2 R .22 u .2 R .22 r5 dr d4 . U r4 . u2 . U . d2 r2 .11 u3 l8 d2 r2 d r3 ur u2 r7 .2 l3 r3 u3 l u ul l2 u2 r3 d3 l7 .4 L .4 R . U . d2 l2 .3 u5 .3 R .8 R .11 r11 u2
+[/replay]
+[/cave]
+[/game]
+[/BDCFF]
