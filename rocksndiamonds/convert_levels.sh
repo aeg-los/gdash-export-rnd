@@ -117,6 +117,8 @@ create_level_group_conf ()
     echo ""							>> "$CONF_FILE"
     echo "latest_engine:                  true"			>> "$CONF_FILE"
     echo "level_group:                    true"			>> "$CONF_FILE"
+    echo ""							>> "$CONF_FILE"
+    echo "replay_with_old_engine:         true"			>> "$CONF_FILE"
 }
 
 create_level_set_conf ()
