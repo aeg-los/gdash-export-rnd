@@ -171,11 +171,11 @@ create_level_set_conf ()
     NUM_LEVELS_TOTAL=$((NUM_LEVELS_TOTAL + NUM_LEVELS))
     NUM_LEVELSETS_TOTAL=$((NUM_LEVELSETS_TOTAL + 1))
 
-    FIRST_LEFVEL=1
+    FIRST_LEVEL=1
 
     echo ""							>> "$CONF_FILE"
     echo "levels:                         $NUM_LEVELS"		>> "$CONF_FILE"
-    echo "first_level:                    $FIRST_LEFVEL"	>> "$CONF_FILE"
+    echo "first_level:                    $FIRST_LEVEL"		>> "$CONF_FILE"
 
     if [ "$BUILD_COMPLETE" != "0" ]; then
         echo ""							>> "$CONF_FILE"
@@ -190,7 +190,7 @@ create_level_set_conf ()
 	    NAME_SORTING=$NAME
 	fi
 
-	echo "INSERT INTO levelsets VALUES (NULL, \"$LEVELSET\", \"$LEVELSET\", \"$NAME\", \"$NAME_SORTING\", \"$NAME\", \"$AUTHOR\", $NUM_LEVELS, $FIRST_LEFVEL, 1, \"$DATESTAMP 00:00:00\", NULL);" >> "$SQL_FILENAME"
+	echo "INSERT INTO levelsets VALUES (NULL, \"$LEVELSET\", \"$LEVELSET\", \"$NAME\", \"$NAME_SORTING\", \"$NAME\", \"$AUTHOR\", $NUM_LEVELS, $FIRST_LEVEL, 1, \"$DATESTAMP 00:00:00\", NULL);" >> "$SQL_FILENAME"
 
     fi
 }
