@@ -43,6 +43,7 @@ Line=1 1 7 7 STEELWALL
 Line=38 1 32 7 STEELWALL
 Point=19 12 INBOX
 Point=20 12 OUTBOX
+Line=18 13 21 13 DIRT
 [/objects]
 [/cave]
 
