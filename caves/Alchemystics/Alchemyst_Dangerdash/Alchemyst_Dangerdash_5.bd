@@ -1,0 +1,1716 @@
+[BDCFF]
+Version=0.5
+
+[game]
+Name=Alchemyst Dangerdash 5
+Author=Alchemystics
+Date=2025-05-31
+TitleScreen=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
+Levels=5
+
+[cave]
+Name=A
+Description=Constraints
+Author=Alchemystics
+Date=2025-05-31
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Brown Orange Yellow Yellow Brown
+DiamondsRequired=75 75 75 75 80
+CaveTime=160 140 120 100 90
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=9 21
+RandSeed=2 11 18 23 26
+RandomFill=DIAMOND 75 SPACE 40 FIREFLYl 20 BOULDER 15
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Line=5 5 5 16 WALL
+Line=34 5 34 16 WALL
+Line=33 16 6 16 WALL
+Line=6 5 33 5 WALL
+Line=15 6 15 15 WALL
+Line=24 6 24 15 WALL
+Line=1 19 2 20 DIRT
+Line=1 18 3 20 DIRT
+Line=37 1 38 2 DIRT
+Line=36 1 38 3 DIRT
+Point=1 20 INBOX
+Point=38 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=B
+Description=Chillout
+Author=Alchemystics
+Date=2025-06-02
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Gray2 Blue White White White
+DiamondsRequired=50 50 50 50 50
+CaveTime=150 130 110 90 80
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=12 18
+RandSeed=0 4 20 23 29
+InitialFill=BOULDER
+RandomFill=DIAMOND 170 BOULDER 124 DIRT 55 DIRT 0
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Rectangle=1 1 38 20 DIRT
+[Level=1,2,3,4]
+Rectangle=4 3 35 18 DIRT
+[/Level]
+[Level=1,2,3,5]
+Rectangle=7 5 32 16 DIRT
+[/Level]
+[Level=1,2,4,5]
+Rectangle=29 14 10 7 DIRT
+[/Level]
+FillRect=18 9 21 12 DIRT
+Point=19 10 INBOX
+Point=20 11 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=C
+Description=Butterfree
+Author=Alchemystics
+Date=2025-06-02
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Blue Green Yellow Yellow Yellow
+DiamondsRequired=45 50 55 60 65
+CaveTime=150 140 130 120 100
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=7 7 7 7 7
+DiamondValue=8 14
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Rectangle=7 6 8 7 BUTTERFLYl
+Rectangle=15 6 16 7 BUTTERFLYl
+Rectangle=23 6 24 7 BUTTERFLYl
+Rectangle=31 6 32 7 BUTTERFLYl
+Rectangle=7 13 8 14 BUTTERFLYl
+Rectangle=15 13 16 14 BUTTERFLYl
+Rectangle=23 13 24 14 BUTTERFLYl
+Rectangle=31 13 32 14 BUTTERFLYl
+Point=8 7 BOULDER
+Point=16 7 BOULDER
+Point=24 7 BOULDER
+Point=32 7 BOULDER
+Point=8 14 BOULDER
+Point=16 14 BOULDER
+Point=24 14 BOULDER
+Point=32 14 BOULDER
+Point=1 1 INBOX
+Point=38 20 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=D
+Description=Breakout Glitch
+Author=Alchemystics
+Date=2025-06-27
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Brown Red Cyan Cyan Brown
+DiamondsRequired=18 20 22 24 27
+CaveTime=180 180 180 180 180
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=8 8 7 7 7
+DiamondValue=30 40
+RandSeed=0 2 4 21 32
+RandomFill=BOULDER 105 SPACE 55 DIRT 20 FIREFLYl 4
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallTime=30 30 30 30 30
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+FillRect=1 20 38 16 DIRT
+Line=1 17 38 17 MAGICWALL
+Line=1 12 38 12 WALL
+Rectangle=18 1 20 2 DIRT
+Point=19 1 INBOX
+Point=1 1 OUTBOX
+Point=38 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Break 1
+Description=Lockout
+Author=Alchemystics
+Date=2025-06-27
+Selectable=false
+Intermission=true
+Size=20 12 0 0 19 11
+Colors=Black Black Gray1 Gray2 Yellow Yellow Gray1
+DiamondsRequired=35 35 35 35 35
+CaveTime=40 38 36 34 30
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=6 6 6 6 6
+DiamondValue=33 67
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Line=4 10 8 10 SPACE
+Line=11 10 18 10 SPACE
+Line=3 1 3 10 WALL
+Line=6 1 6 10 WALL
+Line=16 1 16 10 WALL
+Line=13 1 13 10 WALL
+Point=4 1 BOULDER
+Point=7 1 BOULDER
+Point=12 1 BOULDER
+Point=15 1 BOULDER
+Line=17 6 18 6 WALL
+Point=18 1 OUTBOX
+Point=10 1 INBOX
+Line=1 1 1 10 DIAMOND
+Line=2 10 2 1 DIAMOND
+Line=4 10 4 10 FIREFLYl
+Line=7 10 7 10 FIREFLYl
+Line=11 10 11 10 BUTTERFLYl
+Line=14 10 14 10 BUTTERFLYl
+Line=17 10 17 10 BUTTERFLYl
+[/objects]
+[/cave]
+
+[cave]
+Name=E
+Description=Warehouse
+Author=Alchemystics
+Date=2025-06-30
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Red Orange Yellow Yellow Yellow
+DiamondsRequired=35 40 40 45 45
+CaveTime=160 150 140 130 100
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=15 25
+RandSeed=14 21 28 42 49
+RandomFill=BOULDER 40 SPACE 25 DIRT 15 BOULDER 0
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallTime=20 20 20 20 20
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+FillRect=6 5 9 10 BOULDER DIAMOND
+Rectangle=5 4 10 11 WALL
+Rectangle=17 4 22 11 WALL
+Rectangle=29 4 34 11 WALL
+FillRect=18 5 21 10 BOULDER DIAMOND
+FillRect=30 5 33 10 BOULDER DIAMOND
+Line=1 1 38 1 SPACE
+Line=5 15 10 15 DIRT
+Line=17 15 22 15 DIRT
+Line=29 15 34 15 DIRT
+Line=5 16 10 16 MAGICWALL
+Line=17 16 22 16 MAGICWALL
+Line=29 16 34 16 MAGICWALL
+Point=4 1 FIREFLYl
+Point=16 1 FIREFLYl
+Point=28 1 FIREFLYl
+Point=11 1 FIREFLYr
+Point=23 1 FIREFLYr
+Point=35 1 FIREFLYr
+Point=1 20 INBOX
+Point=38 20 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=F
+Description=The Divide
+Author=Alchemystics
+Date=2025-06-28
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Brown Cyan White White Brown
+DiamondsRequired=70 70 70 70 70
+CaveTime=160 150 140 120 100
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=9 18
+RandSeed=1 3 5 7 9
+RandomFill=BOULDER 115 DIAMOND 70 DIRT 30 WALL 20
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Line=1 1 20 20 FIREFLYl
+Line=38 20 19 1 FIREFLYl
+Line=1 19 2 20 DIRT
+Line=1 18 3 20 DIRT
+Line=1 17 4 20 DIRT
+Line=1 16 5 20 DIRT
+Line=37 1 38 2 DIRT
+Line=36 1 38 3 DIRT
+Point=1 20 INBOX
+Point=38 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=G
+Description=Zip Launch
+Author=Alchemystics
+Date=2025-06-23
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Gray1 Yellow White White Gray1
+DiamondsRequired=99 99 99 99 99
+CaveTime=170 160 150 140 120
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=6 9
+RandomFill=BOULDER 128 DIRT 102 BOULDER 64 DIRT 40
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+AmoebaTime=120 110 100 90 70
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Line=10 1 10 20 DIRT
+Line=11 1 11 20 DIRT
+Line=12 1 12 20 DIRT
+Line=1 1 9 9 SPACE
+Line=1 2 10 11 BOULDER
+Line=1 3 9 11 BUTTERFLYl
+Line=2 1 9 8 STEELWALL
+Line=1 4 9 12 STEELWALL
+Line=1 5 9 13 SPACE
+Line=1 6 10 15 BOULDER
+Line=1 7 9 15 BUTTERFLYl
+Line=1 8 9 16 STEELWALL
+Line=3 1 9 7 BUTTERFLYl
+Line=4 1 10 7 BOULDER
+Line=5 1 9 5 SPACE
+Line=6 1 9 4 STEELWALL
+Line=1 9 9 17 SPACE
+Line=1 10 10 19 BOULDER
+Line=1 11 9 19 BUTTERFLYl
+Line=1 12 9 20 STEELWALL
+Line=1 13 8 20 STEELWALL
+Line=7 20 1 14 STEELWALL
+Line=1 15 6 20 STEELWALL
+Line=5 20 1 20 STEELWALL
+Line=4 19 1 16 STEELWALL
+Line=1 17 3 19 STEELWALL
+Line=2 19 1 18 STEELWALL
+Line=1 19 1 19 STEELWALL
+Rectangle=38 1 36 3 DIRT
+Rectangle=38 1 37 2 AMOEBA
+FillRect=38 20 36 18 DIRT
+Point=37 19 INBOX
+Point=7 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=H
+Description=Raceway
+Author=Alchemystics
+Date=2025-06-28
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Green Gray2 Yellow Yellow Yellow
+DiamondsRequired=20 25 30 35 40
+CaveTime=140 120 100 85 75
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=15 25
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Rectangle=5 5 34 16 STEELWALL
+Rectangle=32 14 7 7 STEELWALL
+Rectangle=9 9 30 12 STEELWALL
+Rectangle=3 3 36 18 STEELWALL
+Rectangle=4 4 35 17 SPACE
+Rectangle=6 6 33 15 SPACE
+Rectangle=8 8 31 13 SPACE
+Rectangle=10 10 29 11 DIAMOND
+Point=8 3 DIRT
+Point=12 5 DIRT
+Point=16 7 DIRT
+Point=20 9 DIRT
+Point=31 3 DIRT
+Point=27 5 DIRT
+Point=23 7 DIRT
+Point=19 9 DIRT
+Point=19 12 DIRT
+Point=20 12 DIRT
+Point=16 14 DIRT
+Point=12 16 DIRT
+Point=27 16 DIRT
+Point=31 18 DIRT
+Point=8 18 DIRT
+Point=16 18 DIRT
+Point=23 14 DIRT
+Point=23 18 DIRT
+Point=16 3 DIRT
+Point=23 3 DIRT
+Point=5 7 DIRT
+Point=5 14 DIRT
+Point=34 7 DIRT
+Point=34 14 DIRT
+Point=32 13 DIRT
+Point=7 13 DIRT
+Point=7 8 DIRT
+Point=32 8 DIRT
+Point=35 10 FIREFLYu
+Point=35 6 FIREFLYu
+Point=33 4 FIREFLYl
+Point=29 4 FIREFLYl
+Point=25 4 FIREFLYl
+Point=21 4 FIREFLYl
+Point=33 7 FIREFLYu
+Point=31 6 FIREFLYl
+Point=28 6 FIREFLYl
+Point=25 6 FIREFLYl
+Point=27 8 FIREFLYl
+Point=25 8 FIREFLYl
+Point=23 8 FIREFLYl
+Point=21 8 FIREFLYl
+Point=19 8 FIREFLYl
+Point=17 8 FIREFLYl
+Point=22 6 FIREFLYl
+Point=19 6 FIREFLYl
+Point=10 9 DIRT
+Point=10 12 DIRT
+Point=29 12 DIRT
+Point=29 9 DIRT
+Point=38 1 INBOX
+Point=1 20 OUTBOX
+[Level=2,3,4,5]
+Point=17 4 FIREFLYl
+[/Level]
+[Level=3,4,5]
+Point=13 4 FIREFLYl
+[/Level]
+[Level=4,5]
+Point=9 4 FIREFLYl
+[/Level]
+[Level=5]
+Point=5 4 FIREFLYl
+[/Level]
+[Level=2,3,4,5]
+Point=16 6 FIREFLYl
+[/Level]
+[Level=3,4,5]
+Point=13 6 FIREFLYl
+[/Level]
+[Level=4,5]
+Point=10 6 FIREFLYl
+[/Level]
+[Level=5]
+Point=7 6 FIREFLYl
+[/Level]
+[Level=2,3,4,5]
+Point=15 8 FIREFLYl
+[/Level]
+[Level=3,4,5]
+Point=13 8 FIREFLYl
+[/Level]
+[Level=4,5]
+Point=11 8 FIREFLYl
+[/Level]
+[Level=5]
+Point=9 8 FIREFLYl
+[/Level]
+[/objects]
+[/cave]
+
+[cave]
+Name=Break 2
+Description=Burial
+Author=chemystics
+Date=2025-06-28
+Selectable=false
+Intermission=true
+Size=20 12 0 0 19 11
+Colors=Black Black Blue LightBlue Cyan Cyan Blue
+DiamondsRequired=36 36 36 36 36
+CaveTime=30 30 30 30 30
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=6 6 6 6 6
+DiamondValue=30 40
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Point=9 10 INBOX
+Point=18 1 OUTBOX
+Line=1 2 18 2 BOULDER
+Line=1 1 17 1 BUTTERFLYl
+[/objects]
+[/cave]
+
+[cave]
+Name=I
+Description=Galaxy Bounce
+Author=Alchemystics
+Date=2025-06-28
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Blue Purple LightGreen White Gray1
+DiamondsRequired=50 50 50 50 50
+CaveTime=160 160 160 160 160
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=15 18
+RandSeed=12 21 33 48 69
+RandomFill=BOULDER 70 SPACE 40 DIRT 21 BUTTERFLYl 10
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Line=38 20 31 20 STEELWALL
+Line=38 19 38 13 STEELWALL
+Line=37 16 37 19 STEELWALL
+Line=36 19 34 19 STEELWALL
+Line=38 8 38 1 STEELWALL
+Line=37 5 37 1 STEELWALL
+Line=36 1 31 1 STEELWALL
+Line=34 2 36 2 STEELWALL
+Line=25 20 31 14 STEELWALL
+Line=24 20 19 20 STEELWALL
+Line=21 19 25 19 STEELWALL
+Line=23 18 26 18 STEELWALL
+Line=25 17 27 17 STEELWALL
+Line=27 16 29 14 STEELWALL
+Line=28 16 31 13 STEELWALL
+Line=30 13 30 9 STEELWALL
+Line=31 12 31 10 STEELWALL
+Line=31 9 26 4 STEELWALL
+Line=25 4 23 4 STEELWALL
+Line=21 5 26 5 STEELWALL
+Line=20 6 18 8 STEELWALL
+Line=26 6 27 6 STEELWALL
+Line=28 7 29 8 STEELWALL
+Point=29 9 STEELWALL
+Point=36 18 STEELWALL
+Point=36 3 STEELWALL
+Line=1 1 8 1 STEELWALL
+Line=5 2 1 2 STEELWALL
+Line=1 3 1 8 STEELWALL
+Line=2 3 2 5 STEELWALL
+Line=1 13 1 20 STEELWALL
+Line=2 16 2 20 STEELWALL
+Line=3 20 8 20 STEELWALL
+Line=3 19 5 19 STEELWALL
+Line=20 1 15 1 STEELWALL
+Line=14 1 8 7 STEELWALL
+Line=8 8 14 2 STEELWALL
+Line=18 2 15 2 STEELWALL
+Line=16 3 14 3 STEELWALL
+Line=14 4 13 4 STEELWALL
+Line=12 5 9 8 STEELWALL
+Line=8 9 8 11 STEELWALL
+Line=8 12 13 17 STEELWALL
+Line=14 17 16 17 STEELWALL
+Line=13 16 17 16 STEELWALL
+Line=18 16 21 13 STEELWALL
+Line=12 15 13 15 STEELWALL
+Line=9 9 9 11 STEELWALL
+Line=9 12 10 12 STEELWALL
+Line=10 13 11 14 STEELWALL
+[Level=4,5]
+Point=13 1 INBOX
+[/Level]
+[Level=4,5]
+Point=26 20 OUTBOX
+[/Level]
+[Level=1,2,3]
+Point=13 1 OUTBOX
+[/Level]
+[Level=1,2,3]
+Point=26 20 INBOX
+[/Level]
+Line=27 19 27 20 DIRT
+Line=12 1 12 2 DIRT
+Line=11 1 11 3 DIRT
+Line=28 18 28 20 DIRT
+[/objects]
+[/cave]
+
+[cave]
+Name=J
+Description=The Trick
+Author=Alchemystics
+Date=2025-06-30
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Red Gray2 White White Red
+DiamondsRequired=75 80 85 90 95
+CaveTime=180 165 150 135 110
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=5 15
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Point=38 1 INBOX
+Line=2 1 22 1 BOULDER
+FillRect=24 1 33 20 SPACE BUTTERFLYl
+Line=24 19 33 19 STEELWALL
+Line=33 18 24 18 STEELWALL
+Line=33 17 33 1 STEELWALL
+Line=32 1 32 17 STEELWALL
+Line=31 1 24 1 STEELWALL
+Line=24 2 31 2 STEELWALL
+Line=24 3 24 16 STEELWALL
+Line=25 16 25 3 STEELWALL
+Line=26 16 30 16 STEELWALL
+Line=26 15 30 15 STEELWALL
+Line=30 14 30 4 STEELWALL
+Line=29 4 27 4 STEELWALL
+Line=29 5 29 14 STEELWALL
+Line=27 5 27 13 STEELWALL
+Line=26 14 28 14 SPACE
+Line=26 3 31 3 SPACE
+Point=25 19 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=K
+Description=Hello again, Pedro!
+Author=Alchemystics
+Date=2025-06-30
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Brown Orange Yellow Yellow Yellow
+DiamondsRequired=80 80 80 80 80
+CaveTime=180 175 170 165 145
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=7 7 7 7 7
+DiamondValue=7 15
+RandSeed=4 12 20 28 32
+RandomFill=SPACE 55 BOULDER 35 FIREFLYl 5 DIRT 0
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+AmoebaTime=90 85 80 75 60
+MagicWallTime=3 3 3 3 3
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Line=1 12 9 20 WALL
+Line=10 19 25 4 WALL
+Line=17 13 17 20 WALL
+Line=25 20 25 13 WALL
+Line=34 19 38 15 WALL
+Line=33 20 17 4 WALL
+Line=18 20 21 17 DIRT
+Line=22 18 24 20 DIRT
+Line=21 18 19 20 DIRT
+Line=22 19 23 20 DIRT
+Line=21 19 20 20 DIRT
+Line=22 20 21 20 DIRT
+Line=8 19 6 17 DIRT
+Line=34 19 36 17 DIRT
+Line=2 20 1 19 DIRT
+Line=1 18 3 20 DIRT
+Line=1 17 4 20 DIRT
+Line=35 20 38 17 DIRT
+Line=36 20 38 18 DIRT
+Line=37 20 38 19 DIRT
+Point=21 20 AMOEBA
+Point=38 20 INBOX
+Point=1 20 OUTBOX
+Point=1 12 MAGICWALL
+Line=1 13 2 12 STEELWALL
+Line=18 13 24 13 WALL
+[/objects]
+[/cave]
+
+[cave]
+Name=L
+Description=Collections
+Author=Alchemystics
+Date=2025-05-31
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Red Purple White White Red
+DiamondsRequired=150 150 150 150 150
+CaveTime=150 130 110 90 70
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=4 4
+InitialFill=DIAMOND
+RandomFill=BOULDER 175 DIRT 125 DIRT 0 DIRT 0
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Line=1 14 30 14 STEELWALL
+Line=38 7 9 7 STEELWALL
+Point=1 20 INBOX
+Point=38 1 OUTBOX
+Line=1 19 2 20 DIRT
+Line=1 18 3 20 DIRT
+Line=1 17 4 20 DIRT
+Line=1 16 5 20 DIRT
+Line=37 1 38 2 DIRT
+Line=36 1 38 3 DIRT
+Line=35 1 38 4 DIRT
+Line=34 1 38 5 DIRT
+[/objects]
+[/cave]
+
+[cave]
+Name=Break 3
+Description=Debris
+Author=chemystics
+Date=2025-06-30
+Selectable=false
+Intermission=true
+Size=20 12 0 0 19 11
+Colors=Black Black Gray1 Red Yellow Yellow Gray1
+DiamondsRequired=107 107 107 107 107
+CaveTime=60 60 60 60 60
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=7 7 7 7 7
+DiamondValue=4 99
+RandSeed=2 2 2 9 28
+RandomFill=BOULDER 78 SPACE 62 FIREFLYl 5 DIRT 0
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+AmoebaTime=20 20 20 20 20
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+FillRect=1 1 4 10 STEELWALL
+FillRect=18 1 15 10 STEELWALL
+FillRect=5 1 5 1 INBOX STEELWALL
+Line=4 9 2 9 DIRT
+Line=15 2 17 2 DIRT
+Line=2 8 2 8 AMOEBA
+Line=17 3 17 3 AMOEBA
+Line=1 9 1 9 AMOEBA
+Line=18 2 18 2 AMOEBA
+Line=2 10 2 10 AMOEBA
+Line=17 1 17 1 AMOEBA
+Line=1 10 1 10 OUTBOX
+Line=18 1 18 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=M
+Description=Strange Magic
+Author=Alchemystics
+Date=2025-06-30
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Brown LightRed Yellow Yellow Brown
+DiamondsRequired=35 35 35 35 35
+CaveTime=170 160 150 140 120
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=12 35
+RandSeed=1 2 3 7 13
+RandomFill=BOULDER 75 DIAMOND 35 STEELWALL 30 MAGICWALL 8
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallTime=60 60 60 60 60
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+FillRect=1 18 3 20 DIRT
+FillRect=38 1 36 3 DIRT
+Point=2 19 INBOX
+Point=37 2 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=N
+Description=tac Lacora
+Author=Alchemystics
+Date=2025-06-30
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Gray1 Purple White White Gray1
+DiamondsRequired=70 70 70 70 70
+CaveTime=150 130 120 110 90
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=7 11
+RandSeed=1 5 14 17 25
+RandomFill=DIAMOND 120 SPACE 85 BOULDER 40 FIREFLYl 10
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+FillRect=17 8 19 10 DIRT STEELWALL
+FillRect=20 8 22 10 DIRT STEELWALL
+FillRect=17 11 19 13 DIRT STEELWALL
+FillRect=20 11 22 13 DIRT STEELWALL
+Point=19 11 INBOX
+Point=20 10 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=O
+Description=Seaweed II
+Author=Alchemystics
+Date=2025-06-28
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Blue Blue Green LightGreen Yellow Yellow Yellow
+DiamondsRequired=120 120 120 120 120
+CaveTime=175 150 135 125 100
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=5 6
+RandSeed=2 8 12 15 20
+InitialFill=BUTTERFLYl
+RandomFill=SPACE 160 DIRT 80 SPACE 40 DIRT 20
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+FillRect=1 1 23 20 SPACE
+Line=34 1 34 20 DIRT
+Line=29 20 29 1 DIRT
+Line=24 1 24 20 DIRT
+Line=25 14 38 14 DIRT
+Line=25 7 38 7 DIRT
+Line=24 1 24 5 STEELWALL
+Line=1 1 23 1 HEXPANDINGWALL
+Line=23 2 1 2 HEXPANDINGWALL
+Line=23 3 1 3 HEXPANDINGWALL
+Line=1 3 1 20 VEXPANDINGWALL
+Line=2 4 2 20 VEXPANDINGWALL
+Line=3 4 3 20 VEXPANDINGWALL
+Line=7 7 5 5 AMOEBA
+Line=7 4 4 7 AMOEBA
+Point=4 20 INBOX
+Point=24 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=P
+Description=Trauma
+Author=Alchemystics
+Date=2025-06-30
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Blue LightRed Cyan Cyan Blue
+DiamondsRequired=64 72 72 80 80
+CaveTime=120 120 100 100 80
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=8 8 7 7 6
+DiamondValue=5 10
+InitialFill=SPACE
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallTime=40 40 36 36 32
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+FillRect=0 0 11 9 STEELWALL BOULDER
+FillRect=28 0 39 9 STEELWALL BOULDER
+FillRect=14 0 25 9 STEELWALL BOULDER
+Point=3 9 DIRT
+Point=8 9 DIRT
+Point=17 9 DIRT
+Point=22 9 DIRT
+Point=31 9 DIRT
+Point=36 9 DIRT
+Line=2 13 5 16 WALL
+Line=6 16 9 13 WALL
+Line=30 13 33 16 WALL
+Line=34 16 37 13 WALL
+Line=20 14 22 16 WALL
+Line=19 14 17 16 WALL
+Line=16 16 13 13 WALL
+Line=23 16 26 13 WALL
+Point=19 15 INBOX
+Point=20 15 OUTBOX
+Point=5 16 MAGICWALL
+Point=6 16 MAGICWALL
+Point=17 16 MAGICWALL
+Point=16 16 MAGICWALL
+Point=22 16 MAGICWALL
+Point=23 16 MAGICWALL
+Point=33 16 MAGICWALL
+Point=34 16 MAGICWALL
+Line=38 18 38 20 FIREFLYl
+Line=35 18 35 20 FIREFLYl
+Line=32 18 32 20 FIREFLYl
+[Level=2,3,4,5]
+Line=29 18 29 20 FIREFLYl
+[/Level]
+[Level=2,3,4,5]
+Line=26 18 26 20 FIREFLYl
+[/Level]
+[Level=4,5]
+Line=23 18 23 20 FIREFLYl
+[/Level]
+[Level=4,5]
+Line=20 18 20 20 FIREFLYl
+[/Level]
+[/objects]
+[/cave]
+
+[cave]
+Name=Break 4
+Description=Quick Sort
+Author=chemystics
+Date=2025-06-30
+Selectable=false
+Intermission=true
+Size=20 12 0 0 19 11
+Colors=Black Black Brown White Cyan Cyan Brown
+DiamondsRequired=25 25 25 25 25
+CaveTime=60 56 52 48 44
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=8 8 8 8 8
+DiamondValue=35 85
+InitialFill=SPACE
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Line=1 6 5 6 WALL
+Line=6 6 6 1 WALL
+Line=18 6 14 6 WALL
+Line=13 6 13 1 WALL
+Line=11 6 8 6 WALL
+Point=7 6 DIRT
+Point=12 6 DIRT
+Point=16 6 DIRT
+Point=3 6 DIRT
+FillRect=1 1 5 5 BOULDER
+FillRect=14 1 18 5 BOULDER
+FillRect=7 1 12 5 BOULDER
+Line=3 5 1 3 DIAMOND
+Line=4 4 5 3 DIAMOND
+Line=5 1 3 3 DIAMOND
+Line=2 2 1 1 DIAMOND
+Line=16 5 14 3 DIAMOND
+Line=17 4 18 3 DIAMOND
+Line=17 2 16 1 DIAMOND
+Line=15 2 16 3 DIAMOND
+Line=15 3 17 3 DIAMOND
+Line=10 3 12 5 DIAMOND
+Line=7 5 9 3 DIAMOND
+Line=7 3 9 1 DIAMOND
+Line=10 1 12 3 DIAMOND
+Point=9 10 INBOX
+Point=6 1 OUTBOX
+Point=13 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Outro 1
+Description=Chill
+Author=Alchemystics
+Date=2025-06-30
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Gray1 Blue Cyan Cyan Cyan
+DiamondsRequired=50 50 50 50 50
+CaveTime=120 110 100 80 60
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=9 20
+RandSeed=5 13 22 29 48
+RandomFill=SPACE 85 BOULDER 50 DIAMOND 25 DIRT 0
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Line=1 15 35 15 STEELWALL
+Line=38 10 4 10 STEELWALL
+Line=1 5 35 5 STEELWALL
+Point=1 20 INBOX
+Point=4 10 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Outro 2
+Description=Pockets
+Author=Alchemystics
+Date=2025-06-30
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Green Cyan LightGreen LightGreen LightGreen
+DiamondsRequired=65 65 65 65 65
+CaveTime=150 150 150 150 150
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=7 7 7 7 7
+DiamondValue=9 15
+RandSeed=4 9 13 17 22
+RandomFill=BOULDER 96 DIRT 64 BOULDER 32 DIRT 16
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+Line=1 1 12 1 DIAMOND
+Line=14 1 25 1 DIAMOND
+Line=27 1 38 1 DIAMOND
+Line=13 1 13 8 STEELWALL
+Line=26 1 26 8 STEELWALL
+FillRect=1 9 5 15 STEELWALL
+FillRect=8 9 18 15 STEELWALL
+FillRect=21 9 31 15 STEELWALL
+FillRect=34 9 38 15 STEELWALL
+Rectangle=3 9 4 15 SPACE
+Rectangle=9 9 10 15 SPACE
+Rectangle=16 9 17 15 SPACE
+Rectangle=22 9 23 15 SPACE
+Rectangle=29 9 30 15 SPACE
+Rectangle=35 9 36 15 SPACE
+Point=3 13 FIREFLYu
+Point=9 14 FIREFLYu
+Point=16 15 FIREFLYu
+Point=22 15 FIREFLYu
+Point=29 14 FIREFLYu
+Point=35 13 FIREFLYu
+Point=4 13 BUTTERFLYu
+Point=10 14 BUTTERFLYu
+Point=17 15 BUTTERFLYu
+Point=23 15 BUTTERFLYu
+Point=30 14 BUTTERFLYu
+Point=36 13 BUTTERFLYu
+Rectangle=6 9 7 15 DIRT
+Rectangle=19 9 20 15 DIRT
+Rectangle=32 9 33 15 DIRT
+Point=7 15 HEXPANDINGWALL
+Point=6 13 HEXPANDINGWALL
+Point=7 11 HEXPANDINGWALL
+Point=6 9 HEXPANDINGWALL
+Point=20 15 HEXPANDINGWALL
+Point=19 13 HEXPANDINGWALL
+Point=20 11 HEXPANDINGWALL
+Point=19 9 HEXPANDINGWALL
+Point=33 15 HEXPANDINGWALL
+Point=32 13 HEXPANDINGWALL
+Point=33 11 HEXPANDINGWALL
+Point=32 9 HEXPANDINGWALL
+Line=1 8 12 8 DIRT
+Line=14 8 25 8 DIRT
+Line=27 8 38 8 DIRT
+Point=1 16 INBOX
+Point=38 16 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Outro 3
+Description=Containment
+Author=Alchemystics
+Date=2025-06-28
+Selectable=false
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Red Red Black Green White White White
+DiamondsRequired=75 85 95 105 115
+CaveTime=120 120 120 120 120
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=9 8 7 6 6
+DiamondValue=7 11
+RandSeed=6 11 15 19 23
+InitialFill=BOULDER
+RandomFill=DIRT 225 BOULDER 90 DIRT 55 BOULDER 15
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+AmoebaTime=60 60 60 60 60
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+FillRect=18 9 22 13 DIRT AMOEBA
+Point=20 11 OUTBOX
+Rectangle=17 8 23 14 DIRT
+Rectangle=16 7 24 15 DIRT
+FillRect=35 17 38 20 DIRT
+Point=37 19 INBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=Outro 4
+Description=Hoard
+Author=Alchemystics
+Date=2025-06-30
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=false
+IntermissionProperties.rewardlife=false
+Size=40 22 0 0 39 21
+Colors=Black Black Gray2 Red Cyan White Red
+DiamondsRequired=99 99 99 99 99
+CaveTime=210 200 195 190 180
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=8 8 7 7 6
+DiamondValue=5 15
+InitialFill=BOULDER
+RandomFill=DIAMOND 196 DIRT 128 BOULDER 32 DIAMOND 16
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+FillRect=1 1 28 20 DIRT
+FillRect=1 6 26 9 STEELWALL
+FillRect=26 1 24 4 STEELWALL
+FillRect=7 1 7 5 SPACE STEELWALL
+FillRect=11 1 11 5 SPACE STEELWALL
+FillRect=15 1 15 5 SPACE STEELWALL
+FillRect=19 1 19 5 SPACE STEELWALL
+Line=24 4 24 6 SPACE
+Line=23 6 22 6 WALL
+Line=20 6 20 8 SPACE
+Line=21 8 22 8 SPACE
+Line=16 6 16 8 SPACE
+Line=16 8 18 8 SPACE
+Line=12 6 12 8 SPACE
+Line=13 8 14 8 SPACE
+Line=8 6 8 7 SPACE
+Line=8 8 10 8 SPACE
+Line=4 6 4 7 SPACE
+Line=4 8 6 8 SPACE
+Point=24 6 VEXPANDINGWALL
+Point=19 3 VEXPANDINGWALL
+Point=15 3 VEXPANDINGWALL
+Point=11 3 VEXPANDINGWALL
+Point=7 3 VEXPANDINGWALL
+Point=6 1 BOULDER
+Point=10 1 BOULDER
+Point=14 1 BOULDER
+Point=18 1 BOULDER
+Point=23 1 BOULDER
+Line=27 1 27 4 STEELWALL
+FillRect=20 17 28 19 WALL
+Line=21 17 21 19 BOULDER
+Line=24 17 24 19 BOULDER
+Line=27 17 27 19 BOULDER
+Rectangle=28 1 29 16 STEELWALL
+Rectangle=27 16 2 15 STEELWALL
+FillRect=1 10 25 14 SPACE
+Line=24 11 23 11 STEELWALL
+Line=24 13 23 13 STEELWALL
+FillRect=21 11 19 14 STEELWALL
+FillRect=14 11 12 14 STEELWALL
+FillRect=7 11 5 14 STEELWALL
+Line=9 11 10 11 STEELWALL
+Line=9 13 10 13 STEELWALL
+Line=16 11 17 11 STEELWALL
+Line=16 13 17 13 STEELWALL
+Line=2 13 3 13 STEELWALL
+Line=3 11 2 11 STEELWALL
+Line=2 18 2 19 WALL
+Line=19 19 19 17 WALL
+Line=2 17 18 17 BOULDER
+Line=18 18 3 18 BOULDER
+Line=3 19 18 19 BOULDER
+Point=21 18 BUTTERFLYl
+Point=24 18 BUTTERFLYl
+Point=27 18 BUTTERFLYl
+Point=22 8 BUTTERFLYl
+Point=18 8 BUTTERFLYl
+Point=14 8 BUTTERFLYl
+Point=10 8 BUTTERFLYl
+Point=6 8 BUTTERFLYl
+Rectangle=26 11 27 14 STEELWALL
+Line=27 7 27 9 STEELWALL
+Line=28 4 29 4 DIRT
+Line=28 6 28 10 DIRT
+Point=27 4 MEGABOULDER
+Point=24 12 FIREFLYr
+Point=24 14 FIREFLYr
+Point=16 14 FIREFLYr
+Point=16 12 FIREFLYr
+Point=8 11 FIREFLYd
+Point=8 13 FIREFLYd
+Point=2 10 FIREFLYl
+Point=2 12 FIREFLYl
+Line=29 17 29 19 STEELWALL
+Line=29 20 38 20 DIRT
+Point=1 5 INBOX
+Point=1 1 OUTBOX
+Point=4 18 FIREFLYl
+Point=7 18 FIREFLYl
+Point=10 18 FIREFLYl
+Point=13 18 FIREFLYl
+Point=16 18 FIREFLYl
+Line=3 16 18 16 VEXPANDINGWALL
+[/objects]
+[/cave]
+
+[cave]
+Name=Break 5
+Description=Ending
+Author=Alchemystics
+Date=2025-06-30
+Selectable=false
+Intermission=true
+Size=30 12 0 0 29 11
+Colors=Black Black Orange LightRed White White Orange
+DiamondsRequired=84 85 83 86 85
+CaveTime=30 30 30 30 30
+CaveScheduling=bd2
+PALTiming=true
+FrameTime=180 160 140 120 120
+CaveDelay=6 6 6 6 6
+DiamondValue=20 0
+ActiveGuyIsFirst=false
+AmoebaProperties.immediately=false
+AmoebaThreshold=1.0000 1.0000 1.0000 1.0000 1.0000
+AmoebaTime=40 40 40 40 40
+MagicWallProperties.convertamoeba=false
+SlimePermeabilityC64=0 0 0 0 0
+BorderProperties.lineshift=true
+BorderProperties.objectwraparound=true
+
+[objects]
+[Level=1]
+Line=1 7 1 4 DIAMOND
+[/Level]
+[Level=1]
+Line=2 3 2 8 DIAMOND
+[/Level]
+[Level=1]
+Line=3 8 4 8 DIAMOND
+[/Level]
+[Level=1]
+Line=5 7 5 8 DIAMOND
+[/Level]
+[Level=1]
+Line=5 6 4 6 DIAMOND
+[/Level]
+[Level=1]
+Line=3 3 5 3 DIAMOND
+[/Level]
+[Level=1]
+Line=7 4 7 7 DIAMOND
+[/Level]
+[Level=1]
+Line=8 3 8 8 DIAMOND
+[/Level]
+[Level=1]
+Line=10 8 9 8 DIAMOND
+[/Level]
+[Level=1]
+Line=9 3 10 3 DIAMOND
+[/Level]
+[Level=1]
+Line=11 4 11 7 DIAMOND
+[/Level]
+[Level=1]
+Line=13 4 13 7 DIAMOND
+[/Level]
+[Level=1]
+Line=14 3 14 8 DIAMOND
+[/Level]
+[Level=1]
+Line=15 8 16 8 DIAMOND
+[/Level]
+[Level=1]
+Line=17 7 17 4 DIAMOND
+[/Level]
+[Level=1]
+Line=16 3 15 3 DIAMOND
+[/Level]
+[Level=1]
+Line=19 3 19 8 DIAMOND
+[/Level]
+[Level=1]
+Line=20 3 20 8 DIAMOND
+[/Level]
+[Level=1]
+Line=21 8 22 8 DIAMOND
+[/Level]
+[Level=1]
+Line=23 7 23 4 DIAMOND
+[/Level]
+[Level=1]
+Line=22 3 21 3 DIAMOND
+[/Level]
+Line=27 3 27 6 DIAMOND
+Line=26 4 26 5 DIAMOND
+Line=28 4 28 5 DIAMOND
+Point=27 8 DIAMOND
+Point=1 1 INBOX
+Point=28 10 OUTBOX
+[Level=5]
+Line=1 3 1 8 DIAMOND
+[/Level]
+[Level=5]
+Line=2 3 2 8 DIAMOND
+[/Level]
+[Level=5]
+Line=3 8 4 8 DIAMOND
+[/Level]
+[Level=5]
+Line=5 7 5 4 DIAMOND
+[/Level]
+[Level=5]
+Line=4 3 3 3 DIAMOND
+[/Level]
+[Level=5]
+Line=7 4 7 7 DIAMOND
+[/Level]
+[Level=5]
+Line=8 3 8 8 DIAMOND
+[/Level]
+[Level=5]
+Line=9 8 10 8 DIAMOND
+[/Level]
+[Level=5]
+Line=9 3 10 3 DIAMOND
+[/Level]
+[Level=5]
+Line=11 4 11 7 DIAMOND
+[/Level]
+[Level=5]
+Line=13 8 13 3 DIAMOND
+[/Level]
+[Level=5]
+Line=14 3 14 8 DIAMOND
+[/Level]
+[Level=5]
+Line=15 3 16 3 DIAMOND
+[/Level]
+[Level=5]
+Line=17 4 17 8 DIAMOND
+[/Level]
+[Level=5]
+Line=20 8 23 8 DIAMOND
+[/Level]
+[Level=5]
+Line=19 7 20 7 DIAMOND
+[/Level]
+[Level=5]
+Line=20 6 22 6 DIAMOND
+[/Level]
+[Level=5]
+Line=23 5 23 4 DIAMOND
+[/Level]
+[Level=5]
+Line=22 3 20 3 DIAMOND
+[/Level]
+[Level=5]
+Line=20 4 20 5 DIAMOND
+[/Level]
+[Level=5]
+Line=19 4 19 6 DIAMOND
+[/Level]
+[Level=3]
+Line=1 4 2 5 DIAMOND
+[/Level]
+[Level=3]
+Line=2 4 3 5 DIAMOND
+[/Level]
+[Level=3]
+Line=2 3 4 3 DIAMOND
+[/Level]
+[Level=3]
+Line=4 6 4 7 DIAMOND
+[/Level]
+[Level=3]
+Line=3 6 3 8 DIAMOND
+[/Level]
+[Level=3]
+Line=2 8 1 8 DIAMOND
+[/Level]
+[Level=3]
+Line=6 3 6 7 DIAMOND
+[/Level]
+[Level=3]
+Line=7 8 9 8 DIAMOND
+[/Level]
+[Level=3]
+Line=8 7 8 6 DIAMOND
+[/Level]
+[Level=3]
+Line=10 7 10 3 DIAMOND
+[/Level]
+[Level=3]
+Line=12 7 12 4 DIAMOND
+[/Level]
+[Level=3]
+Line=13 3 13 8 DIAMOND
+[/Level]
+[Level=3]
+Line=14 8 15 8 DIAMOND
+[/Level]
+[Level=3]
+Line=14 6 15 5 DIAMOND
+[/Level]
+[Level=3]
+Line=14 3 15 4 DIAMOND
+[/Level]
+[Level=3]
+Line=17 4 17 7 DIAMOND
+[/Level]
+[Level=3]
+Line=18 3 19 3 DIAMOND
+[/Level]
+[Level=3]
+Line=20 4 20 5 DIAMOND
+[/Level]
+[Level=3]
+Line=19 6 18 6 DIAMOND
+[/Level]
+[Level=3]
+Line=18 4 18 5 DIAMOND
+[/Level]
+[Level=3]
+Line=18 7 18 8 DIAMOND
+[/Level]
+[Level=3]
+Line=19 8 20 8 DIAMOND
+[/Level]
+[Level=3]
+Line=22 3 22 7 DIAMOND
+[/Level]
+[Level=3]
+Line=23 3 23 4 DIAMOND
+[/Level]
+[Level=3]
+Line=24 5 23 5 DIAMOND
+[/Level]
+[Level=3]
+Line=23 6 23 7 DIAMOND
+[/Level]
+[Level=3]
+Line=23 8 24 8 DIAMOND
+[/Level]
+[Level=4]
+Line=1 8 1 3 DIAMOND
+[/Level]
+[Level=4]
+Line=2 3 2 8 DIAMOND
+[/Level]
+[Level=4]
+Line=5 8 5 4 DIAMOND
+[/Level]
+[Level=4]
+Line=4 3 3 3 DIAMOND
+[/Level]
+[Level=4]
+Line=7 7 7 4 DIAMOND
+[/Level]
+[Level=4]
+Line=8 3 8 8 DIAMOND
+[/Level]
+[Level=4]
+Line=9 8 11 8 DIAMOND
+[/Level]
+[Level=4]
+Line=9 3 11 3 DIAMOND
+[/Level]
+[Level=4]
+Line=9 5 10 5 DIAMOND
+[/Level]
+[Level=4]
+Line=13 8 13 4 DIAMOND
+[/Level]
+[Level=4]
+Line=14 3 14 8 DIAMOND
+[/Level]
+[Level=4]
+Line=15 3 16 3 DIAMOND
+[/Level]
+[Level=4]
+Line=17 4 17 8 DIAMOND
+[/Level]
+[Level=4]
+Line=16 5 15 5 DIAMOND
+[/Level]
+[Level=4]
+Line=19 3 19 8 DIAMOND
+[/Level]
+[Level=4]
+Line=20 3 22 3 DIAMOND
+[/Level]
+[Level=4]
+Line=23 4 23 5 DIAMOND
+[/Level]
+[Level=4]
+Line=23 8 23 7 DIAMOND
+[/Level]
+[Level=4]
+Line=22 6 21 6 DIAMOND
+[/Level]
+[Level=4]
+Line=20 4 20 8 DIAMOND
+[/Level]
+[Level=2]
+Line=1 4 1 7 DIAMOND
+[/Level]
+[Level=2]
+Line=2 3 2 8 DIAMOND
+[/Level]
+[Level=2]
+Line=3 8 4 8 DIAMOND
+[/Level]
+[Level=2]
+Line=4 7 4 6 DIAMOND
+[/Level]
+[Level=2]
+Line=3 3 4 3 DIAMOND
+[/Level]
+[Level=2]
+Line=6 8 6 3 DIAMOND
+[/Level]
+[Level=2]
+Line=7 3 7 8 DIAMOND
+[/Level]
+[Level=2]
+Line=9 3 8 3 DIAMOND
+[/Level]
+[Level=2]
+Line=11 7 11 4 DIAMOND
+[/Level]
+[Level=2]
+Line=12 4 12 5 DIAMOND
+[/Level]
+[Level=2]
+Line=12 3 13 3 DIAMOND
+[/Level]
+[Level=2]
+Line=14 4 14 5 DIAMOND
+[/Level]
+[Level=2]
+Line=13 6 12 6 DIAMOND
+[/Level]
+[Level=2]
+Line=12 7 12 8 DIAMOND
+[/Level]
+[Level=2]
+Line=13 8 14 8 DIAMOND
+[/Level]
+[Level=2]
+Line=16 7 16 6 DIAMOND
+[/Level]
+[Level=2]
+Line=17 5 17 8 DIAMOND
+[/Level]
+[Level=2]
+Line=18 8 19 8 DIAMOND
+[/Level]
+[Level=2]
+Line=19 7 19 6 DIAMOND
+[/Level]
+[Level=2]
+Line=18 5 19 5 DIAMOND
+[/Level]
+[Level=2]
+Line=19 4 18 3 DIAMOND
+[/Level]
+[Level=2]
+Line=17 3 16 3 DIAMOND
+[/Level]
+[Level=2]
+Line=21 3 21 7 DIAMOND
+[/Level]
+[Level=2]
+Line=22 6 23 6 DIAMOND
+[/Level]
+[Level=2]
+Line=22 7 22 8 DIAMOND
+[/Level]
+[Level=2]
+Line=23 8 24 8 DIAMOND
+[/Level]
+[Level=2]
+Line=22 5 22 3 DIAMOND
+[/Level]
+[/objects]
+[/cave]
+[/game]
+[/BDCFF]
