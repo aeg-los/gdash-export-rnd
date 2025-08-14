@@ -1,0 +1,1271 @@
+[BDCFF]
+Version=0.5
+
+[game]
+Name=Dustin's Boulder Dash 25
+Author=Dustin
+Date=2023-11-02
+Lives=5 99
+TitleScreen=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
+Levels=5
+
+[cave]
+Name=Welcome to Dustin's BD 25!
+Author=49174
+Date=2025-06-04
+Intermission=true
+IntermissionProperties.rewardlife=false
+Story=Hi BD fans!!\n\nSo here it is, my 25th game of the series!\n\nWhen I started the DBD series, I thought I had enough ideas for two, maybe three games - well, it's become a tiny bit more by now! :D\n\nAs usual, the game is created in classical five-level style. Level 1 is not necessarily \"easy\", but it's meant to introduce Rockford into the main idea(s) behind each cave, without (m)any extra obstacles once he's figured out the general solution methods. Then when Rockford has seen each cave once, level 2 will be significantly harder versions of them, and by level 3, Rockford should already be quite good at each cave because there are usually only few bonus diamonds and/or relatively little time! Level 4 pushes the caves toward their limits, and on level 5, very few caves have any bonus diamonds at all - these are usually the caves where the maximum is not clear or it depends on randomness. I think that especially the second half of level 5 is very difficult - I haven't yet managed to play through level 5 without a Game Over!  As always, the 5 levels are meant to offer a fun and challenging game to occasional players as well as for BD experts!\n\nAlso, as usual in my games, the scoring system is supposed to give our favorite treasure seeker a reasonable amount of extra lives, not too many, not too little, such that it's challenging but not impossible to complete the game without a Game Over!\n\nUnusually, there are 8 intermissions in the game, one after each 2 caves. This is firstly because I have so many intermission ideas that I didn't want to throw half of them out, and secondly, the game has now exactly 25 caves including this intro, which I found quite nice for the jubilee! :D\n\nEnjoy the game - I definitely enjoyed creating it! :D
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #9b741f #72267f #12b4b7 #267f38 #3a1f9b
+DiamondsRequired=25 25 25 25 25
+CaveTime=25 25 25 25 25
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+HatchingDelay=25 25 25 25 25
+CaveDelay=0 0 0 0 0
+DiamondValue=25 25
+RandSeed=-1 -1 -1 -1 -1
+RandomFill=BOULDER 25 DIRT 0 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=2 2 INBOX
+Point=17 9 OUTBOX
+Line=5 3 6 2 DIAMOND
+Line=7 2 8 3 DIAMOND
+Line=8 4 5 7 DIAMOND
+Line=5 8 8 8 DIAMOND
+Line=11 2 14 2 DIAMOND
+Line=11 3 11 4 DIAMOND
+Line=12 5 13 5 DIAMOND
+Line=14 6 14 7 DIAMOND
+Line=13 8 11 8 DIAMOND
+[/objects]
+[/cave]
+
+[cave]
+Name=A
+Author=49174
+Date=2024-10-13
+Intermission=false
+Story=- Turn of the Tide -\n\nAt the start, the tide is low\nBut hurry up before the flow!\t\t\n\t\n\t\n
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #a36620 #307f26 #149fc9 #337f26 #2720a3
+DiamondsRequired=10 10 13 15 11
+CaveTime=50 50 50 50 50
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=20 30
+RandomFill=BOULDER 150 DIAMOND 50 FIREFLYl 10 DIRT 0
+AmoebaTime=20 20 20 20 20
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+FillRect=1 19 35 20 SPACE
+FillRect=1 1 2 18 SPACE
+FillRect=3 1 35 8 SPACE
+FillRect=36 1 38 20 SPACE
+FillRect=13 9 26 18 SPACE
+Rectangle=3 9 12 18 DIRT
+Rectangle=26 9 35 18 DIRT
+Rectangle=15 1 23 2 AMOEBA
+Point=19 1 EXPANDINGWALL
+Point=19 4 INBOX
+Point=19 10 OUTBOX
+Add=1 0 FIREFLYl DIRT
+Add=-1 0 FIREFLYl DIRT
+Add=0 -1 FIREFLYl DIRT
+Add=0 1 FIREFLYl DIRT
+[/objects]
+[/cave]
+
+[cave]
+Name=B
+Author=49174
+Date=2024-02-18
+Intermission=false
+Story=- Prison Patrol -\n\nA lot of guards move in a loop\nAnd there's no choice but join the group!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #26517f #21a84e #b4d114 #21a831 #41267f
+DiamondsRequired=22 25 23 22 26
+CaveTime=150 120 100 80 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=15 0
+RandSeed=19 6 0 8 56
+RandomFill=BOULDER 80 DIAMOND 20 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=1 1 35 19 SPACE
+Line=1 20 38 20 STEELWALL
+FillRect=36 1 38 19 STEELWALL
+Rectangle=2 2 34 18 WALL
+Raster=3 2 31 2 1 16 HEXPANDINGWALL
+Line=3 10 33 10 WALL
+Raster=10 3 3 15 8 1 WALL
+Raster=1 1 4 1 9 1 FIREFLYr
+Raster=35 2 1 2 1 9 FIREFLYd
+Raster=8 19 4 1 9 1 FIREFLYl
+Raster=1 9 1 2 1 9 FIREFLYu
+Point=30 6 INBOX
+Point=30 8 OUTBOX
+Raster=5 2 2 1 2 2 DIRT
+Raster=13 2 2 1 2 2 DIRT
+Raster=21 2 2 1 2 2 DIRT
+Raster=21 18 2 1 2 1 DIRT
+Raster=13 18 2 1 2 1 DIRT
+Raster=5 18 2 1 2 1 DIRT
+Raster=29 18 2 1 2 2 DIRT
+Raster=29 2 2 1 2 2 DIRT
+[/objects]
+[/cave]
+
+[cave]
+Name=BONUS LIFE
+Author=Dustin
+Date=2022-08-21
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Story=- Darkstoorm's Underpass -\n\nMost of this is automatic\nJust keep moving, don't be static!
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #277f2d #0f389e #bf6526 #129e0f #272b7f
+DiamondsRequired=36 36 36 36 36
+CaveTime=30 30 30 30 30
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 0
+InitialFill=SPACE
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=9 6 BUTTERFLYu
+Point=4 7 BUTTERFLYd
+Point=13 6 BUTTERFLYr
+Point=6 7 BUTTERFLYl
+Point=2 8 FIREFLYd
+FillRect=15 4 17 6 WALL OUTBOX
+Raster=4 2 4 1 3 1 BOULDER
+Point=2 3 INBOX
+Point=18 1 BOULDER
+AddBackward=0 1 BOULDER DIRT
+[/objects]
+[/cave]
+
+[cave]
+Name=C
+Author=Dustin
+Date=2021-07-12
+Intermission=false
+Story=- Mandelbrot -\n\nMathematicians know this shape\nBut it's not easy to escape!
+Size=40 22 0 0 39 21
+Colors=Black Black Gray1 LightBlue White White Gray1
+DiamondsRequired=120 122 123 124 125
+CaveTime=200 160 120 100 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=3 30
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=12 9 15 6 WALL
+Line=17 6 19 8 WALL
+Line=20 6 22 4 WALL
+Line=23 4 26 1 WALL
+Line=27 1 28 2 WALL
+Line=28 3 29 4 WALL
+Line=30 4 32 6 WALL
+Line=32 7 33 8 WALL
+Line=32 9 31 10 WALL
+Line=32 11 33 12 WALL
+Line=32 14 30 16 WALL
+Line=29 16 28 17 WALL
+Line=28 18 27 19 WALL
+Line=26 19 23 16 WALL
+Line=22 16 20 14 WALL
+Line=20 13 19 12 WALL
+Line=14 13 12 11 WALL
+Point=16 6 WALL
+Point=20 7 WALL
+Point=32 13 WALL
+Point=18 13 WALL
+Line=15 14 17 14 WALL
+Line=12 10 15 7 DIAMOND
+Line=13 10 16 7 DIAMOND
+Line=17 7 19 9 DIAMOND
+Line=17 8 18 9 DIAMOND
+Line=20 9 20 8 DIAMOND
+Line=21 6 21 8 DIAMOND
+Line=22 5 22 6 DIAMOND
+Line=23 5 26 2 DIAMOND
+Line=24 5 27 2 DIAMOND
+Line=27 3 29 5 DIAMOND
+Line=27 4 28 5 DIAMOND
+Line=30 5 31 6 DIAMOND
+Line=30 6 32 8 DIAMOND
+Line=31 9 30 10 DIAMOND
+Line=31 8 30 9 DIAMOND
+Line=31 11 32 12 DIAMOND
+Line=30 11 31 12 DIAMOND
+Line=31 13 31 14 DIAMOND
+Line=30 14 30 15 DIAMOND
+Line=29 15 27 17 DIAMOND
+Line=28 15 27 16 DIAMOND
+Line=27 18 26 18 DIAMOND
+Line=25 17 26 17 DIAMOND
+Line=24 16 25 16 DIAMOND
+Line=22 15 24 15 DIAMOND
+Line=21 14 22 14 DIAMOND
+Line=19 11 21 13 DIAMOND
+Line=20 11 21 12 DIAMOND
+Line=18 11 16 13 DIAMOND
+Line=18 12 17 13 DIAMOND
+Line=13 11 15 13 DIAMOND
+Line=14 11 15 12 DIAMOND
+Line=16 8 14 10 BOULDER
+Line=16 12 18 10 BOULDER
+Line=15 10 16 9 BOULDER
+Line=17 9 17 10 BOULDER
+Line=15 11 16 11 BOULDER
+Line=19 10 21 10 BOULDER
+Line=21 9 22 9 BOULDER
+Line=22 7 22 8 BOULDER
+Line=23 6 23 7 BOULDER
+Line=24 6 25 6 BOULDER
+Line=25 5 27 5 BOULDER
+Line=27 6 29 6 BOULDER
+Line=29 7 30 7 BOULDER
+Line=29 8 30 8 BOULDER
+Line=29 9 29 12 BOULDER
+Line=30 12 30 13 BOULDER
+Line=29 13 29 14 BOULDER
+Line=28 14 27 14 BOULDER
+Line=27 15 25 15 BOULDER
+Line=25 14 23 14 BOULDER
+Line=23 13 22 13 BOULDER
+Line=22 11 22 12 BOULDER
+Point=21 11 BOULDER
+Point=26 4 BOULDER
+Point=16 10 DIAMOND
+Point=22 10 DIAMOND
+Point=26 6 DIAMOND
+Point=26 14 DIAMOND
+Line=23 8 23 12 DIAMOND
+Line=24 7 28 7 DIAMOND
+Line=28 8 28 12 DIAMOND
+Line=24 13 28 13 DIAMOND
+Point=24 8 DIAMOND
+Point=24 12 DIAMOND
+Line=25 8 27 8 DIAMOND
+Line=27 9 27 11 DIAMOND
+Line=25 12 27 12 DIAMOND
+Line=24 9 24 11 DIAMOND
+Point=25 9 DIAMOND
+Point=25 11 DIAMOND
+Line=26 9 26 11 DIAMOND
+Point=25 10 DIAMOND
+Point=7 10 INBOX
+Point=37 10 OUTBOX
+Point=11 10 BOULDER
+Point=26 16 BOULDER
+[/objects]
+[/cave]
+
+[cave]
+Name=D
+Author=49174
+Date=2023-09-10
+Intermission=false
+Story=- Endless Rain -\n\nThe path is straight, the walk is tough\nWith constant danger from above!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #b259a6 #502099 #cca3a9 #20992c #5c59b2
+DiamondsRequired=7 7 7 7 7
+CaveTime=120 80 60 40 30
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=50 0
+RandSeed=1 11 111 87 104
+InitialFill=BOULDER
+RandomFill=DIAMOND 128 DIRT 0 DIRT 0 DIRT 0
+MagicWallTime=150 150 150 150 150
+SlimePermeabilityC64=192 192 192 192 192
+
+[objects]
+FillRect=1 12 38 20 SPACE
+Line=1 11 38 11 SLIME
+Line=1 21 38 21 MAGICWALL
+Line=1 0 38 0 SPACE
+Raster=1 0 4 20 4 1 STEELWALL
+Raster=5 20 3 1 4 2 DIAMOND
+Raster=18 0 4 20 5 1 STEELWALL
+Raster=18 20 4 1 5 2 DIAMOND
+Point=1 20 INBOX
+Point=39 20 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=BONUS LIFE
+Author=49174
+Date=2024-08-04
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Story=- Counterpart(ie)s -\n\nBoth Rockford's opponents are there\nTo dance with him around the square!
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #4c6299 #7cb245 #cc7e9d #4cb245 #5b4c99
+DiamondsRequired=4 4 4 4 4
+CaveTime=50 45 40 35 30
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=50 0
+InitialFill=STEELWALL
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=5 1 13 10 SPACE
+Point=9 1 FIREFLYl
+Point=9 10 BUTTERFLYd
+Point=9 2 DIRT
+Point=9 3 INBOX
+Point=9 8 OUTBOX
+Raster=8 7 2 1 2 2 DIRT
+Raster=8 7 2 1 2 2 WALL
+Point=9 7 BOULDER
+Line=7 6 7 9 DIRT
+Line=11 6 11 9 DIRT
+Point=7 5 BOULDER
+Point=11 5 BOULDER
+Point=8 6 DIRT
+Point=10 6 DIRT
+[/objects]
+[/cave]
+
+[cave]
+Name=E
+Author=49174
+Date=2025-02-22
+Intermission=false
+Story=- Observation Station -\n\nFirst watch, then strike - this is the motto\nTo take the jewels out of this grotto!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #99544c #7eb223 #ccc1a5 #2ab223 #4c6699
+DiamondsRequired=36 45 54 63 72
+CaveTime=240 210 180 150 120
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 10
+MagicWallTime=240 240 240 240 240
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=1 10 36 11 STEELWALL
+Rectangle=9 3 10 18 STEELWALL
+Rectangle=19 3 20 18 STEELWALL
+Rectangle=29 3 30 18 STEELWALL
+Line=9 2 10 2 VEXPANDINGWALL
+Line=19 2 20 2 VEXPANDINGWALL
+Line=29 2 30 2 VEXPANDINGWALL
+Line=9 19 10 19 VEXPANDINGWALL
+Line=19 19 20 19 VEXPANDINGWALL
+Line=29 19 30 19 VEXPANDINGWALL
+Line=37 10 37 11 HEXPANDINGWALL
+Point=1 20 INBOX
+Point=5 12 BOULDER
+Point=4 12 WALL
+FillRect=2 14 8 18 SPACE
+Raster=4 17 2 1 2 2 WALL
+Point=3 17 FIREFLYl
+Point=5 17 BUTTERFLYl
+Point=15 12 BOULDER
+Point=14 12 WALL
+FillRect=12 14 18 18 SPACE
+Raster=14 17 2 1 2 2 WALL
+Point=14 16 FIREFLYl
+Point=13 17 FIREFLYd
+Point=14 18 FIREFLYr
+Point=15 17 BUTTERFLYl
+FillRect=23 14 27 20 SPACE
+FillRect=24 16 26 19 WALL
+Point=25 15 FIREFLYl
+Point=25 16 BUTTERFLYu
+Point=25 19 SPACE
+Point=25 12 BOULDER
+Point=24 12 WALL
+FillRect=33 14 37 20 SPACE
+FillRect=34 16 36 19 WALL
+Point=35 15 FIREFLYl
+Point=35 16 BUTTERFLYd
+Point=35 19 SPACE
+Point=35 12 BOULDER
+Point=34 12 WALL
+Point=14 2 BOULDER
+Point=15 2 WALL
+Line=14 4 12 6 WALL
+Line=12 6 14 8 WALL
+Line=14 8 16 6 WALL
+Line=16 6 14 4 WALL
+Line=13 6 15 6 SPACE
+Line=14 5 14 7 SPACE
+Point=14 6 BUTTERFLYd
+Point=14 7 FIREFLYl
+Point=4 2 BOULDER
+Point=5 2 WALL
+Line=4 4 2 6 WALL
+Line=2 6 4 8 WALL
+Line=4 8 6 6 WALL
+Line=6 6 4 4 WALL
+Line=3 6 5 6 SPACE
+Line=4 5 4 7 SPACE
+Point=4 7 BUTTERFLYd
+Point=4 6 FIREFLYl
+Point=4 4 MAGICWALL
+Point=14 4 MAGICWALL
+Point=34 2 BOULDER
+Point=35 2 WALL
+FillRect=32 4 37 9 SPACE
+Line=34 7 35 6 WALL
+Point=34 6 BUTTERFLYr
+Point=35 5 FIREFLYl
+Point=25 2 BOULDER
+Point=24 2 WALL
+FillRect=22 4 27 9 SPACE
+Line=24 6 25 7 WALL
+Point=25 6 FIREFLYd
+Point=24 5 BUTTERFLYr
+Point=1 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=F
+Author=49174
+Date=2023-08-05
+Intermission=false
+Story=- Cross Dance -\n\nWhile the flies perform their dance\nRockford notes the hidden glance!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #4c9993 #23b250 #b0cca5 #23b236 #4c5199
+DiamondsRequired=4 6 8 10 12
+CaveTime=180 150 120 100 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=30 50
+InitialFill=STEELWALL
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=12 1 28 1 DIRT
+Rectangle=7 5 33 15 SPACE
+Line=12 2 28 2 VEXPANDINGWALL
+Raster=11 1 3 19 9 1 SPACE
+Line=3 10 11 10 SPACE
+Line=29 10 37 10 SPACE
+Point=7 10 FIREFLYl
+Point=11 5 BUTTERFLYu
+Point=11 15 BUTTERFLYd
+Point=20 5 FIREFLYu
+Point=20 15 FIREFLYd
+Point=29 5 FIREFLYd
+Point=29 15 FIREFLYu
+Point=33 10 BUTTERFLYl
+Point=20 10 OUTBOX
+Line=16 6 16 14 DIRT
+Line=24 6 24 14 DIRT
+Line=15 6 15 14 HEXPANDINGWALL
+Line=25 6 25 14 HEXPANDINGWALL
+Line=10 20 12 20 HEXPANDINGWALL
+Line=28 20 30 20 HEXPANDINGWALL
+Point=11 20 DIAMOND
+Point=20 20 DIRT
+Point=29 20 DIAMOND
+Point=19 20 INBOX
+Point=21 20 HEXPANDINGWALL
+Line=2 9 2 11 VEXPANDINGWALL
+Line=38 9 38 11 VEXPANDINGWALL
+Point=2 10 DIAMOND
+Point=38 10 DIAMOND
+Line=8 7 10 7 DIRT
+Line=30 7 32 7 DIRT
+Line=8 13 10 13 DIRT
+Line=30 13 32 13 DIRT
+Line=8 8 10 8 VEXPANDINGWALL
+Line=30 8 32 8 VEXPANDINGWALL
+Line=30 12 32 12 VEXPANDINGWALL
+Line=8 12 10 12 VEXPANDINGWALL
+Point=9 7 DIAMOND
+Point=31 7 DIAMOND
+Point=31 13 DIAMOND
+Point=9 13 DIAMOND
+Point=16 10 DIAMOND
+Point=24 10 DIAMOND
+Point=16 1 DIAMOND
+Point=24 1 DIAMOND
+[/objects]
+[/cave]
+
+[cave]
+Name=BONUS LIFE
+Author=Dustin
+Date=2022-06-28
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Story=- Diamond Pushing -\n\nDiamonds can not be moved\nUnless the opposite is proved!
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #57af7f #196696 #abccc9 #19963a #5957af
+DiamondsRequired=47 47 47 47 47
+CaveTime=50 40 30 30 30
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 0
+InitialFill=STEELWALL
+SlimePermeabilityC64=192 192 192 192 192
+
+[objects]
+FillRect=4 2 16 7 DIAMOND
+Line=5 2 15 2 SPACE
+Line=6 3 14 3 SPACE
+Line=7 4 13 4 SPACE
+Line=8 5 12 5 SPACE
+Line=9 6 11 6 SPACE
+Point=10 7 SPACE
+Point=10 8 SLIME
+Point=10 9 SPACE
+Point=10 10 BUTTERFLYd
+Raster=9 9 2 2 2 1 WALL
+Point=10 4 INBOX
+Point=10 1 OUTBOX
+Raster=9 8 2 1 2 2 DIRT
+[/objects]
+[/cave]
+
+[cave]
+Name=G
+Author=Dustin
+Date=2021-07-12
+Intermission=false
+Story=- Lake of Itomori -\n\nThis is the place where at twilight\nTaki and Mitsuha unite!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #3d2b76 #3448e4 #c9d0f1 #4ca832 #19367f
+DiamondsRequired=41 42 40 45 38
+CaveTime=200 150 150 150 180
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+TimeValue=1 2 0 4 5
+DiamondValue=10 0
+RandSeed=177 114 167 2 7
+RandomFill=BOULDER 80 DIAMOND 20 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=8 1 14 1 STEELWALL
+Line=6 2 8 2 STEELWALL
+Line=4 3 6 3 STEELWALL
+Line=4 4 4 5 STEELWALL
+Line=3 5 3 7 STEELWALL
+Line=2 7 2 13 STEELWALL
+Line=3 13 3 15 STEELWALL
+Line=4 15 4 17 STEELWALL
+Line=5 17 6 17 STEELWALL
+Line=6 18 8 18 STEELWALL
+Line=8 19 14 19 STEELWALL
+Line=14 18 16 18 STEELWALL
+Line=16 17 18 17 STEELWALL
+Line=18 15 18 16 STEELWALL
+Line=20 15 20 17 STEELWALL
+Line=21 17 22 17 STEELWALL
+Line=22 18 24 18 STEELWALL
+Line=24 19 30 19 STEELWALL
+Line=30 18 32 18 STEELWALL
+Line=32 17 34 17 STEELWALL
+Line=34 15 34 16 STEELWALL
+Line=35 13 35 15 STEELWALL
+Line=36 7 36 13 STEELWALL
+Line=35 5 35 7 STEELWALL
+Line=34 4 34 5 STEELWALL
+Line=32 3 34 3 STEELWALL
+Line=30 2 32 2 STEELWALL
+Line=24 1 30 1 STEELWALL
+Line=22 2 24 2 STEELWALL
+Line=21 3 22 3 STEELWALL
+Line=20 3 20 5 STEELWALL
+Line=14 2 16 2 STEELWALL
+Line=16 3 18 3 STEELWALL
+Line=18 4 18 5 STEELWALL
+Point=19 7 STEELWALL
+Point=19 13 STEELWALL
+Point=19 10 INBOX
+Point=19 7 OUTBOX
+Add=0 0 STEELWALL WALL
+Rectangle=0 0 39 21 STEELWALL
+RandomFill=19 15 19 18 -1 -1 -1 -1 -1 DIRT BOULDER
+RandomFill=6 20 32 20 -1 -1 -1 -1 -1 DIRT BOULDER
+Line=38 1 38 20 STEELWALL
+[/objects]
+[/cave]
+
+[cave]
+Name=H
+Author=49174
+Date=2024-08-04
+Intermission=false
+Story=- Manhattan -\n\nA famous network of the roads\nIt's different if the cave reloads!
+Size=40 22 0 0 39 21
+Colors=Black Black Purple Orange LightGreen LightGreen Gray1
+DiamondsRequired=150 200 250 300 350
+CaveTime=150 180 210 240 240
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=1 2
+RandSeed=176 129 217 80 111
+RandomFill=AMOEBA 30 DIRT 0 DIRT 0 DIRT 0
+AmoebaTime=10 10 10 10 10
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Raster=3 3 9 5 4 4 BUTTERFLYd
+Point=17 9 INBOX
+Point=21 9 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=BONUS LIFE
+Author=49174
+Date=2024-11-22
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Story=- Temple of Prudence -\n\nBe careful here, 'cause otherwise\nThe jewels get lost, which isn't nice!
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #b22c7a #748799 #9366cc #7a9974 #2c50b2
+DiamondsRequired=28 28 28 28 28
+CaveTime=100 90 80 70 60
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=10 0
+MagicWallTime=3 3 3 3 3
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=1 1 18 9 BOULDER
+Rectangle=2 2 17 8 DIAMOND
+Rectangle=3 3 16 8 BOULDER
+FillRect=4 4 15 10 DIRT SPACE
+Line=1 10 18 10 MAGICWALL
+Line=7 7 12 7 BOULDER
+Point=9 7 INBOX
+Point=10 7 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=I
+Author=49174
+Date=2024-05-23
+Intermission=false
+Story=- Replenishment -\n\nThe Magic Wall has little space\nSo bring the boulders into place!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #44483a #c178f5 #c1ff9a #59b25a #606799
+DiamondsRequired=70 80 90 95 101
+CaveTime=240 210 180 180 180
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=3 10
+RandSeed=4 94 230 124 141
+RandomFill=BOULDER 100 DIRT 0 DIRT 0 DIRT 0
+MagicWallTime=24 23 22 21 20
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+FillRect=1 1 10 20 DIRT
+FillRect=29 1 38 20 DIRT
+Point=2 2 INBOX
+Point=37 19 OUTBOX
+Line=11 8 28 8 DIRT
+Line=11 17 28 17 MAGICWALL
+FillRect=11 18 28 20 SPACE
+Line=11 16 28 16 DIRT
+Line=2 5 2 13 BOULDER
+Line=3 5 5 5 BOULDER
+Line=6 6 6 8 BOULDER
+Line=5 9 3 9 BOULDER
+Line=6 10 6 12 BOULDER
+Line=5 13 3 13 BOULDER
+Line=33 5 33 13 BOULDER
+Line=34 5 36 5 BOULDER
+Line=37 6 37 12 BOULDER
+Line=34 13 36 13 BOULDER
+Raster=10 1 2 10 19 2 STEELWALL
+Raster=8 2 2 10 23 2 STEELWALL
+[/objects]
+[/cave]
+
+[cave]
+Name=J
+Author=49174
+Date=2024-01-29
+Intermission=false
+Story=- Random Rooms -\n\nPuzzle, maze or fireflies?\nThe RNG will throw the dice!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #813231 #7f6a7c #abccef #fedcba #99c1f1
+DiamondsRequired=4 4 4 4 4
+CaveTime=100 100 100 100 100
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=80 80
+AmoebaTime=1 1 1 1 1
+MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=20 2 INBOX
+Point=20 3 AMOEBA
+Point=21 4 BOULDER
+Raster=19 2 2 1 2 2 BOULDER
+Point=19 4 BOULDER
+Line=14 3 17 3 STEELWALL
+Line=23 3 26 3 STEELWALL
+Line=21 5 23 5 STEELWALL
+Line=17 5 19 5 STEELWALL
+Point=17 4 STEELWALL
+Point=23 4 STEELWALL
+Line=1 1 38 1 STEELWALL
+Point=24 1 BOULDER
+Point=16 1 BOULDER
+Point=16 3 MAGICWALL
+Point=24 3 MAGICWALL
+Line=16 4 16 6 SPACE
+Line=24 4 24 6 SPACE
+Point=16 5 SLIME
+Point=24 5 SLIME
+Point=16 7 FIREFLYl
+Point=24 7 FIREFLYl
+Line=25 2 25 7 BOULDER
+Line=15 2 15 7 BOULDER
+Line=17 6 17 8 STEELWALL
+Line=23 6 23 8 STEELWALL
+Line=24 8 25 8 STEELWALL
+Line=26 3 26 20 STEELWALL
+Line=14 3 14 8 STEELWALL
+Line=14 8 16 8 STEELWALL
+Line=13 3 13 20 STEELWALL
+FillRect=2 3 14 8 STEELWALL AMOEBA
+FillRect=26 3 37 8 STEELWALL AMOEBA
+FillRect=0 17 39 21 STEELWALL AMOEBA
+Line=20 5 20 6 SPACE
+Point=20 7 MAGICWALL
+RandomFillC64=28 10 37 15 1 0 7 9 2 DIRT BOULDER 210
+Rectangle=32 12 33 13 DIAMOND
+RandomFill=1 10 12 16 43 0 42 3 33 DIRT BOULDER 100
+Raster=2 16 4 1 3 1 DIAMOND
+Line=18 3 18 5 SPACE
+Line=22 3 22 5 SPACE
+RandomFillC64=14 9 25 16 3 0 4 2 1 DIRT SPACE 120 FIREFLYl 25
+Line=18 6 18 8 STEELWALL
+Rectangle=18 9 22 10 DIRT
+Rectangle=14 9 15 10 DIRT
+Rectangle=24 9 25 10 DIRT
+Rectangle=24 15 25 16 DIRT
+Rectangle=14 15 15 16 DIRT
+Raster=14 9 2 2 11 7 DIAMOND
+Line=22 7 22 8 STEELWALL
+Point=20 8 HEXPANDINGWALL
+Point=20 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=BONUS LIFE
+Author=49174
+Date=2025-05-14
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Story=- Upraised Wand -\n\nThis rotated magic stick\nTurns out to be a little big!
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #42267f #1266b5 #98a1ed #12b527 #26367f
+DiamondsRequired=1 1 1 1 1
+CaveTime=80 70 60 50 40
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=95 0
+MagicWallTime=100 100 100 100 100
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+FillRect=0 1 2 10 STEELWALL SPACE
+FillRect=16 1 18 10 STEELWALL SPACE
+Point=1 1 BOULDER
+Point=17 1 BOULDER
+Point=1 10 MAGICWALL
+Point=17 10 MAGICWALL
+Line=9 6 9 10 MAGICWALL
+Line=8 4 10 4 BOULDER
+Line=7 1 11 1 SPACE
+Point=9 1 FIREFLYl
+Point=5 6 INBOX
+Point=13 6 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=K
+Author=Dustin
+Date=2022-05-16
+Intermission=false
+Story=- Sunken Treasures -\n\nRockford dives into the sea\nWhere jellies bear him company!
+Size=40 22 0 0 39 21
+Colors=#000000 #101b39 #2296ad #0c7f32 #4444dd #187f0c #4022ad
+DiamondsRequired=10 9 11 6 5
+CaveTime=150 120 100 90 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=40 0
+InitialFill=SPACE
+RandomFill=FIREFLYl 30 DIAMOND 5 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+FillRect=17 8 21 11 SPACE
+Point=19 10 INBOX
+Point=20 10 OUTBOX
+Rectangle=1 1 38 20 SPACE
+Rectangle=1 1 37 19 SPACE
+RandomFillC64=2 2 36 2 0 0 0 0 0 SPACE DIAMOND
+RandomFillC64=2 3 2 18 0 0 0 0 0 SPACE DIAMOND
+Add=-1 1 DIAMOND SPACE
+Add=-1 0 DIAMOND SPACE
+Add=-1 -1 DIAMOND SPACE
+Add=0 -1 DIAMOND SPACE
+Add=1 -1 DIAMOND SPACE
+Add=1 0 DIAMOND SPACE
+Add=1 1 DIAMOND SPACE
+Add=1 -2 DIAMOND SPACE
+Add=0 -2 DIAMOND SPACE
+Add=-1 -2 DIAMOND SPACE
+Add=-2 -2 DIAMOND SPACE
+Add=-2 -1 DIAMOND SPACE
+Add=-2 0 DIAMOND SPACE
+AddBackward=-2 1 DIAMOND SPACE
+Add=0 1 DIAMOND DIRT
+Add=0 1 FIREFLYl SPACE
+Add=1 0 FIREFLYl SPACE
+[/objects]
+[/cave]
+
+[cave]
+Name=L
+Author=49174
+Date=2024-05-27
+Intermission=false
+Story=- Block Pyramid -\n\nFrom top to bottom through the blocks\nOf course with fireflies and rocks!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #99371a #b2a895 #cc6677 #9cb295 #241a99
+DiamondsRequired=13 14 11 16 11
+CaveTime=240 240 240 240 300
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=30 0
+RandSeed=44 162 4 0 3
+RandomFill=BOULDER 40 DIAMOND 10 DIRT 0 DIRT 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Raster=4 1 5 3 7 7 FIREFLYl
+FillRect=36 1 38 20 STEELWALL
+FillRect=1 1 14 7 WALL
+FillRect=22 1 35 7 WALL
+FillRect=1 8 7 14 WALL
+FillRect=15 8 21 14 WALL
+FillRect=29 8 35 14 WALL
+FillRect=8 15 14 20 WALL
+FillRect=22 15 28 20 WALL
+Point=18 15 OUTBOX
+Point=18 4 INBOX
+AddBackward=0 1 FIREFLYl DIAMOND
+[/objects]
+[/cave]
+
+[cave]
+Name=BONUS LIFE
+Author=49174
+Date=2024-08-14
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Story=- Maze Race -\n\nThe jewel is the simple quest\nBut then there's no more time to rest!
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #a53521 #267f6d #73cc14 #2c7f26 #2121a5
+DiamondsRequired=1 1 1 1 1
+CaveTime=50 40 30 30 30
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=23 0
+InitialFill=STEELWALL
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=18 1 FIREFLYl
+Line=17 1 17 2 BOULDER
+Line=1 2 4 5 DIAMOND
+Line=1 3 3 5 DIAMOND
+Point=5 5 DIAMOND
+Line=5 4 8 4 DIAMOND
+Line=8 5 8 6 DIAMOND
+Line=7 6 7 8 DIAMOND
+Line=8 8 8 10 DIAMOND
+Line=7 10 5 10 DIAMOND
+Line=5 9 3 9 DIAMOND
+Line=3 10 1 10 DIAMOND
+Line=1 9 3 7 DIAMOND
+Line=1 8 2 7 DIAMOND
+Point=4 7 DIAMOND
+Point=5 7 OUTBOX
+Point=15 7 DUMMY
+AddBackward=10 0 DIAMOND DIRT
+Point=14 7 INBOX
+Add=0 0 DIAMOND DIRT
+Line=1 1 16 1 DIRT
+Point=16 2 DIAMOND
+[/objects]
+[/cave]
+
+[cave]
+Name=M
+Author=49174
+Date=2024-12-01
+Intermission=false
+Story=- Leaky Funnel -\n\nA lot of rocks which will not dwell\nBe quick - the jewels drop as well!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #b26c92 #79994c #519dcc #5e994c #6c7db2
+DiamondsRequired=40 53 56 58 61
+CaveTime=150 130 120 110 100
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 25
+RandSeed=100 137 140 251 51
+InitialFill=BOULDER
+RandomFill=DIAMOND 50 DIRT 0 DIRT 0 DIRT 0
+MagicWallTime=1 1 1 1 1
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=19 19 1 1 STEELWALL
+Line=20 18 37 1 STEELWALL
+BoundaryFill=19 20 WALL STEELWALL
+Point=19 19 SPACE
+Point=19 20 MAGICWALL
+Point=19 1 INBOX
+Point=18 19 OUTBOX
+Line=1 1 18 18 WALL
+Line=37 1 20 18 WALL
+[/objects]
+[/cave]
+
+[cave]
+Name=N
+Author=49174
+Date=2023-05-27
+Intermission=false
+Story=- Switzerland -\n\nA white cross in a bright red square\nAnd it can grow, so be aware!
+Size=22 22 0 0 21 21
+Colors=#000000 #000000 #ff0000 #ff0000 #ffffff #ffffff #abccef
+DiamondsRequired=85 90 95 100 111
+CaveTime=200 180 150 150 150
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=3 10
+AmoebaTime=80 80 80 80 80
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=8 4 13 17 BOULDER
+FillRect=4 8 17 13 BOULDER AMOEBA
+Point=4 4 INBOX
+Point=17 4 OUTBOX
+FillRect=9 5 12 16 AMOEBA
+[/objects]
+[/cave]
+
+[cave]
+Name=BONUS LIFE
+Author=49174
+Date=2024-08-14
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Story=- Free the Rock! -\n\nThe funny boulder in the middle\nGives Rockford an explosion riddle!
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #759992 #2a4cb2 #70cc66 #2ab22f #767599
+DiamondsRequired=27 27 27 27 27
+CaveTime=120 110 100 90 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 0
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Point=1 1 INBOX
+Line=4 1 6 1 SPACE
+Line=9 1 11 1 SPACE
+Line=14 1 16 1 SPACE
+Point=5 1 BUTTERFLYd
+Point=10 1 BUTTERFLYd
+Point=15 1 BUTTERFLYd
+FillRect=1 8 18 10 WALL
+Point=6 4 BOULDER
+Point=14 4 BOULDER
+Point=10 8 BOULDER
+Point=19 1 OUTBOX
+[/objects]
+[/cave]
+
+[cave]
+Name=O
+Author=Dustin
+Date=2022-06-04
+Intermission=false
+Story=- Dungeon -\n\nFirst Rockford does a dozen laps\nThen takes the jewels out of the gaps!
+Size=40 22 0 0 39 21
+Colors=Black Black Cyan Gray1 Yellow Cyan Blue
+DiamondsRequired=15 20 24 27 30
+CaveTime=80 80 80 80 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=10 20
+InitialFill=STEELWALL
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Rectangle=1 4 17 20 SPACE
+Rectangle=3 6 15 18 SPACE
+Rectangle=5 8 13 16 SPACE
+Rectangle=7 10 11 14 SPACE
+Line=2 4 8 10 STEELWALL
+Point=3 5 SPACE
+Point=5 7 SPACE
+Point=7 9 SPACE
+Point=9 11 SPACE
+Point=9 12 OUTBOX
+Rectangle=20 16 24 20 SPACE
+Point=24 15 WALL
+Point=24 12 BOULDER
+Point=24 13 FIREFLYr
+Point=24 14 SPACE
+Point=25 14 FIREFLYl
+Point=22 16 INBOX
+Point=23 16 FIREFLYr
+Raster=26 14 7 4 2 2 FIREFLYr
+Raster=27 14 6 4 2 2 FIREFLYl
+Point=38 15 FIREFLYu
+Point=26 17 FIREFLYd
+Point=38 19 FIREFLYu
+Raster=24 2 15 4 1 3 SPACE
+Line=38 9 38 10 SPACE
+Line=24 6 24 7 SPACE
+Line=38 3 38 4 SPACE
+Point=23 2 SPACE
+Line=22 2 22 14 SPACE
+Line=20 14 21 14 SPACE
+Line=19 1 19 14 SPACE
+Line=1 1 18 1 SPACE
+Line=1 2 1 3 SPACE
+Raster=27 3 4 4 3 3 DIAMOND
+Raster=21 4 1 3 1 4 DIAMOND
+Raster=20 2 1 3 1 4 DIAMOND
+Raster=3 2 8 1 2 2 DIAMOND
+[Level=1,2,3,4]
+Raster=24 14 7 1 2 2 FIREFLYd
+[/Level]
+[Level=1,2,3,4]
+Raster=25 14 7 1 2 2 FIREFLYu
+[/Level]
+[Level=1,2,3,4]
+Point=38 14 FIREFLYl
+[/Level]
+[Level=1,2,3,4]
+Point=38 15 FIREFLYr
+[/Level]
+[Level=1,2,3,4]
+Point=38 16 FIREFLYd
+[/Level]
+[Level=4]
+Point=37 16 SPACE
+[/Level]
+[Level=1,2,3]
+Raster=27 16 6 1 2 2 FIREFLYu
+[/Level]
+[Level=1,2,3]
+Raster=28 16 5 1 2 2 FIREFLYd
+[/Level]
+[Level=1,2,3]
+Point=26 16 FIREFLYl
+[/Level]
+[Level=1,2,3]
+Point=26 17 FIREFLYu
+[/Level]
+[Level=1,2,3]
+Point=27 18 FIREFLYu
+[/Level]
+[Level=1,2,3]
+Point=26 18 FIREFLYd
+[/Level]
+[Level=3]
+Point=28 18 SPACE
+[/Level]
+[Level=1,2]
+Raster=29 18 5 1 2 2 FIREFLYu
+[/Level]
+[Level=1,2]
+Raster=28 18 5 1 2 2 FIREFLYd
+[/Level]
+[Level=1,2]
+Point=38 18 FIREFLYl
+[/Level]
+[Level=1,2]
+Point=38 19 FIREFLYr
+[/Level]
+[Level=1,2]
+Raster=35 20 2 1 2 2 FIREFLYu
+[/Level]
+[Level=1,2]
+Raster=34 20 3 1 2 2 FIREFLYd
+[/Level]
+[Level=2]
+Point=33 20 SPACE
+[/Level]
+[Level=1]
+Raster=26 20 5 1 2 2 FIREFLYl
+[/Level]
+[Level=1]
+Raster=27 20 4 1 2 2 FIREFLYr
+[/Level]
+[Level=1]
+Point=35 20 SPACE
+[/Level]
+[/objects]
+[/cave]
+
+[cave]
+Name=P
+Author=49174
+Date=2023-09-17
+Intermission=false
+Story=- Dig And Rush -\n\nDig, run, crush, in this true order\nThat's the way to beat the warder!
+Size=40 22 0 0 39 21
+Colors=#000000 #000000 #008080 #80ffff #ffffff #2e991e #5974b2
+DiamondsRequired=30 50 70 90 111
+CaveTime=180 170 160 150 150
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=3 5
+InitialFill=STEELWALL
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+FillRect=1 6 11 16 DIRT
+Point=1 6 INBOX
+Line=13 6 15 6 SPACE
+Point=14 6 FIREFLYl
+Point=15 5 DIRT
+Line=15 4 13 4 DIRT
+Line=15 2 15 3 BOULDER
+Point=16 4 BOULDER
+FillRect=17 2 19 4 DIRT OUTBOX
+Raster=17 6 19 6 1 2 DIAMOND
+Line=1 1 1 4 DIRT
+Point=2 1 DIRT
+Point=2 4 DIRT
+Line=3 2 3 3 DIRT
+Line=5 1 5 4 DIRT
+Line=8 1 9 1 DIRT
+Line=7 2 7 3 DIRT
+Line=8 4 9 4 DIRT
+Point=9 3 DIRT
+Line=11 1 11 2 DIRT
+Point=11 4 DIRT
+Line=21 1 21 4 DIAMOND
+Line=22 1 23 2 DIAMOND
+Line=22 3 23 4 DIAMOND
+Line=25 1 25 4 DIAMOND
+Point=26 4 DIAMOND
+Line=27 1 27 4 DIAMOND
+Line=29 2 29 4 DIAMOND
+Point=30 1 DIAMOND
+Line=31 2 31 4 DIAMOND
+Line=33 1 33 2 DIAMOND
+Line=35 1 35 2 DIAMOND
+Point=33 4 DIAMOND
+Point=35 4 DIAMOND
+Line=13 8 14 8 FIREFLYl
+Line=15 9 13 11 FIREFLYl
+Line=13 12 15 12 FIREFLYl
+Line=13 13 13 14 FIREFLYl
+Line=14 14 15 15 FIREFLYl
+Line=14 16 13 16 FIREFLYl
+Raster=35 7 1 3 1 4 DIAMOND
+Raster=17 9 1 2 1 4 DIAMOND
+Point=12 6 DIRT
+Point=16 6 DIAMOND
+[/objects]
+[/cave]
+
+[cave]
+Name=BONUS LIFE
+Author=49174
+Date=2025-05-05
+Selectable=false
+IntermissionProperties.instantlife=true
+Intermission=true
+Story=- Butterfly Gridlock -\n\nThis can be messy, but it's meant\nTo be a lot more elegant!
+Size=20 12 0 0 19 11
+Colors=#000000 #000000 #4c9975 #b23e4f #9386cc #3eb24a #4c4d99
+DiamondsRequired=36 36 36 36 36
+CaveTime=120 110 100 90 80
+CaveScheduling=ms
+FrameTime=160 150 140 130 120
+CaveDelay=0 0 0 0 0
+DiamondValue=5 10
+InitialFill=SPACE
+SlimePermeabilityC64=0 0 0 0 0
+
+[objects]
+Line=18 1 18 10 WALL
+Raster=2 10 8 1 2 2 BOULDER
+FillRect=0 0 12 2 STEELWALL BUTTERFLYd
+Point=17 1 BOULDER
+Point=17 2 DIRT
+Point=1 1 BOULDER
+Point=1 2 DIRT
+Point=9 4 INBOX
+Point=19 4 OUTBOX
+[/objects]
+[/cave]
+[/game]
+[/BDCFF]
