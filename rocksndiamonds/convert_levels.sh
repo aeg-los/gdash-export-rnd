@@ -29,7 +29,7 @@ SKIP_DIR="$ORIG_DIR/First_Star_Software"
 HELP_FILES="helpanim.conf helptext.conf"
 
 SQL_FILENAME="convert_levels.sql"
-SQL_CREATE="0"
+SQL_CREATE="1"
 
 DATESTAMP=`date "+%Y-%m-%d"`
 TIMESTAMP=`date "+%Y-%m-%d %H:%M:%S"`
