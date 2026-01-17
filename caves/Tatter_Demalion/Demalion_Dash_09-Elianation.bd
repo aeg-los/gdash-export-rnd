@@ -460,19 +460,19 @@ W......r...............................W
 W......................a...............W
 W....................Pa.a...........r..W
 W.......wwwww...................r......W
-W..r....wcccw...............wwww.......W
-W......wwcccww.....r........wccw.......W
-W......wwowoww.............wwccww......W
-W....wwwwooowwwww..........wccccw......W
-W....wccccccccccw.........wwooooww.....W
-W....wccccccccccw.........wccccccw.....W
-W....wcccccccoccw.....r...wccccccw.....W
-W....wccccccccccw.........wccccccw.....W
-W..o.wccocccccccw.........wccccccw...r.W
-W....wccccccccccw.......o.wcccoccw.....W
-W....wccccccccccw.........wccccccw.....W
-W....wccccocccccw.........wccccccw..o..W
-W....wccccccccccw.........wwwwwwww.....W
+W..r....wbbbw...............wwww.......W
+W......wwbbbww.....r........wbbw.......W
+W......wwowoww.............wwbbww......W
+W....wwwwooowwwww..........wbbbbw......W
+W....wbbbbbbbbbbw.........wwooooww.....W
+W....wbbbbbbbbbbw.........wbbbbbbw.....W
+W....wbbbbbbbobbw.....r...wbbbbbbw.....W
+W....wbbbbbbbbbbw.........wbbbbbbw.....W
+W..o.wbbobbbbbbbw.........wbbbbbbw...r.W
+W....wbbbbbbbbbbw.......o.wbbbobbw.....W
+W....wbbbbbbbbbbw.........wbbbbbbw.....W
+W....wbbbbobbbbbw.........wbbbbbbw..o..W
+W....wbbbbbbbbbbw.........wwwwwwww.....W
 W....wwwwwwwwwwww......................W
 W............o.........................W
 W......................................W
@@ -1254,7 +1254,7 @@ w.w ww www ww   .   w       www.w wwww w
 w w ww www wwwwwwwwww wwwww www w wWww w
 w   w   w   !      ww.w!  w www w      w
 wwwwwwwww wwww www ww w w   www wwwwwwww
-ww   .www w      w !  w w w ww     c   w
+ww   .www w      w !  w w w ww     b   w
 wX ww     wW    "w ww w  .w    wwwwwww w
 ww ww www wwwwwwww ww wwwww ww wwwwwww.w
 ww !  w%w      .   ww    !  ww wWwwwww w
@@ -1434,20 +1434,20 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 W.........................    !  o   ..W
 W......aaa.....WWWWWWWWWWWWWWWWWWWWWWW.W
 W.....a..a.....W           BBOB BOBBOW.W
-W...a..a.a.....w WWWWWW WbWBWBW WWWBBW.W
+W...a..a.a.....w WWWWWW WcWBWBW WWWBBW.W
 W.....a..a.....w W....W W WBW WBWBW BW.W
 W    aaa a     w W."..W W WOWBWOWOWOBWCW
-W      a       w WWWrWWbWCWOWBWOWBWWWWCW
-W              w WW..WW WCWBBOWOBbBOBWCW
+W      a       w WWWrWWcWCWOWBWOWBWWWWCW
+W              w WW..WW WCWBBOWOBcBOBWCW
 W              w WW..WW WCW WWWWWBWWWWCW
-W              O        WCWBWbbBWOW BWCW
+W              O        WCWBWccBWOW BWCW
 W              w WWW WWWWCWBWBW W WBBCCX
 W           P  w   Wo    CWOWBW WBW OWCW
-W              w W WoWWWWCWBWbWBWBWBBWCW
+W              w W WoWWWWCWBWcWBWBWBBWCW
 W              w W W     CW W WBWOWOBWCW
-W              w W WWWWWW WBWBWbW WBBWoW
+W              w W WWWWWW WBWBWcW WBBWoW
 W              w W  o     WBWOWOWBW OW W
-W..............W WWWWWWWW WOWBWBWWWbBW.W
+W..............W WWWWWWWW WOWBWBWWWcBW.W
 W..............W          O BBWBBOBBBW.W
 W..............WWWWWWWWWWWWWWWWWWWWWWW.W
 W.........................    !  o   ..W
@@ -2580,7 +2580,7 @@ PenaltyTime=10 10 10 10 10
 AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
 AmoebaTime=15 15 15 15 15
-AmoebaGrowthProb=0.2500 1.0000
+AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2623,4 +2623,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

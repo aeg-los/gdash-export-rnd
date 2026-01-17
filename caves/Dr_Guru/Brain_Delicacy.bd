@@ -439,7 +439,7 @@ W W... ...WrW.......W W WWsWWWWWWWW W.WW
 W W... ...WQW.......W W W.........W W.WW
 W W... ...WrW....r..W w W.........W W.WW
 W W... ...WoOr   r    WWW.........W W.WW
-W WxbOr   WOWsWWWsWWWWW......r....W W.WW
+W WxcOr   WOWsWWWsWWWWW......r....W W.WW
 W WWWWsWW  .W................W....W W.WW
 W     ...WW W...........WWsW..WxPxW W.WW
 W      ...WW..........WWWW wr. xXxW W.WW
@@ -872,7 +872,7 @@ ShortExplosions=false
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WWWWW.....r......WWWWWWWWWWWWWWW   WQ  W
 W......... ......WWWWWWWWWWWWWWW W W W W
-W.xWWr....c......WWWWWWWWWWWWWWW W W W W
+W.xWWr....b......WWWWWWWWWWWWWWW W W W W
 W.WWW............WWWWWWWWWWWWWWW W W W W
 W.WWW............WWWWWWWWWWWWWWW W W W W
 W.WWW............WWWWWWWWWWWWWWW W W WOW
@@ -939,7 +939,7 @@ W  ....PX.....  ...WWWWWWWWWWWWWWWWWWWWW
 W  .........r.  ...WWWWWWWWWWWWWWWWWWWWW
 W  .....W.....  .wwWWWWWWWWWWWWWWWWWWWWW
 W               .wdWWWWWWWWWWWWWWWWWWWWW
-W         c     .wdWWWWWWWWWWWWWWWWWWWWW
+W         b     .wdWWWWWWWWWWWWWWWWWWWWW
 W   .xW  WWWW   .wdWWWWWWWWWWWWWWWWWWWWW
 W    O          .wwWWWWWWWWWWWWWWWWWWWWW
 W               ...WWWWWWWWWWWWWWWWWWWWW
@@ -1002,7 +1002,7 @@ W........rW............................W
 W...WWWWxrW.WWWWWWWWWWWWWWWWWWWWWWWWWW.W
 W...Wddddr..W........Q   ............W.W
 W...WWWWxrWWW........................W.W
-W.......WrW...............d...   b...W.W
+W.......WrW...............d...   c...W.W
 W.......WrW............d.............W.W
 W.......WrW.........d................W.W
 W.......WrW...................r......W.W
@@ -1140,7 +1140,7 @@ W w Wx.WWWWWWWWWWWWWWWWWWWWWWWW WWWWWW.W
 W w    WWWWWWWWWWWWWWWWWWWWWWWx.WWWWWW.W
 W wWWWWWWWWWWWWWWWWWWWWWWWWWWWW.WWWWWW.W
 W WWWWWWWWWWWWWWWWWWWWWWWWWWWWW.W      W
-W .WWWWWWWW.......WWWWWWWWWWWWWXWb WW QW
+W .WWWWWWWW.......WWWWWWWWWWWWWXWc WW QW
 W  ............................P.  WW  W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW      W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -1169,7 +1169,7 @@ AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=1.0000 0.1250
+AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=15 15 15 15 15
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -1233,7 +1233,7 @@ AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=0.1250 1.0000
+AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -1257,7 +1257,7 @@ W..................WWWWWWWWWWWWWWWWWWWWW
 W........w.........WWWWWWWWWWWWWWWWWWWWW
 W........w.........WWWWWWWWWWWWWWWWWWWWW
 W........w.........WWWWWWWWWWWWWWWWWWWWW
-Wb....W  x  W.....OWWWWWWWWWWWWWWWWWWWWW
+Wc....W  x  W.....OWWWWWWWWWWWWWWWWWWWWW
 W ....W     W..... WWWWWWWWWWWWWWWWWWWWW
 W ....W     W..... WWWWWWWWWWWWWWWWWWWWW
 W ....WdddddW..... WWWWWWWWWWWWWWWWWWWWW
@@ -1276,4 +1276,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

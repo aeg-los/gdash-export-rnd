@@ -8,7 +8,7 @@ Length=1
 [/mapcodes]
 
 [game]
-Name=BDUX2
+Name=Boulderdash-UX-2
 Levels=5
 
 [cave]
@@ -79,6 +79,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave b
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Brown Gray1 Yellow Yellow Brown
@@ -108,7 +109,7 @@ MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
-BiterProperties=0 BUTTERFLYd
+BiterProperties=0 BUTTERFLYr
 Effect=DIAMONDfallingeffect SCANN_DIAMONDf
 Effect=BOMBEXPLOSIONeffect SPACE
 Effect=EXPANDINGWALLLOOKSLIKEeffect STEELWALL
@@ -127,7 +128,7 @@ W.W W.r...r..W Wr.dd..rrW W.dr.r..drr.rW
 WrW W.dr...... Wd......dW Wrr..d..r...rW
 WrW Wd...r...W W..r..rr.W W.r.drdr...rdW
 W.W Wr..ddrrdW W...r.d.rW WWWWWWWWW.WWWW
-W.W!WWWWWWWWWW W..rr...dW o.          BW
+W.W!WWWWWWWWWW W..rr...dW o.          cW
 W.W            Wrrdr....WWWWWWWWWWWWWWWW
 WrWoWWWWWWWWWWWWddr.......rr..r...rrdrrW
 W.W Wdr...d.rr........r...ddr......rrrrW
@@ -145,6 +146,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave c
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray1 Purple Cyan Cyan Gray1
@@ -209,6 +211,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave d
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Blue Gray1 Green Green Blue
@@ -249,30 +252,31 @@ ShortExplosions=false
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WPr..r.....rr.r.r....rr..r.......rr.r.XW
 W...rr...W.....r...W...rr....W.........W
-Wr...r..bWb ......bWb ..rr..bWb r..r..rW
+Wr...r..CWC ......CWC ..rr..CWC r..r..rW
 W.....r. WW ....r. WW ...... WW ..rr...W
 W..r....  W  r....  W  .rr..  W  r..r..W
 W.r.r.... WW ...... WW ...r.. WW ..r...W
 W.r.....r  W  ..r..  W  .....  W  r....W
 W.W....r.. WW .....r WW ..r... WW ..rr.W
-WbWb r....  W  rr...  W  rr.r.  W  rr..W
+WCWC r....  W  rr...  W  rr.r.  W  rr..W
 W WW .....r WW ..r... WW ...r.. WW .r.rW
 W  W  rr...  W  r.rr.  W  ...r.  W  ...W
 W. WW ...... WW ..r... WW ...... WW ...W
-Wr  W  .r.r.b W  ....rb W  .r.r.b W  .rW
-W..bWW ..r... WW ...r.. WW ...... WW ..W
+Wr  W  .r.r.C W  ....rC W  .r.r.C W  .rW
+W..CWW ..r... WW ...r.. WW ...... WW ..W
 Wr.  W  r...r  W  ...r.  W  ..rr.  W  rW
 Wr.. WW ...... WW ...... WW ...r.. WW .W
 W..r  W  .r.rr  W  .r.r.  W  .rrr.  W  W
-W.rr. WW ..rr..bWW rr...rbWW .r.r.rbWW W
-W....  Wb......  Wb......  Wb......  W W
-Wb     W         W         W         WbW
+W.rr. WW ..rr..CWW rr...rCWW .r.r.rCWW W
+W....  WC......  WC......  WC......  W W
+WC     W         W         W         WCW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
 
 [cave]
 Name=Bonus 1
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray1 Blue White White Gray1
@@ -337,6 +341,7 @@ WWWWWWWWWW
 
 [cave]
 Name=Cave e
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Red LightRed White White Red
@@ -377,30 +382,31 @@ ShortExplosions=false
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 Wr   rWr   rWr   rWr   rWr   rWr   rW. W
 W.   .W.   .W.   .W.   .W.   .W.   .W  W
-W     !     !     !     !     !     ! bW
+W     !     !     !     !     !     ! CW
 W     W     W     W     W     W     W .W
 W     W     W     W     W     W     W .W
-WWW!WWWWW!WWWWW!WWWWW!WWWWW!WWWWW!WWW bW
+WWW!WWWWW!WWWWW!WWWWW!WWWWW!WWWWW!WWW CW
 Wr   rWr   rWr   rWr   rWr   rWr   rW..W
-W.   .W.   .W.   .W.   .W.   .W.   .W bW
+W.   .W.   .W.   .W.   .W.   .W.   .W CW
 W     !     !     !     !     !     W .W
 W     W     W     W     W     W     W .W
-W     W     W     W     W     W     W bW
+W     W     W     W     W     W     W CW
 WWW!WWWWW!WWWWW!WWWWW!WWWWW!WWWWW!WWW..W
-Wr   rWr   rWr   rWr   rWr   rWr   rWb.W
+Wr   rWr   rWr   rWr   rWr   rWr   rWC.W
 W.   .W.   .W.   .W.   .W.   .W.   .W  W
 W  P  !     !     !     !     !     W. W
 W     W     W     W     W     W     W. W
-W     W     W     W     W     W     Wb W
+W     W     W     W     W     W     WC W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW. W
-W..b..b. . . b .      .     .b..b..b ..W
-WX.    . b . . ..b.b. ..b.b..     ..   W
+W..C..C. . . C .      .     .C..C..C ..W
+WX.    . C . . ..C.C. ..C.C..     ..   W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
 
 [cave]
 Name=Cave f
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Red Green Cyan Cyan Red
@@ -439,32 +445,33 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-W...W b  W    W b  W rbbW    Wbrbb. b  W
-W.X.WbWWbWbWW W WWbW WW W WWbWbWW W rr W
-W...W WWrWbWW W WWrW WW W WWbW WW WbWWbW
-W.P.W  brWbrb .bbrrW bb W brbW    W WW W
-W...W.WWWWWWWW.WWWWWWW.WW.WWWW.WWWWr b W
+W...W C  W    W C  W rCCW    WCrCC. C  W
+W.X.WCWWCWCWW W WWCW WW W WWCWCWW W rr W
+W...W WWrWCWW W WWrW WW W WWCW WW WCWWCW
+W.P.W  CrWCrC .CCrrW CC W CrCW    W WW W
+W...W.WWWWWWWW.WWWWWWW.WW.WWWW.WWWWr C W
 W................................ WWWWWW
-W.r..........   Q....rQ.........W W br W
-W......Q..r...........    ...r..W WbWW W
-W ..... ..........Q...... ......W W WWbW
-W .r...     ...r.. .........Q  .W W b  W
+W.r..........   Q....rQ.........W W Cr W
+W......Q..r...........    ...r..W WCWW W
+W ..... ..........Q...... ......W W WWCW
+W .r...     ...r.. .........Q  .W W C  W
 W ................ ....r...... .W ..WWWW
-W   .r..........   ........... .W W b bW
+W   .r..........   ........... .W W C CW
 W..Q.........................r .W W WW W
-W..........r........r...........W W WWbW
-W......................r........W W b rW
+W..........r........r...........W W WWCW
+W......................r........W W C rW
 W......r... ....   ...........r.W WWWWWW
-W.......... ...... .............W . b  W
-Wo.......Q  ...r.. .............W W WWbW
-W ................Q.....r.....aaW WbWW W
-W     ........................aaW W rb W
+W.......... ...... .............W . C  W
+Wo.......Q  ...r.. .............W W WWCW
+W ................Q.....r.....aaW WCWW W
+W     ........................aaW W rC W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
 
 [cave]
 Name=Cave g
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Brown Gray1 Green Green Brown
@@ -508,7 +515,7 @@ Wd.................rv.Wr...w W .  !d! .W
 Wd..................w.W....w W   !ddd! W
 Wwv.vvwwwvvwwwvww...w.W....w W  !ddddd!W
 WWW.WWWWWWWWWWWWw...w.Wr..rWWW !ddddd!oW
-W     Wo.dddddrWw...w.W...WWbb!ddddd!  W
+W     Wo.dddddrWw...w.W...WWCC!ddddd!  W
 W  !  W WddrdddWwwwww.W...rWWWddddd!  rW
 W ! ! W WddddrdWWWWWW.W....w Wdddd!r  .W
 W! o !W WrddrdrWddo  ......w Wddd! .   W
@@ -519,7 +526,7 @@ W.WWWWW W.WWWWWW    !        W...wvwwwvW
 Wo. .....!.....WWWW WWWWWWWWWW.W.......W
 W ! Wv.....!.!.Wwvw.wwwwvW o   W.......W
 W ! Ww.!.!.....Wddd.dddddW w   Wvwwwvw.W
-W d WWWWW WWWWWWWWW.wvww.W w !CWWWWWWW.W
+W d WWWWW WWWWWWWWW.wvww.W w !bWWWWWWW.W
 Wd!       W       W .....W! ! !WddrrdddW
 WWWWWWWW WW WWWWW W !   !    ! WdrdddrdW
 Wr.P...!    .X.rW   !      !   WrdddrddW
@@ -529,6 +536,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave h
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Red Purple Yellow Yellow Red
@@ -593,6 +601,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Bonus 2
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray1 Blue White White Gray1
@@ -613,7 +622,7 @@ AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=0.0312 1.0000
+AmoebaGrowthProb=1.0000 0.5000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -632,10 +641,10 @@ ShortExplosions=false
 [map]
 WWWWWWWWWW                              
 WPdddddddW                              
-WdddrddddW                              
+WddrddrddW                              
 WddddddddW                              
-WdrddddddW                              
-WddddrdddW                              
+WddrddddrW                              
+WdddrddddW                              
 WdddddddXW                              
 WWWWWWWWWW                              
                                         
@@ -657,6 +666,7 @@ WWWWWWWWWW
 
 [cave]
 Name=Cave i
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Brown Orange Yellow Yellow Brown
@@ -697,12 +707,12 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-W  b! bWW b!b  WW  b!b W...r....r......W
-W  b!  WW  !b  WW  b!  W...........r...W
-W bWW b!b  WW  !b  WWC !......r........W
-W bWW b!b  WW  !b  WWC !...............W
-W  b!  WW  !b  WW  b!  W...r........r..W
-W  b! bWW b!b  WW  b!b W...............W
+W  C! CWW C!C  WW  C!C W...r....r......W
+W  C!  WW  !C  WW  C!  W...........r...W
+W CWW C!C  WW  !C  WWb !......r........W
+W CWW C!C  WW  !C  WWb !...............W
+W  C!  WW  !C  WW  C!  W...r........r..W
+W  C! CWW C!C  WW  C!C W...............W
 WWWWWWWWWWWWWWWWWWWWWWWW!......r.......W
 W    !     o..xWw...   o...............W
 W    !    WW..wWw..WW.. .....r.....r...W
@@ -723,6 +733,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave j
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Blue LightBlue White White Blue
@@ -761,12 +772,12 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-Wrrr.....rrr...r...r....r..r.r..WbbbbbbW
-W.....r.r....r........r......rr.WbbbbbbW
-W.r.r.....r.r..r...r.......r...rWbbbbbbW
-W....r.......r...r...r..r...r...WbbbbbbW
-Wr....r.r..........rr.....r....rWbbbbbbW
-W..r...............r............WbbbbbbW
+Wrrr.....rrr...r...r....r..r.r..WCCCCCCW
+W.....r.r....r........r......rr.WCCCCCCW
+W.r.r.....r.r..r...r.......r...rWCCCCCCW
+W....r.......r...r...r..r...r...WCCCCCCW
+Wr....r.r..........rr.....r....rWCCCCCCW
+W..r...............r............WCCCCCCW
 W..r..r...r...r.r.......r....r..W      W
 W.......r.........WWWWWWWWWWWWWWW      W
 W.r...r......r....!  !   !   !  !      W
@@ -787,6 +798,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave k
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray1 Red Yellow Yellow Gray1
@@ -851,6 +863,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave l
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray1 Blue Green Green Gray1
@@ -873,7 +886,7 @@ AmoebaThreshold=0.3409 0.3409 0.3409 0.3409 0.3409
 AmoebaTime=255 255 255 255 255
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=0.1250 0.5000
+AmoebaGrowthProb=0.2500 0.5000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -892,14 +905,14 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-Wrr!bbW  !  W. W  W  W  !  W.bW  W  WbXW
-WrrW.bWo W  W  !  ! .W bW  WbbW  ! .WbbW
-WrrW o!b W. !  !  W  W.bWb W.o!  W b!o.W
-Wrr!  Wb.W bW  Wb.W  ! bWb.W  !  W.b!  W
-Wrr!  Wb W.bW  Wbb!  ! o!bo!  !  WobW  W
-WrrW  !  W bW oWo Wbo! .W. W  W.o!  W .W
-WrrW. W. ! o!bbW. !b.W  W  !  WbbW  !  W
-WrrW  W  !  Wb.!  Wb W  !  W  !b.W  W  W
+Wrr!CCW  !  W. W  W  W  !  W.CW  W  WCXW
+WrrW.CWo W  W  !  ! .W CW  WCCW  ! .WCCW
+WrrW o!C W. !  !  W  W.CWC W.o!  W C!o.W
+Wrr!  WC.W CW  WC.W  ! CWC.W  !  W.C!  W
+Wrr!  WC W.CW  WCC!  ! o!Co!  !  WoCW  W
+WrrW  !  W CW oWo WCo! .W. W  W.o!  W .W
+WrrW. W. ! o!CCW. !C.W  W  !  WCCW  !  W
+WrrW  W  !  WC.!  WC W  !  W  !C.W  W  W
 WrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 W..rrr....rr.r..r....r.rr..r..r...rr...W
 W.....r..r....r....r....r....r...r....rW
@@ -918,6 +931,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Bonus 3
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray1 Blue White White Gray1
@@ -938,7 +952,7 @@ AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=0.5000 0.1250
+AmoebaGrowthProb=0.5000 0.2500
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -956,12 +970,12 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWW                              
-WPddddddrW                              
-WdddrddddW                              
-WddddrdddW                              
-WdrddddddW                              
-WddddrdddW                              
-WdrdddddXW                              
+WPdddddrrW                              
+WddrddrddW                              
+WddddddddW                              
+WrdrddddrW                              
+WrddrddddW                              
+WrddrrrdXW                              
 WWWWWWWWWW                              
                                         
                                         
@@ -982,6 +996,7 @@ WWWWWWWWWW
 
 [cave]
 Name=Cave m
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Brown Green Yellow Yellow Brown
@@ -1022,23 +1037,23 @@ ShortExplosions=false
             WWWWWWWWWWWWWWWWWWWWWWWWWWWW
             Wdddrddddd.r..ddrd..d.r.d.dW
             Wddrdrrrr.rr.r.d.dr.d...rddW
-            Wbrr..r..drd..rr..d...d...rW
+            WCrr..r..drd..rr..d...d...rW
             Wrdddr.dd..d.d..dd.ddr..ddrW
-            W....d.dr.rr.d.r.d..rd.r.dbW
+            W....d.dr.rr.d.r.d..rd.r.dCW
             Wd.r..r...rdrdddr.drd.rdr.dW
-            Wdddrr...dd.rbrd.rr...dddr.W
+            Wdddrr...dd.rCrd.rr...dddr.W
 WWWWWWWWWWWWW...dr.r...WWWWWWWWWWWWWWWWW
 Wrr.rdddrdrddrddr.ddr..W                
 W.X...rd....dr....r.dr.W                
 W.........r.....rd...ddW                
 Wr.....ddd..dr....r..r.W                
-WdPr.r..r..rdd.rddbd..dW                
+WdPr.r..r..rdd.rddCd..dW                
 Wdd..r..r..drd...dd.r..W                
-Wrd.rddrrrddbr.d.rd...rW                
+Wrd.rddrrrddCr.d.rd...rW                
 WWWWWWWWWWWWW.rr...r.d.WWWWWWWWWWWWWWWWW
             W..r....rd.r.d.d.rrrddr.d.rW
-            Wd..dr...dbr.rd..d..r.d.r.rW
-            Wrdr..r.r..d..d.r.rd..d.b.dW
+            Wd..dr...dCr.rd..d..r.d.r.rW
+            Wrdr..r.r..d..d.r.rd..d.C.dW
             Wdrdrddd...rd..rddd.rdrdddrW
             WWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
@@ -1046,6 +1061,7 @@ WWWWWWWWWWWWW.rr...r.d.WWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave n
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Blue Brown Green Green Blue
@@ -1087,18 +1103,18 @@ ShortExplosions=false
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW   
 WP..W..dW.".W ooW"..WrrrWrr"Wr"dWd."W   
 W...w...w...wo  w..!w..rw...wr."w.r"W   
-W"."WrdrW"r"WrrbWr. Wd.dW.d.Wrr"WdrdW   
+W"."WrdrW"r"WrrCWr. Wd.dW.d.Wrr"WdrdW   
 WWwWWWwWWWwWWWwWWWwWWWwWWWwWWWwWWWwWW   
 Wd.rW.ddW..dWorrWdddWrddW...WdrrWr oW   
-Wd..w.d.wrd"wr rw".rwrrdw!.!wddrwr.bW   
-WrdrWr.rWdd.W r Wr.rWrrrW.."WdddWrrbW   
+Wd..w.d.wrd"wr rw".rwrrdw!.!wddrwr.CW   
+WrdrWr.rWdd.W r Wr.rWrrrW.."WdddWrrCW   
 WWwWWWwWWWwWWWwWWWwWWWwWWWwWWWwWWWwWW   
 W.."W   W.."W rrWrr.W.d"WdrdWr..Wrd"W   
 W"..wo.dw.d.wrr.w..dw.!"wrorwd"dw.d"W   
 Wr.dWr.rWdr"Wrr.Wrd.Wr!"WdrdWrdrW"rdW   
 WWwWWWwWWWwWWWwWWWwWWWwWWWwWWWwWWWwWW   
-Wd.rW o Wr."WdooWdr.W b W !"Wd..W  oW   
-W..dwbo wdd.wrdowd.rwob w !"w".rwdddW   
+Wd.rW o Wr."WdooWdr.W C W !"Wd..W  oW   
+W..dwCo wdd.wrdowd.rwoC w !"w".rwdddW   
 W.d"WrddWddrWrr Wdd.WrrrWo!"WdrdWrdrW   
 WWwWWWwWWWwWWWwWWWwWWWwWWWwWWWwWWWwWW   
 W"..WdroW"."W.r"Wd..W"r"WrrdWd."Wrd"W   
@@ -1111,6 +1127,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave o
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Purple Orange Yellow Yellow Purple
@@ -1176,6 +1193,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave p
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Brown Orange Yellow Yellow Brown
@@ -1196,7 +1214,7 @@ AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=1.0000 1.0000
+AmoebaGrowthProb=0.2500 1.0000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -1217,23 +1235,23 @@ ShortExplosions=false
     WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
     W o .o WdW""WdWdW"W  W      Wr....rW
     W X .. W.W..W.WdW"W WWW WW WWW.o  .W
-    W  d   W      W.W.W www Wo www... rW
-    WrrrrrrW      W     w.w WW w.w... .W
-    WrrrrrrW WoWW W WWW www  W www.   .W
-    W......W WWW  W  oW WWW WW WWW. ..rW
+    W      W      W.W.W www Wo www... rW
+    WrrrrrrW      W     wow WW wow... .W
+    WrrrrrrW WoWW W WWW www oW www.   .W
+    W......W WWWo W  oW WWW WW WWW. ..rW
     W...r..W WoWW W WWW  W      W". ...W
-    Wr...rrW      W W    W      Wr. o .W
-    W...rrdW      W WWWW W WWoW Wd.r. rW
-    W.r....W WWoW W  WoW W  WWW W.... .W
-    Wr....rW  WWW W WW   W WWoW W.    .W
+    Wr...rrW      W Wo   W      Wr. o .W
+    W...rr.W      W WWWW W WWoW Wd.r. rW
+    W.r....W WWoW W oWoW W oWWW W.... .W
+    Wr....rW oWWW W WW   W WWoW W.    .W
     Wr.r..rW WWoW W oWWW W      Wr .rr.W
-    W..r.r.W      W WW W W      W. ....W
+    W..r.r.W      W WWoW W      W. ....W
     W.r....W      W      W WoWW W.  o .W
-    Wr..r.WWW WW WWW     W WWW  Wrr.. .W
-    Wrr...www W  www WWW W WoWW W.... rW
-    Wr....w.w WW w.w oW  W      W.!   .W
+    Wr..r.WWW WW WWW     W WWWo Wrr.. .W
+    Wrr...www Wo www WWW W WoWW W.... rW
+    Wr....wow WW wow oWo W      W.!   .W
     Wd....www oW www WWW W      W......W
-    Wd....WWW WW WWW W W WdW..WdW"rd.PrW
+    Wd....WWW WW WWW WoW WdW..WdW"rd.PrW
     Wrd.r.dWd    dW      WdW""WdWrrr.rrW
     WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
@@ -1241,6 +1259,7 @@ ShortExplosions=false
 
 [cave]
 Name=Bonus 4
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray1 Blue White White Gray1
@@ -1261,7 +1280,7 @@ AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=0.5000 0.5000
+AmoebaGrowthProb=0.1250 0.1250
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -1279,12 +1298,12 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWW                              
-WPddddddrW                              
-WdddrdrddW                              
-WddddrdddW                              
-WdrdddddrW                              
-WrdddrdddW                              
-WdrdrdddXW                              
+WPddrrdrrW                              
+WrdrddrdrW                              
+WddddrrdrW                              
+WrdrddddrW                              
+WrddrdrddW                              
+WrddrrrdXW                              
 WWWWWWWWWW                              
                                         
                                         
@@ -1305,11 +1324,12 @@ WWWWWWWWWW
 
 [cave]
 Name=Cave q
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black LightBlue Cyan Green Green LightBlue
-DiamondsRequired=120 120 120 120 120
-CaveTime=300 300 300 300 300
+DiamondsRequired=130 130 130 130 130
+CaveTime=280 280 280 280 280
 CaveScheduling=plck
 PALTiming=true
 FrameTime=140 140 140 140 140
@@ -1337,7 +1357,7 @@ SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
 Effect=BOULDERbouncingeffect SCANN_BOULDER
 Effect=DIAMONDfallingeffect SCANN_DIAMONDf
-Effect=BOMBEXPLOSIONeffect BUTTERFLYd
+Effect=BOMBEXPLOSIONeffect BUTTERFLYr
 MagicWallProperties.sound=false
 BorderProperties.lineshift=true
 BorderProperties.objectwraparound=true
@@ -1371,6 +1391,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave r
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Purple LightRed Green Green Purple
@@ -1390,8 +1411,9 @@ PenaltyTime=0 0 0 0 0
 AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
 AmoebaTime=255 255 255 255 255
-Effect=AMOEBABOULDEReffect DIAMOND
-AmoebaGrowthProb=1.0000 1.0000
+Effect=AMOEBABOULDEReffect DIRT
+Effect=AMOEBADIAMONDeffect BOULDER
+AmoebaGrowthProb=0.5000 1.0000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -1402,8 +1424,8 @@ SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
 Effect=BOULDERbouncingeffect SCANN_BOULDER
 Effect=DIAMONDfallingeffect SCANN_DIAMONDf
-Effect=BOMBEXPLOSIONeffect BUTTERFLYd
-EnemyDirectionProperties.time=30
+Effect=BOMBEXPLOSIONeffect BUTTERFLYr
+EnemyDirectionProperties.time=5
 MagicWallProperties.sound=false
 BorderProperties.lineshift=true
 BorderProperties.objectwraparound=true
@@ -1411,32 +1433,33 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-W"""". oo W...rroo   r..rrW.raaa..r.   W
-W""""W WW WrrXr.oo   r..rrW..rar....oo W
-W""""W WW W..r....r......WW.........oo W
-W""""W oo W.r..r.......  Ww..r..r...   W
-W.WWWWWWW.W...r.....r..  .w....r...r.r.W
-W    .    W.r.r........oo.w............W
-WoWWoWoWWoWr......r..r.oo.wWrr.........W
-WoWWoWoWWoW..............rWW.r....rr.raW
-W    W    Wrr..r.oo  ....rW..rr...r..raW
-WWWWWW.WWWW..r...oo  WWWWWW...r.r....raW
-W..r.....r.r..r......Ww...............aW
-W......r..r.....r.....w......r.....r.r.W
-W  ...r.....r.....r...w..r.............W
-W  .rr..r....r...WWWWWw....oo  ...r..r.W
-Woo......oo......Ww.rWW.r..oo  ........W
-Woo......oo.......w..............r...r.W
-Wr....r..  .rr....w......r..........r.rW
-W......r.  ...oo  wW..rr.r............aW
-W..r..........oo  WWr..roo   ...rr..aaaW
-W...rP.rr.rr..r...Wr....oo   ......aaaaW
+W"""". oo W...rroo   r..rr..raaa..r.   W
+W""""W WW WrrXr.oo   r..r....rar....oo W
+W""""W WW W..r....r.................oo W
+W""""W oo W.r..r.......  .r..r..r...   W
+W.WWWWWWW.W...r.....r..  ......r...r.r.W
+W    .    W.r.r........oo..............W
+WoWWoWoWWoWr......r..r.oo...rr.........W
+WoWWoWoWWoW..............r...r....rr.raW
+W    W    Wrr..r.oo  ....r...rr...r..raW
+WWWWWW.WWWW..r...oo  .....r...r.r....raW
+W..r.....r.r..r.......r...............aW
+W......r..r.....r....r.......r.....r.r.W
+W  ...r.....r.....r......r.............W
+W  .rr..r....r.............oo  ...r..r.W
+Woo......oo.........r.r.r..oo  ........W
+Woo......oo.......r..............r...r.W
+Wr....r..  .rr...........r..........r.rW
+W......r.  ...oo  ....rr.r............aW
+W..r..........oo  ..r..roo   ...rr..aaaW
+W...rP.rr.rr..r....r....oo   ......aaaaW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
 
 [cave]
 Name=Cave s
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray1 Blue Yellow Yellow Gray1
@@ -1502,6 +1525,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
 [cave]
 Name=Cave t
+Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black LightBlue Yellow White White LightBlue
@@ -1566,3 +1590,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
+; converted from .gds / check butterfly directions (discussion 96)

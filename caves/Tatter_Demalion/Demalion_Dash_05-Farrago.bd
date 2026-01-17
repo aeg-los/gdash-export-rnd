@@ -1227,26 +1227,26 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-W   c        c     c    c      c     c W
+W   b        b     b    b      b     b W
 W W.W.W.W.W.W.W.W.W.W.W.W.W.W.W.W.W.W. W
-W .       c      c           c       W W
-W W ................................ .cW
-W .c.wwwwwwwwwwwwwwwwwwwwwwwwwwwwww. W W
-WcW ................................ . W
+W .       b      b           b       W W
+W W ................................ .bW
+W .b.wwwwwwwwwwwwwwwwwwwwwwwwwwwwww. W W
+WbW ................................ . W
 W . .. o .        P           . o ..qWqW
-WqWq..w.w w      waw         w w.w..c. W
+WqWq..w.w w      waw         w w.w..b. W
 W . .w     w      a         w     w. W W
 W W .w      w              w      w. . W
-Wc. .w       w            w       w. WcW
+Wb. .w       w            w       w. WbW
 W W .w                            w. . W
-W .c.w                            w. W W
+W .b.w                            w. W W
 W W .w                            w. . W
 W . .w                            w. W W
 W W .wwwwwwwwwwwwwwwwwwwwwwwwwwwwww. . W
-Wc. ................................ WcW
-W W   c       c      c          c    . W
+Wb. ................................ WbW
+W W   b       b      b          b    . W
 W .W.W.W.W.W.W.W.W.W.W.W.W.W.W.W.W.W.W W
-W      c      c   c      c        c    W
+W      b      b   b      b        b    W
 WWWWWWXWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -1574,7 +1574,7 @@ WCw . W W  W***.**'''''''**************W
 WCw . WWWWXW***.*.' ' ' '**************W
 WCw . WFWW!W*"*...' '''''..************W
 Wo. ........................***********W
-WC  ccocccco.................**********W
+WC  bbobbbbo.................**********W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -1835,8 +1835,8 @@ W . wwwwwwwww               wwwwwwwww. W
 W . wwwwwwwww...wwwwwwwww...wwwwwwwww. W
 W . WWWWWWWWW."QWWWWWWWWW.rQWWWWWWWWW. W
 W . W.C.X.C.W...W.C.W.C.W.P.W.C.W.C.W. W
-WQ  WCcccccCW...WCcccccCW...WCcccccCW.QW
-WWWWW.c. .c.WWWWW.c. .c.WWWWW.c. .c.WWWW
+WQ  WCbbbbbCW...WCbbbbbCW...WCbbbbbCW.QW
+WWWWW.b. .b.WWWWW.b. .b.WWWWW.b. .b.WWWW
 [/map]
 [/cave]
 
@@ -2189,7 +2189,7 @@ AmoebaProperties.waitforhatching=true
 AmoebaTime=95 95 95 95 95
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=1.0000 1.0000
+AmoebaGrowthProb=0.0625 0.2500
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2296,4 +2296,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

@@ -72,13 +72,13 @@ ShortExplosions=false
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 Wa.a........ .  . ..P.. .  . ..........W
 W.a......XXWwwwwwwrrrrrwwwwwwWXX.......W
-W........XXWwcccc rrrrr ccccwWXX...aa..W
-W.a.a....XXWwccccwrrrrrwccccwWXX.......W
-W........XXWwccccwrrrrrwccccwWXX..a....W
-W........XXWwccccwrrrrrwccccwWXX.......W
+W........XXWwbbbb rrrrr bbbbwWXX...aa..W
+W.a.a....XXWwbbbbwrrrrrwbbbbwWXX.......W
+W........XXWwbbbbwrrrrrwbbbbwWXX..a....W
+W........XXWwbbbbwrrrrrwbbbbwWXX.......W
 Wo       WWWwoooowrrrrrwoooowWWWo      W
 W        WwwwwowwwwwrwwwwwowwwwW       W
-W        WoocccccccwrwoccccccccW       W
+W        WoobbbbbbbwrwobbbbbbbbW       W
 W . ...  WwwwwwwwwwwrwwwwwwwwwwW . ... W
 W . . .  ..a........r........a.. . . . W
 W . ...  ....................... . ... W
@@ -462,17 +462,17 @@ W .................................... W
 Wo........!........a......!...........oX
 W ..................a................. W
 W ......wwwww...........wwwww...wwwww. W
-Wo......wcccw........P..wcccw...wcccw.oW
-W ...... cwc ...%%...... cwc ... cwc . W
-W ......wcccw...........wcccw...wcccw. W
+Wo......wbbbw........P..wbbbw...wbbbw.oW
+W ...... bwb ...%%...... bwb ... bwb . W
+W ......wbbbw...........wbbbw...wbbbw. W
 Wo......wwwww...........wwwww...wwwww.oW
 W ................!................... W
 W .................................... W
 Wo...................%................oW
 W ......wwwww....W......wwwww...wwwww. W
-W ......wcccw....W......wcccw...wcccw. W
-W ...... cwc ....W..W... cwc ... cwc . W
-W ..!...wcccw....WW.W...wcccw...wcccw. W
+W ......wbbbw....W......wbbbw...wbbbw. W
+W ...... bwb ....W..W... bwb ... bwb . W
+W ..!...wbbbw....WW.W...wbbbw...wbbbw. W
 W ......wwwww...W.WWW...wwwww...wwwww. W
 W .............W....W................. W
 W ............W......WW..!............ W
@@ -524,24 +524,24 @@ ShortExplosions=false
   o                                    W
 %%%%%%%%%%%%%%%%%(!!WWWWWWWWWWWWWWWWWW W
 %X  $          $  X!   W   W   W   WWW W
-% 1 $1        1$ 1 ! WcW W W W W W WWW W
-%   $    a     $   ! WcW W W W W W WWW W
-%   .www.ww.www.   ! WcW W W W W W WWW W
-% # wP........Ww # ! WcW W W W W W WWW W
-% 0 .www.ww.www. 0 ! WcW W W W W W WWW W
-%                  ! WcW W W W W W WWW W
-% 1  #  #  #  #  1 ! WcW W W W W W WWW W
-%X                X! WcW W W W W W WWW W
+% 1 $1        1$ 1 ! WbW W W W W W WWW W
+%   $    a     $   ! WbW W W W W W WWW W
+%   .www.ww.www.   ! WbW W W W W W WWW W
+% # wP........Ww # ! WbW W W W W W WWW W
+% 0 .www.ww.www. 0 ! WbW W W W W W WWW W
+%                  ! WbW W W W W W WWW W
+% 1  #  #  #  #  1 ! WbW W W W W W WWW W
+%X                X! WbW W W W W W WWW W
 %.%%%%%%%!%!!!!!!!.! W W W W W W W WWW W
 WXWWWWWWWWWWWWWWWWXW W W W W W W W WWW W
-WWW       W   W   WW W W W W W W W WWWcW
-WcWWWWWWWWW W W W WW W W W W W W W WWWcW
-WcW   W   W W W W WW W W W W W W W WWWcW
-WcW W W W W WcW W WW W W W W W W W WWWcW
-WcW W W W W WcW W WW W W W W W W W WWWcW
-WcW W W W W W W W WW W W W W W W W WWWcW
-WcW W W W W W W W WW W W W W W W W WWWcW
-Wc  W   W   W   W    W   W   W   W ccccW
+WWW       W   W   WW W W W W W W W WWWbW
+WbWWWWWWWWW W W W WW W W W W W W W WWWbW
+WbW   W   W W W W WW W W W W W W W WWWbW
+WbW W W W W WbW W WW W W W W W W W WWWbW
+WbW W W W W WbW W WW W W W W W W W WWWbW
+WbW W W W W W W W WW W W W W W W W WWWbW
+WbW W W W W W W W WW W W W W W W W WWWbW
+Wb  W   W   W   W    W   W   W   W bbbbW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -594,16 +594,16 @@ ShortExplosions=false
 ,$CWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW $,
 ,$oWMW .............................W $,
 ,$CW W ..........a...............a..W $,
-,$oW Wc.............................W $,
+,$oW Wb.............................W $,
 ,$CW W ..%%..%%..%%..%%..%%..%%..%%.W $,
 ,$oW W ..%%..%%..%%..%%..%%.P%%..%%.W $,
 ,$CW W ...................wwwwwwwwwwW $,
-,$ X Wc...................w         W $,
+,$ X Wb...................w         W $,
 ,$ W W ...................w........ W $,
 ,$ WrW ..............wwwwww         W $,
 ,$ W W .............. . . ......... W $,
 ,$ W W ..............o. . .         W $,
-,$ W Wc.............. .o. ......... " $,
+,$ W Wb.............. .o. ......... " $,
 ,$ W W .............. . .o....... . " $,
 ,$ WMW .............. . . .o    2 . W $,
 ,$ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW $,
@@ -1185,7 +1185,7 @@ wawd.#.........W..d........w..r........W
 waw.W..wd..wr.......#.w.d.W..w...w..dw.W
 waw...d..w.#....W.. ....w...... .....r.W
 waw.. ........w.. .  q   .   q  .d.w...W
-waw#.  q  c.c  q  ..W.  ! !  ......W..dW
+waw#.  q  b.b  q  ..W.  ! !  ......W..dW
 waw.....  ! !  .w......  !  ...w.w.....W
 waw...w..  !  .....W....   ..#.....#..wX
 w.w.W..r..   ..W.W.#..W. . ..W..rw....wX
@@ -1193,7 +1193,7 @@ w.w..w.... . ..W....w.........dw......wX
 w.w....w........w....d.WW#...w....w....W
 w.w.d..W....w.W...W........w...dW...W..W
 W.....w..dw.......d.W. .W......w.. ....W
-W.......w..r.w...W....     c.c     .d..W
+W.......w..r.w...W....     b.b     .d..W
 W.. .w.#....... ...w...w.  ! !  .......W
 W#.  q   .   q  ....wd....  !  ..#w..P.W
 W..d..  ! !  ....#.........   .........W
@@ -2177,15 +2177,15 @@ W...ww..ww...ww...w..ww..ww...W W WW W W
 W...wwwwww...ww...w..www.ww...W   WW   W
 W...ww..ww...ww...w..w(w.ww...ww W  W WW
 W...ww..ww...ww...w..www.ww...WW W  W WW
-W...w...ww...ww...w..ww..ww...Wb bWWb bW
-Wrrrw...ww...ww...w..ww..ww...WbWbWWbWbW
-WrPrw...ww...ww...w.ww...ww...WbbbWWbbbW
-Wr.rw...ww...ww...www....ww...WWbW  WbWW
-W..rw...ww...ww...ww....wwwww.WWbW  WbWW
-Wr............................WbbbWWbbbW
-W..r..........................WbWbbbbWbW
-W.............................WbbbWWbbbW
-W o   o                       WWbWWWWbWW
+W...w...ww...ww...w..ww..ww...Wc cWWc cW
+Wrrrw...ww...ww...w..ww..ww...WcWcWWcWcW
+WrPrw...ww...ww...w.ww...ww...WcccWWcccW
+Wr.rw...ww...ww...www....ww...WWcW  WcWW
+W..rw...ww...ww...ww....wwwww.WWcW  WcWW
+Wr............................WcccWWcccW
+W..r..........................WcWccccWcW
+W.............................WcccWWcccW
+W o   o                       WWcWWWWcWW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW$$$WW$$$W
 WXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXW
 [/map]
@@ -2671,7 +2671,7 @@ AmoebaProperties.waitforhatching=true
 AmoebaThreshold=0.0011 0.0011 0.0011 0.0011 0.0011
 AmoebaTime=80 80 80 80 80
 Effect=AMOEBABOULDEReffect AMOEBA
-AmoebaGrowthProb=1.0000 0.2500
+AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2716,4 +2716,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

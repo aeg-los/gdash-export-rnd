@@ -15,7 +15,7 @@ $=CLOCK
 [/mapcodes]
 
 [game]
-Name=The Lost Caves 9
+Name=The Lost Caves 09
 Levels=5
 
 [cave]
@@ -458,22 +458,22 @@ ShortExplosions=false
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WP                                     W
 W WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW W
-W W. ......r........c............r.r W W
-W W .......r........ ..............c.W W
+W W. ......r........b............r.r W W
+W W .......r........ ..............b.W W
 W W...... ........  ...r..   ...r.. .W W
-W W.r ...c.........r........ r..r..rrW W
+W W.r ...b.........r........ r..r..rrW W
 W W.r .....r .r...... .. r...........W W
 W W...r.......r...r. . .....r ....rrr  W
-W W.rr.....r...........r.. c.........W W
+W W.rr.....r...........r.. b.........W W
 W W..r . ....r...... .... ..r.......r  W
-W W.. c..........r..r.....r.......rrr  W
+W W.. b..........r..r.....r.......rrr  W
 W W.. .....  .r....... r.....r..r....W W
 W W.r. .r...r   .  .rr .....rr .....r  W
 W W. r... ..r. .............. .r... rW W
-W W r.r......rr. cr.....r............W W
+W W r.r......rr. br.....r............W W
 W W..r......r  ............rr  .. ...W W
-W W....... ............... ....r.cr..W W
-W W.c .rr...  rr....rrr.rrr..........W W
+W W....... ............... ....r.br..W W
+W W.b .rr...  rr....rrr.rrr..........W W
 W WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW W
 W                                    aXW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -594,7 +594,7 @@ W.......rrrr.............rr......rr....W
 W......rrrrr............rr......rrr....W
 W.....r................rr......rrrr....W
 W....rr.....rrrrr.....rr......rr.rr....W
-W....rr.....rrrr.....rr......rr.crr....W
+W....rr.....rrrr.....rr......rr.brr....W
 W....rr.............rrrrrrr.rrrrrrr....W
 W....rr.....dddd....rdddddr.rrrrrrr....W
 W....rr.....ddddd...rd...dr......rr....W
@@ -856,7 +856,7 @@ W                                      W
 W   rrrr        WW    WW        rrrr   W
 W   ....        WWWWWWWW        ....   W
 W             WW  WWWW  WW             W
-W   MMMM      WW  WWWW  WW      wwMwc  W
+W   MMMM      WW  WWWW  WW      wwMwb  W
 W  w    w       WWWWWWWW       w   ww  W
 W       w         WWWW         w  www  W
 W   MMMM   #    WWWWWWWW       w Mw w  W
@@ -983,16 +983,16 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-WdrcwdrcwrrcwrrcwrrcwdrcwrrcwdrcwrrcwrXW
-WrrwrrrwrrrwdrdwdrdwrrrwrrdwrddwdrdwrrcW
+WdrbwdrbwrrbwrrbwrrbwdrbwrrbwdrbwrrbwrXW
+WrrwrrrwrrrwdrdwdrdwrrrwrrdwrddwdrdwrrbW
 W.wrrdwddrwrrrwrrdwdrrwrrdwdrrwrrdwdrdwW
 WdrdrwdrrwdrrwrrdwrrdwrddwdrdwrrrwrrrwrW
 WdrdwdrrwdrrwrrrwdrdwdrdwrrrwdrdwrddwrrW
-WrrwrrdwrdrwrdrwdrrwrrrwrrrwrrrwdrrwrdcW
+WrrwrrdwrdrwrdrwdrrwrrrwrrrwrrrwdrrwrdbW
 W.wrdrwdrrwrrdwrrrwrrrwrrrwrrdwrrdwrdrwW
 WdrdrwrrrwrdrwrrrwrrrwrrrwdrrwrrrwrrdwdW
 WrrrwddrwdrrwrdrwrddwdrdwrrdwrrdwrrdwrdW
-WrdwrdrwrrdwrrdwrrdwdrrwrdrwdrrwrdrwrrcW
+WrdwrdrwrrdwrrdwrrdwdrrwrdrwdrrwrdrwrrbW
 W.www.www.www.www.www.www.www.www.www.wW
 W                                      W
 W                                      W
@@ -1388,7 +1388,7 @@ W       r          W...................W
 W       .          W...................W
 W    r             W.................WWW
 W    .             WWWWWWWWWWWWWWWWWWW  
-     c  c  c  c                        W
+     b  b  b  b                        W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 W......................................W
 W......................................W
@@ -1530,7 +1530,7 @@ W               ""    ""               W
 W             wwww    wwww             W
 W......................................W
 W                                      W
-W                                    bXW
+W                                    cXW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -1776,7 +1776,7 @@ ShortExplosions=false
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 W  ..................................%XW
-W WcxcWcxcWcxcWcxcWccWcxcWcxcWcxcWcxcWWW
+W WbxbWbxbWbxbWbxbWbbWbxbWbxbWbxbWbxbWWW
 W WrP.....w.....rr.........w.d.....rrWaW
 W W!..w..r.r...w.r...d..rr....r.rrd..W W
 W W...r.w.wrr..r...rwr.r.!.rw.w.r..!.W W
@@ -1843,25 +1843,25 @@ ShortExplosions=false
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WPw...w...........w.w............wwd...W
-W.rwwwww.c.w......w..w.ww.w.ww.........W
-W..w.w..w.....w...w.rw..w..cw...w.www..W
+W.rwwwww.b.w......w..w.ww.w.ww.........W
+W..w.w..w.....w...w.rw..w..bw...w.www..W
 W.w.r.......w....w...w............wr...W
 W....w.w.w.ww.......w...w...w......w...W
-Ww.w..................d.......w....w..cW
+Ww.w..................d.......w....w..bW
 W...w......ww.w.w....www.......w..wwww.W
 W..ww...d.......w...w...w...w......wwd.W
-W..wc..wwwwr.....dw.....ww.w..rw.......W
+W..wb..wwwwr.....dw.....ww.w..rw.......W
 W....w.....www.www.w..w.ww..w..ww......W
-Ww.................w...cw...w...wwwwww.W
+Ww.................w...bw...w...wwwwww.W
 W...wwww.w.w...rw.w.ww....dw.w..ww...w.W
 W.wr.w...w..wwwww.w....w.ww.ww.w....ww.W
-W......w.w..cw......ww...........w.wwwdW
-W...w......ww....w..ww.w...www.cw......W
+W......w.w..bw......ww...........w.wwwdW
+W...w......ww....w..ww.w...www.bw......W
 W........ww..w.....rw.w..w...ww.w.www..W
 W.w.w..rw..wwwwww......w.w..w..w.....w.W
 W..wwww...w.w......w..w.....www...w..wwW
-W.d.....w.....w..c..w...w.ww.w...w...wcW
-W...ww.c..w..w.w.w....w......dw......wXW
+W.d.....w.....w..b..w...w.ww.w...w...wbW
+W...ww.b..w..w.w.w....w......dw......wXW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -1971,27 +1971,27 @@ BorderProperties.objectwraparound=true
 ShortExplosions=false
 
 [map]
-W.rw..w..wr.w..w..w..w.cw.rw..w.rwrrw.rW
+W.rw..w..wr.w..w..w..w.bw.rw..w.rwrrw.rW
 .P.w..w..wrrw..w..w..w..w..w..w..wr.w.r.
-.rr.r.wrcwrrw$.w..wr.w..w..w.$wr.w......
+.rr.r.wrbwrrw$.w..wr.w..w..w.$wr.w......
 wwww.$w..wr.w..w..wr.wr.wr.w..w..wrrwwww
-..rrr.w..w$rw..wr.w..w.rwr.w..w..wc.r...
+..rrr.w..w$rw..wr.w..w.rwr.w..w..wb.r...
 .........wr.w..w..wrrw$.w.rw..w.r.......
 wwwwwww..w..w..w$.wr.w..w..wrrw..wwwwwww
 ..$rrrr..wrrw.rwrrwr.w.rw.rw..w....r$...
-....r.r.....wc.w..w$cw..w..wrrr.....r...
+....r.r.....wb.w..w$bw..w..wrrr.....r...
 wwwwwwwwww..w..w.rw..wr.w.$wr.wwwwwwwwww
 ..rr.rr...rrrr....r.rrr.....r.r..r......
-.....c........r.r..r.....rr.rrc...r.r...
-wwwwwwwwww.rw..w..w.rwc.w..w..wwwwwwwwww
+.....b........r.r..r.....rr.rrb...r.r...
+wwwwwwwwww.rw..w..w.rwb.w..w..wwwwwwwwww
 ....rr..r..rwr.w..w..w.rw.rwrr...r..r..r
 ....r$...w..w..w..w..w..w..wr.wr..r.r...
-wwwwwww..w.rwr.wc.w.rwr$w..w.$w..wwwwwww
-........rw$.wr.w..w..wr.wrcwrrw.....rrr.
+wwwwwww..w.rwr.wb.w.rwr$w..w.$w..wwwwwww
+........rw$.wr.w..w..wr.wrbwrrw.....rrr.
 ......w..w..w.$wr.wr$w.rwr.w.rw..w....rr
-wwwwr.wrrw..wr.w.rw..wr.w..w.rwc.wr.wwww
+wwwwr.wrrw..wr.w.rw..wr.w..w.rwb.wr.wwww
 ......w..w..wr.w$.wr.w..w.$wrrw..wr.rrrr
-r..w.rw..wc.wrrw..w.rw..w..w.rw.rw$.w.X.
+r..w.rw..wb.wrrw..w.rw..w..w.rw.rw$.w.X.
 W.rw..w..w..wrrw..wr.wrrr..w.rw..w..w..W
 [/map]
 [/cave]
@@ -2370,16 +2370,16 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-WwP ...r.ww.r..c.rwW...................W
+WwP ...r.ww.r..b.rwW...................W
 W.wrr ...ww. r ..w.W...................W
 W. w....w.rw..r.w.rW...................W
-Wr.rwcrwr...w..w...W...................W
-W.c..ww...r..ww. r.W...................W
-W.. .ww ..cr.wwr.r.W...................W
-Wrr.w..w ...w. w.c.W...................W
+Wr.rwbrwr...w..w...W...................W
+W.b..ww...r..ww. r.W...................W
+W.. .ww ..br.wwr.r.W...................W
+Wrr.w..w ...w. w.b.W...................W
 W..w r..w..w. r.w. W...................W
-W.w ..rr.ww.c...rwXW...................W
-Ww.r.c...ww.rr...#wW...................W
+W.w ..rr.ww.b...rwXW...................W
+Ww.r.b...ww.rr...#wW...................W
 WWWWWWWWWWWWWWWWWWWW...................W
 W......................................W
 W......................................W
@@ -2503,26 +2503,26 @@ ShortExplosions=false
 
 [map]
 .. Qw..**Q. W.WW.W..  W..x.rW.rW.rW!rWw#
-.P.!xWw....W.Q...#.. ..Q...#.x.c.wrW!Q.W
+.P.!xWw....W.Q...#.. ..Q...#.x.b.wrW!Q.W
 r*.!x. .*. Ww.r.!..rW.r.**.xr... r.!.wxr
-..w...w.r.r.w*.c..rww..w.Wrxxwx....rx.!W
-..rx!cwW.x.rwx...!.r......*! .w.r*....r.
+..w...w.r.r.w*.b..rww..w.Wrxxwx....rx.!W
+..rx!bwW.x.rwx...!.r......*! .w.r*....r.
 ...x..ww.rwWxrwxrww!W.xr...ww.x...!wrW!r
 Q ..W.w...QrWx.r.!Q!x.*r.!.rxQ.rwW..r..Q
 rr.wrw.x!!..w.rr.rw.x....r..*W.rwr..xx..
-Wrr.W..xw#..r.... .Wwr.rcw!X...r.xx.!.w#
-Wr.rx*Qr xc.w.w.ww..!..*.. . .r.r#*... W
+Wrr.W..xw#..r.... .Wwr.rbw!X...r.xx.!.w#
+Wr.rx*Qr xb.w.w.ww..!..*.. . .r.r#*... W
 r w!W.W.rrrwx.wr.Qxrx.!..xrx!.w.r..wW.r.
 Ww.wr......w W..r...w..w...wxrr.QxwWW..#
-W wr !!wWx..xw.*. ww.rwrww....x.r..c.rww
+W wr !!wWx..xw.*. ww.rwrww....x.r..b.rww
 W...r. W... .wxW.w.r.w .Qwxw.xx.xx.w.xxW
-r ...!r#xw...w...w.c.wr.rw.#rw..w.w..rrx
+r ...!r#xw...w...w.b.wr.rw.#rw..w.w..rrx
 rrrw.! .r... wwWr.W..*rxr. .r wQ!r!.rw.*
-W..c.x.x..W.QW..w.w..!r.x.rw.x..x.rW.xwW
+W..b.x.x..W.QW..w.w..!r.x.rw.x..x.rW.xwW
 Qr...w.. ....W..Wwwrrrrrr.x..w..r....W!Q
 ..W.#rw.x....W.W!....!.. ..wrW..! xW..x.
 ...rx!x....!Wx.r#.Qx..x.rQ ! .!...wxw.w.
-..rxWwW!.rrx.cx!...r.w!...rc.!wx......# 
+..rxWwW!.rrx.bx!...r.w!...rb.!wx......# 
 WW..WWr..WWr WxWrW w. xW.Wxxw !WW.rwrWxx
 [/map]
 [/cave]
@@ -2617,7 +2617,7 @@ AmoebaProperties.waitforhatching=true
 AmoebaThreshold=0.0000 0.0000 0.0000 0.0000 0.0000
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=1.0000 1.0000
+AmoebaGrowthProb=0.2500 1.0000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2660,4 +2660,4 @@ WwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

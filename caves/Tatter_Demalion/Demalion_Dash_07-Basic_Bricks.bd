@@ -1697,13 +1697,13 @@ ShortExplosions=false
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWXWWWWWWWWWWWWWWW
 WrrrrrrrrP.............rrrr....rrrrrrrrW
-Wrccccccr...........rrrrrrr....rccccccrW
-Wrccccccr...........rrr..rrrrrrrccccccrW
-Wrccccccr...........rrr.......rrccccccrW
-Wrccccccr........rr.........r.rrccccccrW
-Wrccccccr........rr.........r.rrccccccrW
-Wrccccccr........rr.........r.rrccccccrW
-Wrccccccr...................r.rrccccccrW
+Wrbbbbbbr...........rrrrrrr....rbbbbbbrW
+Wrbbbbbbr...........rrr..rrrrrrrbbbbbbrW
+Wrbbbbbbr...........rrr.......rrbbbbbbrW
+Wrbbbbbbr........rr.........r.rrbbbbbbrW
+Wrbbbbbbr........rr.........r.rrbbbbbbrW
+Wrbbbbbbr........rr.........r.rrbbbbbbrW
+Wrbbbbbbr...................r.rrbbbbbbrW
 Wrrrrrrrrrrrrrrrrrrrrrrrrrrrr.rrrrrrrrrW
 Wrrrrrrrrrdrrrrrrrrrrrrrrrrrr..........W
 Wrr......rrdrr.......a.....rr..........W
@@ -2556,11 +2556,11 @@ W........... w2!2!2w  w2!2!2w  ..w     W
 W. .         wwwwwww  wwwwwww  ..      W
 W...      w  w.....w  w.....w  .....x..W
 W. .  .      w . . w  wo...ow  ........W
-W... ...     wc.c.cw  wcccccw  ..w     W
+W... ...     wb.b.bw  wbbbbbw  ..w     W
 W    WWW     wooooow  wooooow  ..      W
-W  .WWoWW.   wcc.ccw  wcc.ccw  ..    w W
+W  .WWoWW.   wbb.bbw  wbb.bbw  ..    w W
 W ..WoooW....wooooowwwwooooow  ..      W
-W  .WWoWW.o  wc.c.cC  Cc.c.cw  ....x...W
+W  .WWoWW.o  wb.b.bC  Cb.b.bw  ....x...W
 W    WWW     w.....wwww.....w  .       W
 W    ... ... wwwwwww..wwwwwww  . w     W
 W     .  .#.               o   .     w W
@@ -2592,7 +2592,7 @@ AmoebaProperties.waitforhatching=true
 AmoebaTime=10 10 10 10 10
 Effect=AMOEBABOULDEReffect SWEET
 Effect=AMOEBADIAMONDeffect SPACE
-AmoebaGrowthProb=1.0000 1.0000
+AmoebaGrowthProb=1.0000 0.1250
 MagicWallTime=1 1 1 1 1
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2635,4 +2635,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

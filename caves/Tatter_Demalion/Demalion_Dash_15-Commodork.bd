@@ -75,17 +75,17 @@ W      d    d   d!!!!!!!!!   d     d   W
 W dddddsddddsddds!       !dddsdddddsdd W
 W !!!!! !!!! !!! !!!W W!!!!!! !!!!! !! W
 W WWWWWWWWWWWWWWWWWW W WWWWWWWWWWWWWWW W
-W  OOOcccccO"""W...r X r.WccccccccOO   W
-W""O""O""O"O""OW.  W   W.WO"c""""""O"""W
-W""O""O""O"O""Or   WWWWW rO"c""OOOOO"""W
-W""""Oc""O"O""cW........ WO"c""O"""""""W
-W""""""""""O""cWWWWW     W""c""OOccc"""W
-W"cccccccOOO""c""O W     W""c""O"""c"""W
-W"c""""""""O""O""O"W   WWW""c"" """c"""W
-W"cccccccc"cccO"cOWW   WWOc"O OO"""c"""W
-W"c"""""""""""O"c"W.. ..W"c"O""""""c"""W
-W"c"""""""""""O"c"W.....W"c"O""Occcc"""W
-W"cccccccccc""OOO"W..a..W"ccO""""""ccc"W
+W  OOObbbbbO"""W...r X r.WbbbbbbbbOO   W
+W""O""O""O"O""OW.  W   W.WO"b""""""O"""W
+W""O""O""O"O""Or   WWWWW rO"b""OOOOO"""W
+W""""Ob""O"O""bW........ WO"b""O"""""""W
+W""""""""""O""bWWWWW     W""b""OObbb"""W
+W"bbbbbbbOOO""b""O W     W""b""O"""b"""W
+W"b""""""""O""O""O"W   WWW""b"" """b"""W
+W"bbbbbbbb"bbbO"bOWW   WWOb"O OO"""b"""W
+W"b"""""""""""O"b"W.. ..W"b"O""""""b"""W
+W"b"""""""""""O"b"W.....W"b"O""Obbbb"""W
+W"bbbbbbbbbb""OOO"W..a..W"bbO""""""bbb"W
 W"""""""""""""""""W.....W""""""""""""""W
 WWWWWWWWWWWWWWWWWWW.....WWWWWWWWWWWWWWWW
 [/map]
@@ -341,13 +341,13 @@ W     w w  w w  w w  w w  w w  w w     W
 W......................................W
 XP.....................................W
 W......................................W
-W                    cccccccccccccccWccW
-W               WWW  cWccccWcccWccccWccW
-W   W W  W   W  W   WcWccWWWccccWWccWccW
-W W W W  W   W  W   WcWccWccccccWcccWccW
-W W W W  W   W  W WWWcWccWccccWWWcccWccW
-W W W        W  W    cWccWcccccccccccccW
-W                    ccccccccccccccccccW
+W                    bbbbbbbbbbbbbbbWbbW
+W               WWW  bWbbbbWbbbWbbbbWbbW
+W   W W  W   W  W   WbWbbWWWbbbbWWbbWbbW
+W W W W  W   W  W   WbWbbWbbbbbbWbbbWbbW
+W W W W  W   W  W WWWbWbbWbbbbWWWbbbWbbW
+W W W        W  W    bWbbWbbbbbbbbbbbbbW
+W                    bbbbbbbbbbbbbbbbbbW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -921,7 +921,7 @@ W.w....w.w..............."d.""W"""W".".W
 W.w.r..w w.w.WWWW.xWWW.."d"..."d..."."dW
 W.w....w w.w.W.r.....W.."."W"".".".""W.W
 W.x....w w.w.W...  C W.W....d..".W."d".W
-W.w....wcw.w.W.......W.W..""W"."d".....W
+W.w....wbw.w.W.......W.W..""W"."d".....W
 W.w....w w.w.W.......W.WW.".."..."""W".W
 W.www.ww w.w.W.......r  W...."""W"...".W
 W...     w.w.WWWWWWWWW.WW............".W
@@ -1180,17 +1180,17 @@ ShortExplosions=false
 # ) ..............ww......... ..a....) #
 # ) .w..a..... .............. .......) #
 # ) .......... .....aa...w... ....w..) #
-# ) .......... ..............c.......) #
-# ) ....w  c       .......... .......) #
+# ) .......... ..............b.......) #
+# ) ....w  b       .......... .......) #
 # ) .............. .......... .......) #
-# )  c.. ......... .......... ......a) #
+# )  b.. ......... .......... ......a) #
 # )..... ....w.........w.....   .....) #
-# ).....c......P.................w...) #
+# ).....b......P.................w...) #
 # ).....  ....a............w.....w...) #
 # )..w..............w............... ) #
-# )............w..........a.........c) #
-# ) c ....a...w...................   ) #
-# ).. ...w........ c  ..........w....) #
+# )............w..........a.........b) #
+# ) b ....a...w...................   ) #
+# ).. ...w........ b  ..........w....) #
 # ).. ...............     ...........) #
 # )))))))))))))))))))))))))))))))))))) #
 #                                      #
@@ -2523,7 +2523,7 @@ AmoebaProperties.waitforhatching=true
 AmoebaTime=125 125 125 125 125
 Effect=AMOEBABOULDEReffect DIRT
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=1.0000 0.0625
+AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=95 95 95 95 95
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2586,7 +2586,7 @@ DummyProperties.penalty=true
 PenaltyTime=10 10 10 10 10
 AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
-AmoebaGrowthProb=1.0000 0.2500
+AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2630,4 +2630,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

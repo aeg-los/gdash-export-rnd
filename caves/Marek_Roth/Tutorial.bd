@@ -264,19 +264,19 @@ W..............r....r....r....r........W
 W...    ..    .........................W
 W...    ..    .........................W
 W...    ..    .........................W
-W...   Q..c   .........................W
+W...   Q..b   .........................W
 W......................................W
 W......................................W
 W.....r..r..r..........................W
-W..............................    b...W
+W..............................    c...W
 W..... .. .. ..........................W
-W..... .. .. ..................    b...W
+W..... .. .. ..................    c...W
 W..... .. .. ..........................W
-W..... .. .. ..................    b...W
+W..... .. .. ..................    c...W
 W..... .. .. ..........................W
-W..... .. .. ..................    b...W
+W..... .. .. ..................    c...W
 W..... .. .. ..........................W
-W.....b..b..b..........................W
+W.....c..c..c..........................W
 W......................................W
 WWWWWWWWWWWWWWWWWWWWWXWWWWWWWWWWWWWWWWWW
 [/map]
@@ -335,11 +335,11 @@ W......................................W
 W......................................W
 W......................................W
 W.............................QQQQQQQ..W
-W.Q...........................QbbbbbQ..W
-W.wwwwwww.....................QbbbbbQ..W
-W.waaaaaw.....................QbbbbbQ..W
-W.waaaaaw.....................QbbbbbQ..W
-W.waaaaaw.....................QbbbbbQ..W
+W.Q...........................QcccccQ..W
+W.wwwwwww.....................QcccccQ..W
+W.waaaaaw.....................QcccccQ..W
+W.waaaaaw.....................QcccccQ..W
+W.waaaaaw.....................QcccccQ..W
 W.waaaaaw.....................QQQQQQQ..W
 WPwaaaaaw..............................W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -453,7 +453,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 P                   ...................W
 W  d  d  d  d  d    ...r...r...r...r...W
 W  w  M  W  r  .    ...................W
-W           W       ..wbw.WbW.wQw.WQW..W
+W           W       ..wcw.WcW.wQw.WQW..W
 W                   ..w w.W W.w w.W W..W
 W  r  r  r  r  r    ..w w.W W.w w.W W..W
 W  w  M  W  d  .    ..w w.W W.w w.W W..W
@@ -909,13 +909,13 @@ W...........         ............r.....W
 W...........         .......r..........W
 W...........         ......r...........W
 W...........         ......rr......r...W
-W..b      ..         .r.......r........W
+W..c      ..         .r.......r........W
 W...........         .rr......r........W
-W..b      ..         ...........r......W
+W..c      ..         ...........r......W
 W...........         r.................W
-W..b      ..         ..rr......rr....r.W
+W..c      ..         ..rr......rr....r.W
 W...........         r.................W
-W..b      ..         .............r....W
+W..c      ..         .............r....W
 W...........         ..r...........r...W
 W...........F...F...F..................W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -1110,9 +1110,9 @@ WPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPW
 WPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPW
 WPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPW
 WrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrW
-WbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbW
-WbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbW
-WbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbW
+WccccccccccccccccccccccccccccccccccccccW
+WccccccccccccccccccccccccccccccccccccccW
+WccccccccccccccccccccccccccccccccccccccW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -1292,7 +1292,7 @@ W... ....wrw..wrw.....WWWWWWWWWWWWWFWWWW
 W... ..................................W
 W... ....wsw..wsw......................W
 W... ....w w..w w......................W
-W... ....wFw..wbw......................W
+W... ....wFw..wcw......................W
 WP..F....www..FwF......................W
 W......................................W
 W......................................W
@@ -1742,7 +1742,7 @@ W......................................W
 W......................................W
 W.........................            .W
 W...aaaaaaa............... .......... .W
-W...aaaaaaa...............    bbbb    .W
+W...aaaaaaa...............    cccc    .W
 W...aaaaaaa............................W
 W...aaaaaaa............................W
 W......................................W
@@ -1781,7 +1781,7 @@ MagicWallProperties.waitforhatching=true
 MagicWallProperties=FIREFLYl DIAMONDf
 MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
-SlimeProperties=FIREFLYl FIREFLYd BUTTERFLYr BUTTERFLYu NUT NUTf
+SlimeProperties=FIREFLYl FIREFLYd BUTTERFLYr BUTTERFLYd NUT NUTf
 AcidProperties=DIRT 0.0627
 Effect=BOULDERbouncingeffect SCANN_BOULDER
 Effect=DIAMONDfallingeffect SCANN_DIAMONDf
@@ -1794,14 +1794,14 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-Wbbb     bbbQbbbbW....X................W
-WbQbbbQbbQQbQ  bQW..........ddddd......W
-Wbbbb    bbQ bbbbW..........ddddd......W
-WbbQQb b  bb Qb bW..........drdrd......W
-WbbbQb  bQbbbQ  bW..........drdrd......W
-W bQQbb b  bQ    W..........drdrd......W
-Wb bQbbQ  bbb b  W............P........W
-W   bbbb  QQbb QQW..........MMMMM......W
+Wccc     cccQccccW....X................W
+WcQcccQccQQcQ  cQW..........ddddd......W
+Wcccc    ccQ ccccW..........ddddd......W
+WccQQc c  cc Qc cW..........drdrd......W
+WcccQc  cQcccQ  cW..........drdrd......W
+W cQQcc c  cQ    W..........drdrd......W
+Wc cQccQ  ccc c  W............P........W
+W   cccc  QQcc QQW..........MMMMM......W
 WssssssssssssssssW..........     ......W
 Wrrrrrrrrrrrrrrrr...........     ......W
 W...........................     ......W
@@ -1924,8 +1924,8 @@ W......................F...........w...W
 W..dwwwwwd.............F...........w...W
 W..wdwwwdw.............F...........w...W
 W..wwdwdww........wrw..F...........w...W
-W..wwwdwww........wbw..F...........w...W
-W..wwdwdww........w.w..F..   b.....w...W
+W..wwwdwww........wcw..F...........w...W
+W..wwdwdww........w.w..F..   c.....w...W
 W..wdwwwdw.........w...F...........wwwwW
 W..dwwwwwd.............F...............W
 W......................FFFFFFFFFFFFFFF.W
@@ -2094,7 +2094,7 @@ AmoebaProperties.waitforhatching=true
 AmoebaTime=20 20 20 20 20
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=1.0000 0.2500
+AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=20 20 20 20 20
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2158,7 +2158,7 @@ AmoebaProperties.waitforhatching=true
 AmoebaTime=20 20 20 20 20
 Effect=AMOEBABOULDEReffect DIAMONDBIRTH0
 Effect=AMOEBADIAMONDeffect BOULDERBIRTH1
-AmoebaGrowthProb=0.2500 1.0000
+AmoebaGrowthProb=0.5000 1.0000
 MagicWallTime=20 20 20 20 20
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2200,4 +2200,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

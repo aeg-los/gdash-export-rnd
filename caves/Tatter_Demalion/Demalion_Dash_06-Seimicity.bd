@@ -2154,7 +2154,7 @@ WW.W.W.W.W.W.W.W.W   .ow C CCC CCCCoCwoW
 W.................   . w C Co! ! CC Cw W
 W.w.w.w.w.w.w.w.w.   . wCCCC!!!!!o CCw W
 W................. P . wCoCCC   CC C w W
-W..w.w.w.w.w.w.w..   . wC Cco! ! CCoCw W
+W..w.w.w.w.w.w.w..   . wC Cbo! ! CCoCw W
 W.................   . w CCC!!!!! CCCw W
 W.w.w.w.w.w.w.w.w.   . wCCo C!!!CCCo w W
 W.................   . wC CCCC CC CCCw X
@@ -2252,7 +2252,7 @@ AmoebaProperties.waitforhatching=true
 AmoebaTime=10 10 10 10 10
 Effect=AMOEBABOULDEReffect SWEET
 Effect=AMOEBADIAMONDeffect SPACE
-AmoebaGrowthProb=1.0000 1.0000
+AmoebaGrowthProb=0.2500 1.0000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2295,4 +2295,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

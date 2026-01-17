@@ -22,9 +22,11 @@ DiamondsRequired=36 36 36 36 36
 CaveTime=150 150 150 150 150
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=14 0
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -35,9 +37,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 0.5000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -84,9 +87,11 @@ DiamondsRequired=40 40 40 40 40
 CaveTime=200 200 200 200 200
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=12 24
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -97,9 +102,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 0.0312
 MagicWallTime=150 150 150 150 150
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -146,9 +152,11 @@ DiamondsRequired=105 105 105 105 105
 CaveTime=100 100 100 100 100
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=4 15
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -159,9 +167,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 0.5000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -178,19 +187,19 @@ Wr.d.r.............rr............dr..rrW
 WrX.rr..                        .d.r.P.W
 Wr.r.... dr.rWrddr.r..r..dWrrd. .r ...dW
 Wr...d.. .r.rWr....rr.. rdWrrd. .rr....W
-W ...d.. drrrWrr.d rddd rdW.rd. .cr..rrW
+W ...d.. drrrWrr.d rddd rdW.rd. .br..rrW
 WQrrrr.. .r rW rrd.r..r...W  .d . ..rr W
 W..dr .W WWWWWd...d r .dd.WWWWW W d.r..W
 W.d..Q.W .rr..ddr.d r.dd.rrr..r Wrr..d.W
 W.rrrr.W .r ..rdrr.. .d.   r... Wrr..rdW
 W.r. ..W . d.d.d.rr.  d.rr...r. W ..rrdW
 W... ..W . dd. r..r  rd..rr.dr. Wrd.. .W
-Wrr.Qd.W .rr. ......d..r. .ddr. Wrrr.rcW
+Wrr.Qd.W .rr. ......d..r. .ddr. Wrrr.rbW
 W.rr...W . r .rdd.r. d.rdddd r. W...dr W
 W.Qrr..W WWWWWdd.drr.dd.r.WWWWW W.rr rrW
 W. .r .. drrrWd.rd r. d.r.Wrr.. ... . rW
 W....r.. .rdrWd .ddd.dd. dWdrd. ..rrrrrW
-W..Q.r.. dddrWd.d. rrrrd  Wdrdd ..r.c.rW
+W..Q.r.. dddrWd.d. rrrrd  Wdrdd ..r.b.rW
 W.. .r.. ....W.....rr.....W.... ..r. .rW
 WQ  .r..      Q Q Q  O O O      ..r...rW
 W....r............................rrrrrW
@@ -199,7 +208,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 04 – Kafkaesque Boulders
+Name=04
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -208,9 +217,11 @@ DiamondsRequired=60 60 60 60 60
 CaveTime=170 170 170 170 170
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=8 16
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -221,9 +232,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=0.0312 0.5000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -270,9 +282,11 @@ DiamondsRequired=7 7 7 7 7
 CaveTime=10 10 10 10 10
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=80 80 80 80 80
 CaveDelay=0 0 0 0 0
+TimeValue=1 1 1 1 1
 DiamondValue=71 0
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -283,9 +297,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=0.5000 0.5000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -331,9 +346,11 @@ DiamondsRequired=10 10 10 10 10
 CaveTime=150 150 150 150 150
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=50 100
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -344,9 +361,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -393,9 +411,11 @@ DiamondsRequired=32 32 32 32 32
 CaveTime=180 180 180 180 180
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=16 20
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -406,9 +426,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=0.1250 0.5000
 MagicWallTime=15 15 15 15 15
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -455,9 +476,11 @@ DiamondsRequired=30 30 30 30 30
 CaveTime=250 250 250 250 250
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=17 20
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -468,9 +491,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -517,9 +541,11 @@ DiamondsRequired=25 25 25 25 25
 CaveTime=130 130 130 130 130
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=20 0
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -530,9 +556,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=0.0312 1.0000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -583,9 +610,11 @@ DiamondsRequired=16 16 16 16 16
 CaveTime=20 20 20 20 20
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=80 80 80 80 80
 CaveDelay=0 0 0 0 0
+TimeValue=1 1 1 1 1
 DiamondValue=31 0
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -596,9 +625,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=0.1250 0.1250
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -644,9 +674,11 @@ DiamondsRequired=36 36 36 36 36
 CaveTime=169 169 169 169 169
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=14 16
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -658,9 +690,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 0.1250
 MagicWallTime=100 100 100 100 100
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -707,9 +740,11 @@ DiamondsRequired=68 68 68 68 68
 CaveTime=200 200 200 200 200
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=7 14
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -720,9 +755,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 0.5000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -769,9 +805,11 @@ DiamondsRequired=13 13 13 13 13
 CaveTime=70 70 70 70 70
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=33 66
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -782,9 +820,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 0.5000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -831,9 +870,11 @@ DiamondsRequired=16 16 16 16 16
 CaveTime=90 90 90 90 90
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=31 0
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -845,9 +886,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=0.0312 1.0000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -894,9 +936,11 @@ DiamondsRequired=2 2 2 2 2
 CaveTime=20 20 20 20 20
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=80 80 80 80 80
 CaveDelay=0 0 0 0 0
+TimeValue=1 1 1 1 1
 DiamondValue=250 0
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -907,9 +951,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=0.0312 1.0000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -955,9 +1000,11 @@ DiamondsRequired=17 17 17 17 17
 CaveTime=100 100 100 100 100
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=29 40
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -968,9 +1015,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 0.0312
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -1017,9 +1065,11 @@ DiamondsRequired=18 18 18 18 18
 CaveTime=165 165 165 165 165
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=28 52
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -1030,9 +1080,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=0.0312 0.1250
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -1079,9 +1130,11 @@ DiamondsRequired=50 50 50 50 50
 CaveTime=80 80 80 80 80
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=10 11
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -1094,9 +1147,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -1109,22 +1163,22 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-Waaa.r...................aaawrwcccccwccW
-Waaa....Q      Q      . .aaaw.wccrccwccW
-Waaa..r. w.www  www.w . .aaawrwccwccwccW
-W....... w...w  w...w . r...wQwccwccwccW
-W...r... w...w  w...w ......wrwccwccrccW
-W.r..... w..Xw  wP..w ...r.rw.wccwcccccW
-W.. .r.. wwwww  wwwww . ....wrwccwwwwwwW
-W  . ...              . ....wQwccccccccW
-W.. ....Q      Q      . r...wrwccccccccW
-W.r.r... www.w  w.www ...  rw.wwwwwwwccW
-W.r..r.. w...w  w...w .r.r. wrwcccccwccW
-W....... w...w  w...w ..... wQwccrccwccW
-W. ..... wX..w  w..Xw ..   .wrwccwccwccW
-W .  ... wwwww  wwwww .. . rw.wccwccrccW
-W. .r...              ..r...wrwccwcccccW
-W..... ....... .............wQwccwwwwwwW
+Waaa.r...................aaawrwbbbbbwbbW
+Waaa....Q      Q      . .aaaw.wbbrbbwbbW
+Waaa..r. w.www  www.w . .aaawrwbbwbbwbbW
+W....... w...w  w...w . r...wQwbbwbbwbbW
+W...r... w...w  w...w ......wrwbbwbbrbbW
+W.r..... w..Xw  wP..w ...r.rw.wbbwbbbbbW
+W.. .r.. wwwww  wwwww . ....wrwbbwwwwwwW
+W  . ...              . ....wQwbbbbbbbbW
+W.. ....Q      Q      . r...wrwbbbbbbbbW
+W.r.r... www.w  w.www ...  rw.wwwwwwwbbW
+W.r..r.. w...w  w...w .r.r. wrwbbbbbwbbW
+W....... w...w  w...w ..... wQwbbrbbwbbW
+W. ..... wX..w  w..Xw ..   .wrwbbwbbwbbW
+W .  ... wwwww  wwwww .. . rw.wbbwbbrbbW
+W. .r...              ..r...wrwbbwbbbbbW
+W..... ....... .............wQwbbwwwwwwW
 W.. .r ...r   . .rr...r..rr .rr..rr. rrW
 W. . . ..r.... .....r.   r rr.r..r rr rW
 W.. .........rr.....r. . r rr.r  r.rr rW
@@ -1143,9 +1197,11 @@ DiamondsRequired=35 35 35 35 35
 CaveTime=160 160 160 160 160
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=14 22
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -1156,9 +1212,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 0.5000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -1205,9 +1262,11 @@ DiamondsRequired=8 8 8 8 8
 CaveTime=10 10 10 10 10
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=80 80 80 80 80
 CaveDelay=0 0 0 0 0
+TimeValue=1 1 1 1 1
 DiamondValue=62 0
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -1218,9 +1277,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 0.1250
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -1266,9 +1326,11 @@ DiamondsRequired=24 24 24 24 24
 CaveTime=200 200 200 200 200
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=21 28
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -1279,9 +1341,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -1328,9 +1391,11 @@ DiamondsRequired=40 40 40 40 40
 CaveTime=250 250 250 250 250
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=12 16
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -1341,9 +1406,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=0.0312 1.0000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -1390,9 +1456,11 @@ DiamondsRequired=95 95 95 95 95
 CaveTime=200 200 200 200 200
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=140 140 140 140 140
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=9 13
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -1404,9 +1472,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=100 100 100 100 100
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -1429,16 +1498,16 @@ WW...r..rrrrr..rr..r ..rr.rr...rr....rWW
 WW..r..rr.rr....r  r r.....rrr.....r..WW
 WW r.r..r....r.r..rrrr.rrr....r..r.r.rWW
 WWWWWWrWWW.WWWrWWWrWWW.WWW.WWWrWWW.WWWWW
-WW.................................Wc WW
+WW.................................Wb WW
 WW.................................W  WW
 WW.................................W  WW
-WW.................................W cWW
+WW.................................W bWW
 WW....................................WW
 WW....................................WW
-WW.WWWWWW..WWWWWW..WWWWWW..WWWWWW..W cWW
-WWc  Wc  .c  Wc  .c  Wc  .c  Wc  ..W  WW
+WW.WWWWWW..WWWWWW..WWWWWW..WWWWWW..W bWW
+WWb  Wb  .b  Wb  .b  Wb  .b  Wb  ..W  WW
 WW   W   .   W   .   W   .   W   ..W  WW
-WW  c.  c.  c.  c.  c.  c.  c.  c..Wc WW
+WW  b.  b.  b.  b.  b.  b.  b.  b..Wb WW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -1455,7 +1524,9 @@ CaveScheduling=plck
 PALTiming=true
 FrameTime=180 160 140 120 120
 CaveDelay=7 7 7 7 7
+TimeValue=1 1 1 1 1
 DiamondValue=3 6
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -1466,9 +1537,10 @@ Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
 AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -1481,21 +1553,21 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-Wwrc.d.d.d.c.d.d d d d d..d.c.d.d.d.crwW
+Wwrb.d.d.d.b.d.d d d d d..d.b.d.d.d.brwW
 Wwr.d.d.d.d.d...d d d d d..d.d.d.d.d.rwW
 Wwrd.d.d.d.d.rrd d d d d.rr.d.d.d.d.drwW
 Wwrrd.d.d.drd.rrd d d d rr.drd.dXd.drrwW
 Wwwr.d.d.d.rw.wr.d d d drw.wr.d.d.d.rwwW
-Wcwrd.dcd.drwcwrd d d d.rwcwrd.dcd.drwcW
-W wrrdcdcdrrw wrrd d d.rrw wrrdcdcdrrw W
-W wwr.dcd.rww wwr.d d drww wwr.dcd.rww W
+Wbwrd.dbd.drwbwrd d d d.rwbwrd.dbd.drwbW
+W wrrdbdbdrrw wrrd d d.rrw wrrdbdbdrrw W
+W wwr.dbd.rww wwr.d d drww wwr.dbd.rww W
 W  wrd.d.drw   wrd d d.rw   wrd.d.drw  W
 W. wrrd.drrw . wrrd d.rrw . wrrd.drrw .W
 W. wwr.d.rww . wwr.d drww . wwr.d.rww .W
 W.  wrd.drw  .  wrd d rw  .  wrd.drw  .W
 W . wrrdrrw . . wrrrrrrw .P. wrrdrrw . W
 W . wwrrrww . . wwwrrwww . . wwrrrww . W
-W .  cr.rc  . .  crrrrc  . .  cr.rc  . W
+W .  br.rb  . .  brrrrb  . .  br.rb  . W
 W ....r.r.... ....r..r.... ....r.r.... W
 W .   . .   . .   r  r   . .   . .   . W
 W .   . .   . .   .  .   . .   . .   . W
@@ -1515,9 +1587,11 @@ DiamondsRequired=8 8 8 8 8
 CaveTime=20 20 20 20 20
 CaveScheduling=plck
 PALTiming=true
-FrameTime=180 160 140 120 120
+FrameTime=80 80 80 80 80
 CaveDelay=0 0 0 0 0
+TimeValue=1 1 1 1 1
 DiamondValue=62 0
+RandSeed=0 0 0 0 0
 BonusTime=0 0 0 0 0
 DummyProperties.diamondcollector=true
 DummyProperties.penalty=true
@@ -1526,11 +1600,12 @@ AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=1.0000 1.0000
+AmoebaGrowthProb=1.0000 0.1250
 MagicWallTime=0 0 0 0 0
+MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
-MagicWallProperties.convertamoeba=false
 MagicWallProperties=SCANN_BOULDERf DIAMONDf
+MagicWallProperties.convertamoeba=false
 SlimePermeabilityC64=0 0 0 0 0
 SlimeProperties=DIAMOND SCANN_DIAMONDf BOULDER SCANN_BOULDERf NUT NUTf
 AcidProperties=DIRT 0.0000
@@ -1568,3 +1643,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
+; converted from .gds / check butterfly directions (discussion 96)

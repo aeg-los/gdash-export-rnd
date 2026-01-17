@@ -786,7 +786,7 @@ WrdrrW...W  W##WWWW   WWWdrW##W#W  W###W
 WWW##W#WsW  W  ..W    .rWWWW    W      W
 W..   .#o#  W   .W.r  ..W       W     dW
 W.   ..# #  W   .W...   #       WWWWWWWW
-W.   WWWwWWWWWW  W...b  #WWW    Wdd.   X
+W.   WWWwWWWWWW  W...c  #WWW    Wdd.   X
 W    W..   ###W rW#WWW### rWWWWWWW .rrrW
 W    W.r      W.   Wqr.  ..#     Wr r  W
 W    W.       W..  W ..  .r#     WWW###W
@@ -1050,7 +1050,7 @@ W.  .   W                WWWWWWWWWWWWWWW
 W )) )) WMWWWWWWWWWWW WW WWWWWWWWWWWWWWW
 WWWWWWW)           WWMWW WWWWWWWWWWWWWWW
 W%%%%%W.x.WWWWWWWW WW WW WWWWWWWWWWWWWWW
-W     W W WW  W  W  wcw  WWWWWWWWWWWWWWW
+W     W W WW  W  W  wbw  WWWWWWWWWWWWWWW
 WMMMMMW   W      W  w w  WWWWWWWWWWWWWWW
 W     WWW W W W  WWWW WWWWWWWWWWWWWWWWWW
 W               WWW  qwdWWWWWWWWWWWWWWWW
@@ -2000,7 +2000,7 @@ AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=0.2500 1.0000
+AmoebaGrowthProb=0.5000 1.0000
 MagicWallTime=10 10 10 10 10
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2044,4 +2044,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

@@ -205,12 +205,12 @@ W.W.wwxdwww.wdwdw.w.wdx..x.w.w.wwx...W.W
 W.W.w.w.w..dw.x.wdxww.w.dwdw.x.x.wd.dW.W
 W.W.www.wwx.w.w.w.w.w.ww.w..w..w.w...W.W
 W.W.........d.........d..............W.W
-X.W.d.d..w.........w....cccccccCCCC..W.W
-W.W......w..w..wwwdx..d..c.C.....C.d.W.W
-W.W.....dw.x.wdw...w.....c..C...C....W.W
-W.Wd...www.w.w.wwx.www...c...C.C.d...W.W
-WPW....w.xdwwx...wdwdx...c....C......W.W
-WWWWWWWwww.w.w.wwwow.w..cccccccCCCC..W.W
+X.W.d.d..w.........w....bbbbbbbCCCC..W.W
+W.W......w..w..wwwdx..d..b.C.....C.d.W.W
+W.W.....dw.x.wdw...w.....b..C...C....W.W
+W.Wd...www.w.w.wwx.www...b...C.C.d...W.W
+WPW....w.xdwwx...wdwdx...b....C......W.W
+WWWWWWWwww.w.w.wwwow.w..bbbbbbbCCCC..W.W
 W....................................W.W
 W.W..................d.............d.W.W
 W.WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.W
@@ -1351,26 +1351,26 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-WXP.w         . . b              . . . W
+WXP.w         . . c              . . . W
 W...w.wwwwwwwww.w w.wwwwwwwwww.w w.www.W
-W ... .   b   w w . .        . . w w w W
-W .wwww w.wwwww.w w.wwwwwwwwww.w w wbw W
+W ... .   c   w w . .        . . w w w W
+W .wwww w.wwwww.w w.wwwwwwwwww.w w wcw W
 W       . .   . . w w        w w w w w W
 W w.wwwww.wwwww.w w w w.wwwwww.w w w w W
-W . .   . .    .  w wb.d.    . . w w w W
+W . .   . .    .  w wc.d.    . . w w w W
 W w.wwwww.w wwrwwwrwrww.wwwwww.w w w w W
 W w w       w .   . . w w        w w w W
 W w w w.wwwww.wwwwa.w w w w.wwwwww.w w W
-W w wb.d.   r .    .  r w.. .    . . w W
+W w wc.d.   r .    .  r w.. .    . . w W
 W w w w.wwwww.w w.wwwww.w w.wwwwww.w w W
 W w w w w   w   . .   w . w w        w W
 W w w w w w.wwwwrwrwwww.w w w w.wwwwww W
 W w w w w . .   . .       w w . .      W
 W w w w w w.wwwww.w w.wwwww.w w.wwwwwwwW
-W w.www.w w w    b  . .   .d. w wddd   W
+W w.www.w w w    c  . .   .d. w wddd   W
 W . . . . w w w.wwwww.wwwww.w w.wwwwww.W
 W w.www.w w.www.    . .       . .    . W
-W . b     . . . .wwww.wwwwwwwww.wwwwww.W
+W . c     . . . .wwww.wwwwwwwww.wwwwww.W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -1941,13 +1941,13 @@ ShortExplosions=false
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 W.....P.........P..WWWWWWWWWWWWWWWWWWWWW
-WP..cWW......WcW...WWWWWWWWWWWWWWWWWWWWW
-W...WXc...P..WXW...WWWWWWWWWWWWWWWWWWWWW
-W.P.WXW......cXc...WWWWWWWWWWWWWWWWWWWWW
+WP..bWW......WbW...WWWWWWWWWWWWWWWWWWWWW
+W...WXb...P..WXW...WWWWWWWWWWWWWWWWWWWWW
+W.P.WXW......bXb...WWWWWWWWWWWWWWWWWWWWW
 W...WWW.P..P.WWW...WWWWWWWWWWWWWWWWWWWWW
-WP..cXW......cXW..PWWWWWWWWWWWWWWWWWWWWW
-W...WXW......WXc...WWWWWWWWWWWWWWWWWWWWW
-W.P.WWc..P.P.cWW...WWWWWWWWWWWWWWWWWWWWW
+WP..bXW......bXW..PWWWWWWWWWWWWWWWWWWWWW
+W...WXW......WXb...WWWWWWWWWWWWWWWWWWWWW
+W.P.WWb..P.P.bWW...WWWWWWWWWWWWWWWWWWWWW
 W..................WWWWWWWWWWWWWWWWWWWWW
 W.....P....P.......WWWWWWWWWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -2637,7 +2637,7 @@ AmoebaProperties.waitforhatching=true
 AmoebaTime=30 30 30 30 30
 Effect=AMOEBABOULDEReffect BOULDERBIRTH1
 Effect=AMOEBADIAMONDeffect DIAMONDBIRTH0
-AmoebaGrowthProb=0.0156 0.1250
+AmoebaGrowthProb=0.2500 0.2500
 MagicWallTime=80 80 80 80 80
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2746,4 +2746,4 @@ WWWWWWWWWWWWWWWXWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

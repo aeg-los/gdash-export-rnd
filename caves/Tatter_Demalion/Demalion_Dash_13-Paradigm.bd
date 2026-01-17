@@ -324,7 +324,7 @@ w  O    O     OO      O    O     O    qw
 w                                      w
 w  ''''''''''''''''''''''''''''''''''  w
 w  'WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW'  w
-wo 'W bbbbbbbbbbbbbbbbbbbbbbbbbbbbbW' qw
+wo 'W cccccccccccccccccccccccccccccW' qw
 w  'W %%%%%%%%%%%%%%%%%%%%%%%%%%%%%W'  w
 w  'W WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW'  w
 w  'W ..................a..........W'  w
@@ -1944,26 +1944,26 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-W.r.......r...r.....................b..W
-Wr.P......brbr...rbbb......b..r....br.rW
-W.........r.......br.......rr......b..rX
-W..r.......b...............b.......r...W
-Wb.r..r...brr.....rbb...b..b.b.r....r..W
-W..........bb.........r...b.rb...r.r.r.W
-W.rrbb.....br......r...................W
-W...bb.r...r......b.r........b.....rb..W
-W...r.....................b.......b.r..W
-W...b....rbbbr......rb...r..r...r...r..W
-W...r......r............b..rb.......b..W
-W...b....bb..r....r.b...b...........r..W
-W.............r.......r....rrbrb.r..r..W
-W....................b......rb...r..r..W
-W...bbrr...rbb..rr..rb..r............r.W
-W...................rr......rrrrb....brW
-W....rr......................r.....b.brW
-W........r..rrr.r.r..b..r....rr.b....r.W
-W....b.....r......r..r.r........r...bbrW
-W...rbb.....r..b.....r.................W
+W.r.......r...r.....................c..W
+Wr.P......crcr...rccc......c..r....cr.rW
+W.........r.......cr.......rr......c..rX
+W..r.......c...............c.......r...W
+Wc.r..r...crr.....rcc...c..c.c.r....r..W
+W..........cc.........r...c.rc...r.r.r.W
+W.rrcc.....cr......r...................W
+W...cc.r...r......c.r........c.....rc..W
+W...r.....................c.......c.r..W
+W...c....rcccr......rc...r..r...r...r..W
+W...r......r............c..rc.......c..W
+W...c....cc..r....r.c...c...........r..W
+W.............r.......r....rrcrc.r..r..W
+W....................c......rc...r..r..W
+W...ccrr...rcc..rr..rc..r............r.W
+W...................rr......rrrrc....crW
+W....rr......................r.....c.crW
+W........r..rrr.r.r..c..r....rr.c....r.W
+W....c.....r......r..r.r........r...ccrW
+W...rcc.....r..c.....r.................W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -2137,26 +2137,26 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-W        W'''''''''''''''''''''''WbWbWbW
-WPWWWWWWWW.........a.............WbbbWbW
-W.      W........................WbWbWbW
-W WWWWW W...........a............WbWbWbW
-W       W........................WbWbWbW
-W WWWWWWWW.......................WbWbbbW
-W C      W...WW...WW..W..WW......WbWbWbW
-W WWWWWW W..W.WW.W..W.W.W..W.....WbWbWbW
-W        W.....W.W..W.W....W.....WbbbWbW
-W WWWWWWWW....WW.W..W.W..WW......WbWbWbX
-W W W W W...WW...W..W.W....W....rWbWbWbW
-W        ...W....W..W.W.W..W....rbbWbbbW
-WWWWWWWWW...WWWW..WW..W..WW.....rWbWbWbW
-W................................WbWbWbW
-W................................WbbbWbW
-W................................WbWbWbW
-W................................WbWbWbW
-W.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.oWbWbWbW
-W................................WbWbWbW
-WwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWbWbWbW
+W        W'''''''''''''''''''''''WcWcWcW
+WPWWWWWWWW.........a.............WcccWcW
+W.      W........................WcWcWcW
+W WWWWW W...........a............WcWcWcW
+W       W........................WcWcWcW
+W WWWWWWWW.......................WcWcccW
+W C      W...WW...WW..W..WW......WcWcWcW
+W WWWWWW W..W.WW.W..W.W.W..W.....WcWcWcW
+W        W.....W.W..W.W....W.....WcccWcW
+W WWWWWWWW....WW.W..W.W..WW......WcWcWcX
+W W W W W...WW...W..W.W....W....rWcWcWcW
+W        ...W....W..W.W.W..W....rccWcccW
+WWWWWWWWW...WWWW..WW..W..WW.....rWcWcWcW
+W................................WcWcWcW
+W................................WcccWcW
+W................................WcWcWcW
+W................................WcWcWcW
+W.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.oWcWcWcW
+W................................WcWcWcW
+WwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWcWcWcW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -2204,25 +2204,25 @@ ShortExplosions=false
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 XooooW...W......a......a........WWWWWWWW
-WoooWW..*W......W......W......*.WbbbbbbW
-WoooW.....''....W......W..''....WbWWWWWW
-WoWrWW....''..............''....WbbbbbbW
-WoW..WW...W..''.'''..''......WW.WWWWWWbW
-WWW...W.........*............W..WbbbbWbW
-W.....*.W..W..'..''..''W''..WW..WbWWbWbW
-WW......WW...'W........WW...W...WbbWWWbW
-W........WW.''..'wwwww..WW......WWbbWWbW
-W..*......WWW............W.......WWrbbbW
-W.........WW...''WWWWW''.'.W........WbWW
-W.WWWWWW..W''..'WWPW.WW'...W.WWWWWW.WbWW
-W.W....WW......WWW.W.WWW.....W....W.WbWW
-W.W.WW..WW*..WWWWW.W.WWWWW.*...WW.W.WbWW
-W.W..WW..WW..WWWWW...WWWWW...WW...W.WbWW
-W.WW..WW..WW.WWW...W...WWWWWW...WW..WbbW
-W...W.*WW..W.WWW*..W...WWWW...WW...*WWbW
-W....W..WW.WWW..........*WW.WW..*....WbW
-W.....W.*W..WWWWWW...WWWWWW.W**.WWWWWWbW
-W*.......W...............*..W.*.WbbbbbbW
+WoooWW..*W......W......W......*.WccccccW
+WoooW.....''....W......W..''....WcWWWWWW
+WoWrWW....''..............''....WccccccW
+WoW..WW...W..''.'''..''......WW.WWWWWWcW
+WWW...W.........*............W..WccccWcW
+W.....*.W..W..'..''..''W''..WW..WcWWcWcW
+WW......WW...'W........WW...W...WccWWWcW
+W........WW.''..'wwwww..WW......WWccWWcW
+W..*......WWW............W.......WWrcccW
+W.........WW...''WWWWW''.'.W........WcWW
+W.WWWWWW..W''..'WWPW.WW'...W.WWWWWW.WcWW
+W.W....WW......WWW.W.WWW.....W....W.WcWW
+W.W.WW..WW*..WWWWW.W.WWWWW.*...WW.W.WcWW
+W.W..WW..WW..WWWWW...WWWWW...WW...W.WcWW
+W.WW..WW..WW.WWW...W...WWWWWW...WW..WccW
+W...W.*WW..W.WWW*..W...WWWW...WW...*WWcW
+W....W..WW.WWW..........*WW.WW..*....WcW
+W.....W.*W..WWWWWW...WWWWWW.W**.WWWWWWcW
+W*.......W...............*..W.*.WccccccW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -2506,7 +2506,7 @@ AmoebaProperties.waitforhatching=true
 AmoebaTime=95 95 95 95 95
 Effect=AMOEBABOULDEReffect SPACE
 Effect=AMOEBADIAMONDeffect SWEET
-AmoebaGrowthProb=0.1250 1.0000
+AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2525,11 +2525,11 @@ ShortExplosions=false
 
 [map]
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-$           ccWcccoccccWccocccr........$
-$ WWWW%WWcWW   cWWWWWWcWcWccoWw....$.$.$
-$ occcWcWoWWcWWocccocccWoWcWcWw........$
-$WW          WWWWWWWWWoWcWcWoWw....$.$.$
-$PwWWWWWWWWWW....aa..WcccWoWcWw........$
+$           bbWbbbobbbbWbbobbbr........$
+$ WWWW%WWbWW   bWWWWWWbWbWbboWw....$.$.$
+$ obbbWbWoWWbWWobbbobbbWoWbWbWw........$
+$WW          WWWWWWWWWoWbWbWoWw....$.$.$
+$PwWWWWWWWWWW....aa..WbbbWoWbWw........$
 $.w..................WWWW.W.W......$.$.$
 $.w....................................$
 $.w................................$.$.$
@@ -2569,7 +2569,7 @@ DummyProperties.penalty=true
 PenaltyTime=10 10 10 10 10
 AmoebaProperties.immediately=false
 AmoebaProperties.waitforhatching=true
-AmoebaGrowthProb=0.0625 1.0000
+AmoebaGrowthProb=1.0000 1.0000
 MagicWallTime=0 0 0 0 0
 MagicWallProperties.zeroisinfinite=false
 MagicWallProperties.waitforhatching=true
@@ -2612,4 +2612,4 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)

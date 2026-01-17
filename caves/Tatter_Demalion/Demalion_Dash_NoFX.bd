@@ -432,26 +432,26 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-Wowc ow   w   w   w   w......ww........W
-Wcwowow w w w w w w w w......ww........W
-Wowcwow w   w   w   w  r.....ww........W
-Wcwowow WWWWWWWWWWWWWWW......ww........W
-Wcwcwow WWWWWWWWWWWWWWW......ww........W
-Wcwowow WW    WWW    WW......wwaaa.....W
+Wowb ow   w   w   w   w......ww........W
+Wbwowow w w w w w w w w......ww........W
+Wowbwow w   w   w   w  r.....ww........W
+Wbwowow WWWWWWWWWWWWWWW......ww........W
+Wbwbwow WWWWWWWWWWWWWWW......ww........W
+Wbwowow WW    WWW    WW......wwaaa.....W
 Wowow w WW    WWW    WW......ww........W
-Wowcw w WWww  WWWww  WW......ww........W
-Wcwow w WWww  WWWww  WW......ww........W
-Wcwcw w WWWWWWWWWWWWWWW......ww........W
-Wcwcw w XWWWWWWWWWWWWWW......ww........W
-Wcwcw w WW    WWW    WW......ww........W
-Wowcw w WW    WWW    WW......ww........W
-Wcwow w WWww  WWWww  WW......ww........W
-Wcwcw w WWww  WWWww  WW......ww........W
+Wowbw w WWww  WWWww  WW......ww........W
+Wbwow w WWww  WWWww  WW......ww........W
+Wbwbw w WWWWWWWWWWWWWWW......ww........W
+Wbwbw w XWWWWWWWWWWWWWW......ww........W
+Wbwbw w WW    WWW    WW......ww........W
+Wowbw w WW    WWW    WW......ww........W
+Wbwow w WWww  WWWww  WW......ww........W
+Wbwbw w WWww  WWWww  WW......ww........W
 Wowow w WWWWWWWWWWWWWWW................W
-Wcwcw w WWWWWWWWWWWWWWW................W
-Wcwcw w w.x...x...x...w................W
-Wowcw w wPx.x.x.x.x.x.w................W
-Wcccw   w...x...x...w..................W
+Wbwbw w WWWWWWWWWWWWWWW................W
+Wbwbw w w.x...x...x...w................W
+Wowbw w wPx.x.x.x.x.x.w................W
+Wbbbw   w...x...x...w..................W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -1015,12 +1015,12 @@ WWWWWWWWWWXWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 W..............W..W.......W............W
 W....WW......W......WWWPW.....W..WWWW..W
 W.W...WW..WWW.W..W....W.....W.......W..W
-W......WW...W..     ..W.W.WWW.ccocc.W.WW
-W...cc...WW...ccwww  ...W....ocwwwc.W..W
-W..Wwco......cowwWww  ..W...ccwWWwc.WW.W
-WW..Wwcc....ccwwW.Www ..W..ccwwWWwoc...W
-W....Wwcoc.ccwWW...Ww o... cwWW.Wwwcc..W
-WWW.W.WwwccowwW....Www  .. wwW...WWwo..W
+W......WW...W..     ..W.W.WWW.bbobb.W.WW
+W...bb...WW...bbwww  ...W....obwwwb.W..W
+W..Wwbo......bowwWww  ..W...bbwWWwb.WW.W
+WW..Wwbb....bbwwW.Www ..W..bbwwWWwob...W
+W....Wwbob.bbwWW...Ww o... bwWW.Wwwbb..W
+WWW.W.WwwbbowwW....Www  .. wwW...WWwo..W
 W......WWwwwwW......Wwwo .owW......Ww..W
 W........WWWW........Www   wW.......W..W
 W.............w..a....WwwwwW...........W
@@ -1855,25 +1855,25 @@ ShortExplosions=false
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXWWWWWWWW
 W... w. ..o.....o.............w...w....W
-W. W......c .. .c.  .   .... W....ww...W
+W. W......b .. .b.  .   .... W....ww...W
 W.. . ...  .....ow........ww .w  ..ww..W
-W.w ...... W....c.. . .................W
-W...w..... w ...c. w ......w....a.. .w.W
-W.........o.....c.   ....... ... ..w ..W
-W. ww .. .   ...c. . ..... . ..........W
-W.........   ...c.  w.....    ..w . W. W
-W... .....  ....c............ .. .. ...W
-W.........c w... .w   . .... ... ......W
+W.w ...... W....b.. . .................W
+W...w..... w ...b. w ......w....a.. .w.W
+W.........o.....b.   ....... ... ..w ..W
+W. ww .. .   ...b. . ..... . ..........W
+W.........   ...b.  w.....    ..w . W. W
+W... .....  ....b............ .. .. ...W
+W.........b w... .w   . .... ... ......W
 W...W.....o.w... ... .... w. ....W..w .W
-W.w  ..W.wc.w .. ... ...... w .........W
-W... .....c.W ..o.. ww.  ...w .....  w.W
-W... .. ..c. ... ....  ....... ..... w.W
-W....w ...c  w.. ...  ............ . ..W
-W.........c.. .. ....w . w..ww  .... W.W
-W...  .. .cwww .o.... . ..... .......  W
-W.w... ...c. w . .... w...... ...... ..W
-W...W. ...c.o.   ..... .....  w .. ..WwW
-WPw.www ..c      .....w...... .........W
+W.w  ..W.wb.w .. ... ...... w .........W
+W... .....b.W ..o.. ww.  ...w .....  w.W
+W... .. ..b. ... ....  ....... ..... w.W
+W....w ...b  w.. ...  ............ . ..W
+W.........b.. .. ....w . w..ww  .... W.W
+W...  .. .bwww .o.... . ..... .......  W
+W.w... ...b. w . .... w...... ...... ..W
+W...W. ...b.o.   ..... .....  w .. ..WwW
+WPw.www ..b      .....w...... .........W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
@@ -1983,29 +1983,29 @@ ShortExplosions=false
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-WoccW       .o  W      W        W      W
-WcWcWWWWWWWWWoW W WWWW W WWWWWW W WWWW W
-WcWoWccoccW WcW W W    W      W W    W W
-WcWcWcWWWoWWWcW W W WWWWWWWWW W WWWW W W
-WoWcWoccWcccocW   W           W      W W
-WcWoWWWcWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrW
-WcWcccocW............w...............W.W
+WobbW       .o  W      W        W      W
+WbWbWWWWWWWWWoW W WWWW W WWWWWW W WWWW W
+WbWoWbbobbW WbW W W    W      W W    W W
+WbWbWbWWWoWWWbW W W WWWWWWWWW W WWWW W W
+WoWbWobbWbbbobW   W           W      W W
+WbWoWWWbWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrW
+WbWbbbobW............w...............W.W
 WoWWWWWWW......w.....w.....w.........W W
-WcWWWcocW....w.w...w.w...w.w.........W W
-WccoccWoWrrrrwaw.w.waw...waw.........WoW
-WWWWWWWcWr..rw.w.w.w.w.w.w.w.........W W
-WcocccWcWrP.rw.w.w.wawaw.waw.........W W
-WcWWWccoWr..rw.waw.w.waw.w.w.........W.W
-WcocWXWWWrrrrw.w.w.w.w.w.w.w......WWWW.W
-WWWcWcccW....w...w.w...w.w.w......W....W
-WccoWoWoW....w...........w.w......W.WW.W
-WcWWWcWcW................w........W.WWWW
-WcoccoWcW.........................W....W
+WbWWWbobW....w.w...w.w...w.w.........W W
+WbbobbWoWrrrrwaw.w.waw...waw.........WoW
+WWWWWWWbWr..rw.w.w.w.w.w.w.w.........W W
+WbobbbWbWrP.rw.w.w.wawaw.waw.........W W
+WbWWWbboWr..rw.waw.w.waw.w.w.........W.W
+WbobWXWWWrrrrw.w.w.w.w.w.w.w......WWWW.W
+WWWbWbbbW....w...w.w...w.w.w......W....W
+WbboWoWoW....w...........w.w......W.WW.W
+WbWWWbWbW................w........W.WWWW
+WbobboWbW.........................W....W
 WWWWWWWoW.........................WWWW.W
-WocccoccW..............................W
+WobbbobbW..............................W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/map]
 [/cave]
 [/game]
 [/BDCFF]
-; converted from .gds / check butterfly directions (issue 40)
+; converted from .gds / check butterfly directions (discussion 96)
