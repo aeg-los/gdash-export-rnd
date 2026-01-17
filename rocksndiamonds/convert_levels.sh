@@ -132,6 +132,7 @@ create_level_set_conf ()
     local NAME_SORTING=$(get_value_from_conf "$LEVELSET" "2")
     local NAME=$(        get_value_from_conf "$LEVELSET" "3")
     local AUTHOR=$(      get_value_from_conf "$LEVELSET" "4")
+    local IMPORTED=$(    get_value_from_conf "$LEVELSET" "5")
     local YEAR=$(        get_value_from_conf "$LEVELSET" "6")
 
     echo "name:                           $NAME"		>> "$CONF_FILE"
@@ -141,6 +142,10 @@ create_level_set_conf ()
     fi
 
     echo "author:                         $AUTHOR"		>> "$CONF_FILE"
+
+    if [ "$IMPORTED" != "" ]; then
+	echo "imported_by:                    $IMPORTED"	>> "$CONF_FILE"
+    fi
 
     if [ "$YEAR" != "" ]; then
 	echo "year:                           $YEAR"		>> "$CONF_FILE"
