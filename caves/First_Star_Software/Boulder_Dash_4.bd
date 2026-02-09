@@ -8,21 +8,25 @@ Date=1986
 Charset=Original
 Fontset=Original
 Remark=No self running game. Caves must be loaded into Construction Kit.
+TitleScreen=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
+TitleScreenScroll=iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfAhkiAAAAFlJREFUGNNjTInc+Z8BCRw6eJSBgYGB4ebTRgYGBgYGFgYcIDVqF3YFt541QRgH67ArSIncicJnQbcTZjRcAbqd6ICRgYHhPwMDA4OaFMROO3trVBPQ7UQHAGZWGOt2UtKnAAAAAElFTkSuQmCC
 Levels=5
 
 [cave]
-Name=Cave 1. Jail
+Name=1. Jail
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Brown Orange Green Green Brown
 DiamondsRequired=4 4 4 4 4
 CaveTime=130 130 130 130 130
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=7 7 7 7 7
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
-
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
+  
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WP.....................................W
@@ -61,18 +65,20 @@ Point=32 14 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave 2. Safebox
+Name=2. Safebox
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Orange Brown Cyan Cyan Orange
 DiamondsRequired=59 59 59 59 59
 CaveTime=85 85 85 85 85
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=7 7 7 7 7
 DiamondValue=10 99
-AmoebaTime=150 30 30 30 30
+AmoebaTime=150 150 150 150 150
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -101,17 +107,19 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 3. Rain
+Name=3. Rain
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black LightGreen Orange Blue Blue LightGreen
 DiamondsRequired=60 60 60 60 60
 CaveTime=180 180 180 180 180
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=6 6 6 6 6
 DiamondValue=10 60
 SlimePermeabilityC64=254 254 254 254 254
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -140,17 +148,19 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 4. Escapade
+Name=4. Escapade
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Blue Purple White White Blue
 DiamondsRequired=11 11 11 11 11
 CaveTime=120 120 120 120 120
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=0 0 0 0 0
 DiamondValue=50 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -179,17 +189,19 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 5. Chase
+Name=5. Chase
 Intermission=true
-Size=40 22 0 0 39 21
+Size=40 22 0 0 19 11
 Colors=Black Black LightGreen Purple Blue Blue LightGreen
 DiamondsRequired=86 86 86 86 86
 CaveTime=20 20 20 20 20
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=6 6 6 6 6
 DiamondValue=5 90
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -218,17 +230,19 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 6. Rescue
+Name=6. Rescue
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Purple Blue Green Green Purple
 DiamondsRequired=1 1 1 1 1
 CaveTime=200 200 200 200 200
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=9 9 9 9 9
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -257,17 +271,19 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 7. Gyro
+Name=7. Gyro
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Green Blue White White Green
 DiamondsRequired=1 1 1 1 1
 CaveTime=60 60 60 60 60
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=9 9 9 9 9
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -296,18 +312,20 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 8. Push
+Name=8. Push
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Blue Gray1 Yellow Yellow Blue
 DiamondsRequired=46 46 46 46 46
 CaveTime=255 255 255 255 255
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=0 0 0 0 0
 DiamondValue=15 0
 MagicWallTime=200 200 200 200 200
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -336,17 +354,19 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 9. Rambo
+Name=9. Rambo
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Brown Blue White White Brown
 DiamondsRequired=45 45 45 45 45
 CaveTime=60 60 60 60 60
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=5 5 5 5 5
 DiamondValue=20 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -375,17 +395,19 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 10. Drop
+Name=10. Drop
 Intermission=true
-Size=40 22 0 0 39 21
+Size=40 22 0 0 19 11
 Colors=Black Black LightRed Gray1 Cyan Cyan LightRed
 DiamondsRequired=6 6 6 6 6
 CaveTime=30 30 30 30 30
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=5 5 5 5 5
 DiamondValue=80 99
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -414,17 +436,19 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 11. Tut
+Name=11. Tut
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Purple Brown Green Green Purple
 DiamondsRequired=9 9 9 9 9
 CaveTime=255 255 255 255 255
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=11 11 11 11 11
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -453,17 +477,19 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 12. Maze
+Name=12. Maze
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray3 Blue Purple Purple Gray3
 DiamondsRequired=6 6 6 6 6
 CaveTime=230 230 230 230 230
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=6 6 6 6 6
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -492,17 +518,19 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 13. Blast
+Name=13. Blast
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Purple Gray1 Yellow Yellow Purple
 DiamondsRequired=3 3 3 3 3
 CaveTime=226 226 226 226 226
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=0 0 0 0 0
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -531,18 +559,20 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 14. Clash
+Name=14. Clash
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Red Blue Green Green Red
 DiamondsRequired=75 75 75 75 75
 CaveTime=110 110 110 110 110
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=7 7 7 7 7
 DiamondValue=10 90
-AmoebaTime=150 40 40 40 40
+AmoebaTime=150 150 150 150 150
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -575,17 +605,19 @@ Point=10 19 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave 15. Autoban
+Name=15. Autoban
 Intermission=true
-Size=40 22 0 0 39 21
+Size=40 22 0 0 19 11
 Colors=Black Black Brown Blue Green Green Brown
 DiamondsRequired=6 6 6 6 6
 CaveTime=20 20 20 20 20
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=6 6 6 6 6
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
