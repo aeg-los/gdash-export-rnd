@@ -8,7 +8,7 @@ TitleScreen=iVBORw0KGgoAAAANSUhEUgAAAUAAAAC0CAYAAADl5PURAAAABHNCSVQICAgIfAhkiAAA
 TitleScreenScroll=iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfAhkiAAAACpJREFUGNNjVJWs/8+ABzAxEACM////x2sCY3L4bsqsIKiA5dChI5SZAAD3QQqEayfdxwAAAABJRU5ErkJggg==
 
 [cave]
-Name=A. pálya
+Name=A: Intro
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -47,7 +47,7 @@ Point=8 21 OUTBOX
 [/cave]
 
 [cave]
-Name=B. pálya
+Name=B: Fort Knox
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -90,7 +90,7 @@ Point=4 21 OUTBOX
 [/cave]
 
 [cave]
-Name=C. pálya
+Name=C: Transform
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -124,7 +124,7 @@ Point=5 3 INBOX
 [/cave]
 
 [cave]
-Name=D. pálya
+Name=D: Reunion 1
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -167,7 +167,7 @@ Point=7 1 OUTBOX
 [/cave]
 
 [cave]
-Name=1. jutalom pálya
+Name=Intermission 1
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=true
@@ -207,7 +207,7 @@ Point=2 1 OUTBOX
 [/cave]
 
 [cave]
-Name=E. pálya
+Name=E: Maze 1
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -240,7 +240,7 @@ Point=4 2 OUTBOX
 [/cave]
 
 [cave]
-Name=F. pálya
+Name=F: Maze 2
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -274,7 +274,7 @@ Point=36 14 OUTBOX
 [/cave]
 
 [cave]
-Name=G. pálya
+Name=G: Obstactle
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -316,7 +316,7 @@ Point=37 2 OUTBOX
 [/cave]
 
 [cave]
-Name=H. pálya
+Name=H: Easy
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -353,7 +353,7 @@ Point=2 21 OUTBOX
 [/cave]
 
 [cave]
-Name=2. jutalom pálya
+Name=Intermission 2
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=true
@@ -404,7 +404,7 @@ Point=13 10 FIREFLYl
 [/cave]
 
 [cave]
-Name=I. pálya
+Name=I: Cave-In
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -447,7 +447,7 @@ Point=37 2 OUTBOX
 [/cave]
 
 [cave]
-Name=J. pálya
+Name=J: The Guards
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -500,7 +500,7 @@ Point=38 18 OUTBOX
 [/cave]
 
 [cave]
-Name=K. pálya
+Name=K: Good Luck
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -536,7 +536,7 @@ Point=38 20 OUTBOX
 [/cave]
 
 [cave]
-Name=L. pálya
+Name=L: The Trap
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -573,7 +573,7 @@ Point=39 18 OUTBOX
 [/cave]
 
 [cave]
-Name=3. jutalom pálya
+Name=Intermission 3
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=true
@@ -614,7 +614,7 @@ Line=4 2 4 9 WALL
 [/cave]
 
 [cave]
-Name=M. pálya
+Name=M: Reunion 2
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -655,7 +655,7 @@ Point=39 19 OUTBOX
 [/cave]
 
 [cave]
-Name=N. pálya
+Name=N: Liberator
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -696,7 +696,7 @@ Point=39 19 OUTBOX
 [/cave]
 
 [cave]
-Name=O. pálya
+Name=O: Perfect
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -732,7 +732,7 @@ Point=2 1 INBOX
 [/cave]
 
 [cave]
-Name=P. pálya
+Name=P: The Frontier
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -769,7 +769,7 @@ Point=39 20 OUTBOX
 [/cave]
 
 [cave]
-Name=4. jutalom pálya
+Name=Intermission 4
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=true
