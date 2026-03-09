@@ -142,12 +142,12 @@ for MUS_FILE_SUFFIX in $MUS_FILE_SUFFIXES; do
     MUS_BASENAME_MP3=`basename "$MUS_FILENAME_OGG" ".ogg"`.mp3
     MUS_FILENAME_MP3="$BUILD_DIR/$MUS_SET/music/$MUS_BASENAME_MP3"
 
-    echo "  * converting sound file '$MUS_BASENAME_OGG' to '$MUS_BASENAME_MP3' ..."
+    echo "  * converting music file '$MUS_BASENAME_OGG' to '$MUS_BASENAME_MP3' ..."
 
     ffmpeg -i "$MUS_FILENAME_OGG" "$MUS_FILENAME_MP3" 2> /dev/null
 
     if [ "$?" != "0" ]; then
-	echo "ERROR: converting sound file '$MUS_BASENAME_OGG' failed!"
+	echo "ERROR: converting music file '$MUS_BASENAME_OGG' failed!"
 
 	exit 10
     fi
